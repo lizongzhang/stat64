@@ -56,16 +56,9 @@ title: "第9章"
 
 <details>
 
-# 习题讲评
+# 习题答案
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第9章习题讲评Excel](https://www.bilibili.com/video/BV1pu411s7SQ/)
-
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[独立性检验：习题9.3在SPSS中的实现](https://www.bilibili.com/video/BV1854y167KL)
-
-https://www.bilibili.com/video/BV1J94y1H7uv/
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材习题9.2和9.4在SPSS中的实现：卡方检验](https://www.bilibili.com/video/BV1J94y1H7uv/)
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[9.14, 9.24, 9.25, 9.47, 9.50, 9.56 ](https://lizongzhang.github.io/business_stat/solution9.html)
 
 # 学生习作讲评
 

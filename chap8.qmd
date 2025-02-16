@@ -91,27 +91,10 @@ title: "第8章"
 
 <details>
 
-# 教材习题
+# 习题答案
 
-教材P163，练习题8.1和8.2任选一题, 8.3
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[8.10, 8.13, 8.16, 8.65](https://lizongzhang.github.io/business_stat/solution8.html)
 
-教材P163, 练习题8.4, 8.6, 8.7任选两题
-
-教材P163，练习题8.5
-
-教材P163，练习题8.8
-
-教材P164，练习题8.10
-
-教材P157，例题8.15在Excel和SPSS中的实现
-
-# 习题讲评
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.1-8.8](https://www.bilibili.com/video/BV1dM4y1t7Xw/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.1-8.8](https://www.bilibili.com/video/BV1dM4y1t7Xw/) 
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.4 8.7 习题8.10 例题8.10 例题8.15在SPSS中的实现](https://www.bilibili.com/video/BV1tC4y1U7Ae/) 
 
 
 # 学生习作讲评

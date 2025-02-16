@@ -30,13 +30,9 @@ title: "第10章"
 
 <details>
 
-# 习题讲评 
+# 习题答案
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第10章习题讲评](https://www.bilibili.com/video/BV1ok4y1H7FJ/)
-
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材习题10.3在SPSS中的实现: 单因素方差分析](https://www.bilibili.com/video/BV1J94y1H7uv/)
-
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> [10.9, 10.12, 10.22, 10.26, 10.30, 10.45, 10.48 ](https://lizongzhang.github.io/business_stat/solution10.html)
 
 # 拓展资源 
 

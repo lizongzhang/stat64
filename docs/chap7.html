@@ -158,8 +158,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#习题1-置信水平的理解" id="toc-习题1-置信水平的理解" class="nav-link" data-scroll-target="#习题1-置信水平的理解">习题1 置信水平的理解</a></li>
   </ul></li>
   <li><a href="#spss习题" id="toc-spss习题" class="nav-link" data-scroll-target="#spss习题">SPSS习题</a></li>
-  <li><a href="#教材习题" id="toc-教材习题" class="nav-link" data-scroll-target="#教材习题">教材习题</a></li>
-  <li><a href="#习题讲评" id="toc-习题讲评" class="nav-link" data-scroll-target="#习题讲评">习题讲评</a></li>
+  <li><a href="#习题答案" id="toc-习题答案" class="nav-link" data-scroll-target="#习题答案">习题答案</a></li>
   <li><a href="#学生习作讲评" id="toc-学生习作讲评" class="nav-link" data-scroll-target="#学生习作讲评">学生习作讲评</a></li>
   <li><a href="#拓展资源" id="toc-拓展资源" class="nav-link" data-scroll-target="#拓展资源">拓展资源</a></li>
   </ul>
@@ -210,16 +209,9 @@ ul.task-list li input[type="checkbox"] {
 <h1>SPSS习题</h1>
 <p>用SPSS完成教材习题7.2或7.4</p>
 </section>
-<section id="教材习题" class="level1">
-<h1>教材习题</h1>
-<p>P130, 习题7.1任选其中的两个小题</p>
-<p>P131 习题7.2</p>
-<p>P133 习题7.7, 习题7.8和习题7.10</p>
-</section>
-<section id="习题讲评" class="level1">
-<h1>习题讲评</h1>
-<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1RX4y147gw/">第7章教材习题7.1-7.4</a></p>
-<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1Fo4y1P7b5/">第7章教材习题7.5-7.10</a></p>
+<section id="习题答案" class="level1">
+<h1>习题答案</h1>
+<p><img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://lizongzhang.github.io/business_stat/solution7.html">7.5, 7.6, 7.7, 7.12, 7.13, 7.14</a></p>
 <p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1eM411D7Va/">Excel数值模拟： 什么是置信水平？你的理解正确吗？</a></p>
 </section>
 <section id="学生习作讲评" class="level1">
@@ -677,7 +669,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

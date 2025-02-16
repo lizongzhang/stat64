@@ -33,20 +33,12 @@ title: "第7章"
 
 
 
-# 教材习题
 
-P130, 习题7.1任选其中的两个小题
+# 习题答案
 
-P131 习题7.2 
-
-P133 习题7.7, 习题7.8和习题7.10
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[7.5, 7.6, 7.7, 7.12, 7.13, 7.14](https://lizongzhang.github.io/business_stat/solution7.html)
 
 
-# 习题讲评
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第7章教材习题7.1-7.4](https://www.bilibili.com/video/BV1RX4y147gw/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第7章教材习题7.5-7.10](https://www.bilibili.com/video/BV1Fo4y1P7b5/)
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel数值模拟： 什么是置信水平？你的理解正确吗？](https://www.bilibili.com/video/BV1eM411D7Va/)
 
