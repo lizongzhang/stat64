@@ -1,0 +1,46 @@
+---
+title: "第9-10章小组作业讲评"
+---
+
+# 卡方检验的适用条件
+
+**期望频数小于5的单元格个数不能超过20%。**
+
+**解决办法：合并小类别**
+
+![期望频数小于5的单元格超过20%](img/case3comment/pic7.png){.lightbox}
+
+![期望频数小于5的单元格超过20%](img/case3comment/pic8.png){.lightbox}
+
+# 拟合优度检验
+
+![优秀示例](img/case3comment/pic3.png){.lightbox}
+
+
+# 独立性检验研究结论的提炼
+
+**得出“行变量和列变量不独立”的结论后，需要概括出行变量和列变量的联合分布的特征，二者有何关联。**
+
+**计算行的百分比，或者列的百分比，归纳出行变量和列变量联合分布的特征。**
+
+
+
+![结论不够具体](img/case3comment/pic4.png){.lightbox}
+
+
+
+
+# 方差分析研究结论的提炼
+
+**得出“不同组别的均值不同”的结论后，需要概括出各个组别的均值有何差距，大小排序。**
+
+![需要列出四种变速箱的二手车的价格均值排序](img/case3comment/pic2.png){.lightbox}
+
+![结论有误，需要概括“离职和未离职的员工年龄的均值有何差别？](img/case3comment/pic5.png){.lightbox}
+
+![需要概括“学历程度不同的组别的员工收入的均值有何差别？大小排序](img/case3comment/pic6.png){.lightbox}
+![需要概括“不同类型的电影平均票房有何差别？大小排序](img/case3comment/pic10.png){.lightbox}
+
+
+![优秀示例](img/case3comment/pic9.png){.lightbox}
+

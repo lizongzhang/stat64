@@ -1,0 +1,92 @@
+---
+title: "第4章"
+---
+
+# 4 Numerical Descriptive Measures
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap3
+        讲义](https://lizongzhang.github.io/business_stat/chap3.html) 
+
+# Excel教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 计算描述性统计量的函数](https://www.bilibili.com/video/BV1va411A7Db/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL数据分析加载项](https://www.bilibili.com/video/BV19S4y1r7E4/){target="_blank"}
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 数据分析加载项中的描述统计功能](https://www.bilibili.com/video/BV1Sy4y1r78g/){target="_blank"}
+
+# SPSS教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 图表构建器绘制簇状条形图](https://www.bilibili.com/video/BV1d14y167gw/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS29 图表构建器/茎叶图/分组直方图/分组箱线图](https://www.bilibili.com/video/BV1hH4y1p7Jo/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 报告数值型数据的频数分布表](https://www.bilibili.com/video/BV1sK411G736/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS条形图------呈现不同组别的数据特征](https://www.bilibili.com/video/BV1G541177t7/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 分组数据绘制描述性统计分析表格](https://www.bilibili.com/video/BV1cr4y1F7SA/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何自动生成三线表？](https://www.bilibili.com/video/BV19u411w7zm/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何将定量变量转换为定性变量？](https://www.bilibili.com/video/BV1ZB2hY3Ev9/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何基于现有数据创建新变量？](https://www.bilibili.com/video/BV1wy2zYgEHE/)
+
+# SPSS习题
+
+## 习题1 Employee data.sav 
+
+数据文件Employee data.sav 
+
+- Employee data.sav文件在SPSS安装目录下,在电脑搜索文件名找到该文件。
+
+- Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English
+
+- Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/
+
+- sample files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
+
+1.1 Employee data.sav文件中一共有多少个个案，多少个变量？每个变量的含义是什么？
+
+1.2 报告educ的均值、中位数、标准差、最小值、最大值。
+
+1.3 根据educ的值创建定性变量educat, 创建规则为：若educ等于8， educat等于middle school; 若educ等于12， educat等于high school; 若educ大于等于14，且小于等于16， educat等于college; 若educ大于16， educat等postgraduate。报告educat的频数分布。
+
+1.4 创建变量salchange, 用于衡量current salary与beginning salary的差距。
+
+1.5 利用Employee data.sav文件中的变量，你还可以创建哪些变量？
+
+1.6 绘制salary的频数分布表，采用适当的组距，概括salary的分布在哪个区间最密集？
+
+1.7 绘制salbegin的频数分布表，采用适当的组距，概括salbegin的分布在哪个区间最密集？。
+
+1.8 按照性别分组，绘制各组别的salary的频数分布表，概括两个组别salary分布的差距。
+
+1.9 按照minor分组，绘制各组别的salbegin的频数分布表，概括两个组别salary分布的差距。
+
+1.10 选取两个定性变量，绘制簇状条形图。
+
+1.11 选取两个定性变量，绘制堆积条形图。
+
+1.12 选取两个定性变量，一个定量变量，用条形图反映各个组别的定量变量的均值的大小。
+
+1.13 选取一个定性变量，一个定量变量，绘制分组直方图。
+
+1.14 选取一个定性变量，两个定量变量，绘制分组散点图。
+
+1.15 将1.2中报告的表格，修改为三线表。
+
+
+
+# 本章习题
+
+教材P72 习题4.2，4.3，4.5和4.6
+
+
+# 习题讲评
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第4章习题讲评](https://www.bilibili.com/video/BV1nL411Q79r/){target="_blank"}
+
+# 拓展资源
+

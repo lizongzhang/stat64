@@ -1,0 +1,133 @@
+---
+title: "第8章"
+---
+
+# 8 Confidence Interval Estimation
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap8
+        讲义](https://lizongzhang.github.io/business_stat/chap8.html)
+
+# 教学视频
+
+<details>
+  <summary>小调查</summary>
+
+![](img/chap7cloud1.png){.lightbox} 
+![](img/chap7cloud2.png){.lightbox} 
+
+
+</details>
+
+## 重点难点视频
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[什么是P值？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=1) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[显著性水平和P值的区别？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=2) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的检验：Z检验还是T检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=3) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单侧检验还是双侧检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=4) 
+
+<details>
+  <summary> 
+  <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">
+  <span style="color:blue;">配对样本和独立样本的区别</summary>
+
+
+{{< video img/paired_samples480p.mp4 >}}
+    
+<details>
+
+## Excel操作
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的Z检验：Z.test函数](https://www.bilibili.com/video/BV1L54y1r73w/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验](https://www.bilibili.com/video/BV1uv411r7ws/)
+        
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验：P值法和临界值法](https://www.bilibili.com/video/BV1mr4y1w7yp/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体方差比的F检验](https://www.bilibili.com/video/BV1Zr4y1F7jK/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体均值是否相等的T检验](https://www.bilibili.com/video/BV16Z4y137HV/) 
+        
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 配对样本的T检验](https://www.bilibili.com/video/BV1mD4y1Q77U/) 
+
+## SPSS操作
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单个总体参数的T检验](https://www.bilibili.com/video/BV1jZ4y1L7ne/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[两个独立样本t检验](https://www.bilibili.com/video/BV1bi4y1j7Gc/)
+
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[配对样本的t检验](https://www.bilibili.com/video/BV1Fy4y167rs)
+
+# 课堂练习
+
+<details>
+  <summary>根据Excel输出结果回答问题</summary>
+  
+数据简介：随机选取36人参加打字速度（WPM， Words Per Minute）测试, 如图所示，B列下方是第1轮测试的成绩。 第1轮测试后，这36人利用打字软件TYPER MASTER进行了2小时练习，然后参加了第2轮测试。第2轮测试的成绩在C列下方，两次测试的成绩的差距在D列下方。
+
+请回答以下问题：
+
+1. 请写出如图所示的t检验的假设检验的：
+
+    - 1.1 原假设和备择假设
+    
+    - 1.2 检验统计量服从什么分布？
+    
+    - 1.3 检验统计量的值是什么？
+    
+    - 1.4 P值是多少？并解释P值的含义
+    
+    - 1.5 在0.05的显著性水平下，检验结论是什么？
+
+
+2. 请写出图中F8单元格中的数值的计算式？
+
+![](img/typing.png){.lightbox} 
+
+<details>
+
+# 教材习题
+
+教材P163，练习题8.1和8.2任选一题, 8.3
+
+教材P163, 练习题8.4, 8.6, 8.7任选两题
+
+教材P163，练习题8.5
+
+教材P163，练习题8.8
+
+教材P164，练习题8.10
+
+教材P157，例题8.15在Excel和SPSS中的实现
+
+# 习题讲评
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.1-8.8](https://www.bilibili.com/video/BV1dM4y1t7Xw/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.1-8.8](https://www.bilibili.com/video/BV1dM4y1t7Xw/) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[第8章教材习题8.4 8.7 习题8.10 例题8.10 例题8.15在SPSS中的实现](https://www.bilibili.com/video/BV1tC4y1U7Ae/) 
+
+
+# 学生习作讲评
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> [第8章教材习题学生习作点评](https://lizongzhang.github.io/statwithspss/chap8ex.html){target="_blank"}
+
+
+# 拓展资源
+
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">P值和临界值示意图 <https://www.geogebra.org/m/YRh9H3t5>{target="_blank"}
+
+
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">总体比例的Z检验计算器 <https://www.geogebra.org/m/HyN7CxAc>{target="_blank"}
+
+
+
+ 

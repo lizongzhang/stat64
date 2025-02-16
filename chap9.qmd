@@ -1,0 +1,77 @@
+---
+title: "第9章"
+---
+
+# 9 Fundamentals of Hypothesis Testing: One-Sample Tests
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap9
+        讲义](https://lizongzhang.github.io/business_stat/chap9.html)
+
+# 教学视频 
+
+## Excel操作视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 拟合优度检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV1454y167ko/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 独立性检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV19A411x7EU/)
+
+## SPSS操作视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 拟合优度检验](https://www.bilibili.com/video/BV16r4y1c7bZ/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 独立性检验：两个定性变量是否相互独立？](https://www.bilibili.com/video/BV1pD4y1R7KC)
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 列联表分析应用举例](https://www.bilibili.com/video/BV1Kp4y167vZ)
+
+# 课堂练习
+
+<details>
+  <summary>根据Excel输出结果回答问题</summary>
+  
+数据简介: 下图是505位基金经理的性别、学历、专业的数据结构（数据文件：习题14.1.xlsx），完成以下任务：
+
+![](img/manager1.png){.lightbox} 
+
+请回答以下问题：
+
+1. 补充完整下图中1-6号单元格处的数字
+
+![](img/manager2.png){.lightbox}
+
+2 回答下列问题
+
+- 2.1 写出第1题中独立性检验的原假设和备择假设.
+    
+- 2.2 写出独立性检验中卡方检验统计量的计算公式？
+    
+- 2.3 11.345是卡方分布上的哪个值？可以画图示意.
+    
+- 2.4 解释P值的含义.
+
+- 2.5 基金经理的性别和专业是否独立？若不独立，简要描述二者的关系有何特征？
+
+![](img/manager3.png){.lightbox}
+
+
+<details>
+
+# 习题讲评
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第9章习题讲评Excel](https://www.bilibili.com/video/BV1pu411s7SQ/)
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[独立性检验：习题9.3在SPSS中的实现](https://www.bilibili.com/video/BV1854y167KL)
+
+https://www.bilibili.com/video/BV1J94y1H7uv/
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材习题9.2和9.4在SPSS中的实现：卡方检验](https://www.bilibili.com/video/BV1J94y1H7uv/)
+
+# 学生习作讲评
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> [第9章教材习题学生习作点评](https://lizongzhang.github.io/statwithspss/chap9ex.html){target="_blank"}
+
+# 拓展资源
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">独立性检验计算器 <https://www.standarddeviationcalculator.io/chi-square-calculator>{target="_blank"}
+

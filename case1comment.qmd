@@ -1,0 +1,97 @@
+---
+title: "第3-4章小组作业讲评"
+---
+
+# 数据来源的说明
+
+![数据采集的时点](img/case1comment/resource1.png){.lightbox}
+
+
+# 合并小类
+
+![将小类合并为“其他”](img/case1comment/mergegroup1.png){.lightbox}
+
+![将小类合并为“其他”](img/case1comment/piemerge.png){.lightbox}
+
+
+![注意大小写](img/case1comment/mergegroup2.png){.lightbox}
+
+# 组距的易读性
+
+![简洁易读](img/case1comment/classinterval.png){.lightbox}
+
+![组距的可读性](img/case1comment/histogram1.png){.lightbox}
+
+
+
+![开口组](img/case1comment/classinterval2.png){.lightbox}
+
+
+# 表格还是图形？
+
+
+![](img/case1comment/graph or table?.png){.lightbox}
+
+![](img/case1comment/tablegraph2.png){.lightbox}
+
+
+# 图形中的标签
+
+![](img/case1comment/labelsize.png){.lightbox}
+
+
+
+![](img/case1comment/labelsize2.png){.lightbox}
+
+![表格与文字](img/case1comment/conclusion6.png){.lightbox}
+
+
+# 图形标题
+
+![堆栈百分比条形图](img/case1comment/graphtitle.png){.lightbox}
+
+#图形美化
+
+![饼图的美化](img/case1comment/pie1.png){.lightbox}
+
+![箱线图美化](img/case1comment/boxplotorder.png){.lightbox}
+
+![小数位数](img/case1comment/digits.png){.lightbox}
+
+
+# 如何提出要研究的问题？
+
+![](img/case1comment/question1.png){.lightbox}
+
+![](img/case1comment/question2.png){.lightbox}
+
+
+
+# 文字堆砌
+
+![](img/case1comment/graphtext.png){.lightbox}
+
+![](img/case1comment/graphtext2.png){.lightbox}
+
+
+
+# 研究结论的提炼
+
+!["多"的量化](img/case1comment/conclusion.png){.lightbox}
+
+![配送速度/销售规模的量化](img/case1comment/conclusion2.png){.lightbox}
+![普遍较低/较高？](img/case1comment/conclusion3.png){.lightbox}
+
+
+![文字与表格的对应](img/case1comment/conclusion4.png){.lightbox}
+
+
+
+![](img/case1comment/conclusion5.png){.lightbox}
+
+
+
+
+
+
+

@@ -1,0 +1,403 @@
+---
+title: "第3章"
+---
+
+# 3 Numerical Descriptive Measures
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap3
+        讲义](https://lizongzhang.github.io/business_stat/chap3.html) 
+
+# 课堂练习
+
+## 题目1 饼图
+
+<details>
+
+
+数据来源：大众点评网，广州六大品牌奶茶店
+
+样本容量：336
+
+数据来源：大众点评网，广州6大奶茶品牌
+
+```{r}
+#| code-fold: TRUE
+#| code-summary: "Show the code"
+#| message: FALSE
+#| warning: FALSE
+
+
+library(tidyverse)
+library(readxl)
+data  <- read_excel("data/top6.xlsx")
+
+par(family  = 'STKaiti')
+library(showtext)
+showtext_auto()
+
+data %>% 
+  count(brand) %>% 
+  mutate(percent = round(n/sum(n)*100, 1))
+
+table(data$brand) %>% 
+  pie()
+
+pie_table <- data %>% 
+  count(brand) %>% 
+  mutate(percent = round(n/sum(n)*100, 1),
+         per_label = paste0(brand, " ", percent, "%")) %>% 
+  arrange(desc(percent))
+  
+pie(pie_table$percent, 
+    labels = pie_table$per_label, 
+    clockwise = TRUE,
+    init.angle = 90)
+
+
+
+```
+
+## 题目2 条形图
+
+<details>
+
+
+```{r}
+#| code-fold: TRUE
+#| code-summary: "Show the code"
+#| message: FALSE
+#| warning: FALSE
+
+
+data %>% ggplot(aes(brand, fill = brand)) + 
+  geom_bar() +
+  labs(x = "品牌", fill = "品牌") +
+  theme_bw() +
+  theme(text = element_text(size = 15),
+        legend.position = "bottom",
+        legend.text = element_text(size = 10)) 
+
+
+library(forcats)
+data %>% ggplot(aes(fct_infreq(brand), fill = brand)) + 
+  geom_bar() +
+  geom_text(stat = "count", aes(label = after_stat(count)), vjust = -1)+ 
+  scale_y_continuous(limits = c(0,100))+
+  guides(x = guide_axis(angle = 45)) +
+  labs(x = "品牌", fill = "品牌") +
+  theme_bw() +
+  theme(text = element_text(size = 15),
+        legend.position = "none",
+        legend.text = element_text(size = 10)) 
+
+```
+
+
+## 题目3 直方图
+
+<details>
+
+
+```{r}
+#| code-fold: TRUE
+#| code-summary: "Show the code"
+#| message: FALSE
+#| warning: FALSE
+
+library(ggplot2)
+
+# 难看的直方图
+ggplot(mpg, aes(x = hwy)) +
+  geom_histogram(binwidth = 5, color = "black", alpha = 0.9) +
+  labs(title = "Ugly Histogram", x = "Highway Mileage", y = "Count") +
+  theme(
+    plot.title = element_text(size = 20, hjust = 0.5, color = "purple"),
+    axis.title.x = element_text(size = 15, angle = 45, vjust = 1, color = "red"),
+    axis.title.y = element_text(size = 15, angle = 90, hjust = 1, color = "green"),
+    legend.position = "top",
+    panel.background = element_rect(fill = "pink"),
+    panel.grid.major = element_line(color = "yellow", size = 1)
+  )
+
+
+
+
+# 好看的直方图
+ggplot(mpg, aes(x = hwy)) +
+  geom_histogram(breaks = seq(12, 46, 2), 
+                 fill = "#0073C2FF", 
+                 color = "white", 
+                 alpha = 0.8) +
+  scale_x_continuous(breaks = seq(12, 46, 2),
+                     labels = seq(12, 46, 2)) +
+  scale_y_continuous(limits = c(0,50))+
+  labs(title = "Highway Mileage Distribution", x = "Highway Mileage", y = "Frequency") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 20, hjust = 0.5),
+    axis.title.x = element_text(size = 18),
+    axis.title.y = element_text(size = 18),
+    panel.grid.major = element_line(color = "grey90"),
+    panel.grid.minor = element_blank()
+  )
+
+```
+
+
+## 题目4 二维变量的作图
+
+<details>
+
+
+### 分组条形图
+
+```{r}
+#| code-fold: TRUE
+#| code-summary: "Show the code"
+#| message: FALSE
+#| warning: FALSE
+
+data %>%
+  group_by(area, brand) %>%
+  summarise(count = n(), .groups = "drop") %>% 
+  mutate(brand_order = paste(brand, area, rank(-count), sep = "_"))  %>% 
+  ggplot(aes(reorder(brand_order, -count),
+             count, fill = brand)) +
+  geom_col()+
+  facet_wrap(~ area, scales = "free_x", ncol = 3) +
+  geom_text(aes(label = count), vjust = -0.5) +
+  scale_x_discrete(labels = function(x) gsub("_.+$", "", x)) + # 移除排序编号
+  scale_y_continuous(limits = c(0, 42)) +
+  labs(x = "品牌", y = "数量") +
+  theme(axis.text.x = element_text(angle = 42, hjust = 1), 
+        legend.position = "none")
+
+
+```
+
+### 分组直方图
+
+```{r}
+#| code-fold: TRUE
+#| code-summary: "Show the code"
+#| message: FALSE
+#| warning: FALSE
+
+
+#按单个定性变量分组
+data %>% 
+  ggplot(aes(retail.price, fill = brand))+
+  geom_histogram(breaks = seq(6, 38, 2))+
+  facet_wrap(~brand, ncol = 2) +
+  scale_y_continuous(limits = c(0,60))+
+  scale_fill_brewer(palette  = "Set1") +
+  labs(title = "零售价直方图",
+       x = "零售价",
+       y = "频数") +
+  scale_x_continuous(breaks = seq(6, 36, 4),
+                     labels = seq(6, 36, 4)) +
+  theme_bw() +
+  theme(text = element_text(size = 15),
+        legend.position = "bottom",
+        legend.text = element_text(size = 10))
+
+
+```
+
+### 分组直方图
+
+```{r}
+#| code-fold: TRUE
+#| code-summary: "Show the code"
+#| message: FALSE
+#| warning: FALSE
+
+
+data %>% 
+  ggplot(aes(retail.price, reorder(brand, retail.price, FUN = median),
+             col = brand))+
+  geom_boxplot()+
+  labs(title ="六大奶茶品牌零售价格",
+       x = "零售价格",
+       y = "品牌", fill = "品牌")+
+  theme_bw() +
+  theme(text = element_text(size = 15),
+        legend.position = "bottom",
+        legend.text = element_text(size = 10))
+
+
+```
+
+
+
+# Excel教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel图表工具合集](https://www.bilibili.com/video/BV1uK4y1X752/)
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel图表工具综合运用——基金经理](https://www.bilibili.com/video/BV1UJ4m1b7Lb/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL数据清洗合集](https://www.bilibili.com/video/BV1uc41177Mn/)
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL如何美化箱线图？](https://www.bilibili.com/video/BV1imxqedE8B/)
+
+
+
+# SPSS教学视频
+
+## 定性数据的图表工具
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何美化饼图](https://www.bilibili.com/video/BV1KN411H7VY/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 帕累托图](https://www.bilibili.com/video/BV1HD4y1d7i6/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 简单条形图](https://www.bilibili.com/video/BV1HZ4y1L7kT/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 簇状条形图](https://www.bilibili.com/video/BV12A41177Wh/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 堆积条形图](https://www.bilibili.com/video/BV1yp4y1r7hv/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 交叉表](https://www.bilibili.com/video/BV1yi4y1j7Xi/)
+
+
+## 定量数据的图表工具
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 简单箱线图](https://www.bilibili.com/video/BV1Bt4y1v7vP/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 簇状箱线图](https://www.bilibili.com/video/BV1xK4y1h7xr/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 直方图](https://www.bilibili.com/video/BV1Up4y1r7aV/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 分组直方图](https://www.bilibili.com/video/BV1Fr4y1F7RM/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 探索工具](https://www.bilibili.com/video/BV1af4y1B7Bi/)
+
+
+
+# SPSS习题
+
+## 习题1 telco.sav 
+
+数据文件telco.sav 
+
+- telco.sav文件在SPSS安装目录下,在电脑搜索文件名找到该文件。
+
+- Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English
+
+- Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/
+
+- sample files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
+
+1.1 绘制ed的频数分布表，在表中列出各个组别的人数及占比。
+
+1.2 绘制客户的ed的饼图, 在各个扇区标注百分比，为各个扇区设置你喜欢的颜色。
+
+1.3 绘制custcat的饼图，按各组百分比降序排列扇区，并在扇区上标注类别名称和百分比。
+
+1.4 绘制custcat的条形图，按各组频数降序排列条形，并在条形上方标注各组人数。
+
+1.5 绘制客户custcat和ed的列联表，在表中列出行的百分比，列的百分比。
+
+1.6 将客户按ed分组，绘制各个组别客户的income的直方图
+
+1.7 将客户按ed分组，绘制各个组别客户的income的箱线图。
+
+1.8 将客户按ed分组，绘制各个组别客户的tenure的直方图。
+
+1.9 将客户按ed分组，绘制各个组别客户的tenure的箱线图。
+
+1.10 将客户按region、gender分成6个组别，绘制各个组别客户的tenure的直方图。
+
+1.11 将客户按region、gender分成6个组别，绘制各个组别客户的income的直方图。
+
+1.12 绘制retire = YES的客户的income的茎叶图。
+
+
+## 习题2 毕业生.xlsx
+
+数据文件:毕业生.xlsx(在QQ 群文件的“实验数据”文件中）
+
+-   数据文件下载: <https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789> 
+
+数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中）
+
+要求：利用SPSS完成
+
+2.1 绘制毕业生的专业分布的频数分布表、条形图(按各组频数降序排列条形)。
+
+2.2 绘制毕业生政治面貌分布的饼图，按各组百分比降序排列扇区，并在扇区上标注类别名称和百分比。
+
+条形图(按各组频数降序排列条形)，为各个扇区设置你喜欢的颜色。
+
+2.3 绘制毕业生政治面貌和性别的列联表，在表中列出行的百分比，列的百分比。
+
+2.4 将毕业生按专业分组，绘制各个专业毕业生月薪的直方图。
+
+2.5 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的直方图
+
+2.6 将毕业生按专业分组，绘制各个专业毕业生月薪的箱线图。
+
+2.7 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的箱线图。
+
+2.8 将毕业生按生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的直方图。
+
+2.9 将毕业生按生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的箱线图。
+
+2.10 绘制物流管理专业毕业生月薪的茎叶图。请简要描述该专业毕业生月薪分布的特征。（SPSS主菜单：分析\描述统计\探索，图…勾选茎叶图，提示：月薪分布在哪个区间最密集？其分布是对称、左偏还是右偏？）
+
+# Excel习题
+
+## 习题3 毕业生.xlsx
+
+数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中），用Excel完成以下任务：
+
+3.1	绘制毕业生性别分布的频数分布表，在表中列出男性和女性的人数及比重。
+
+3.2	绘制毕业生性别分布的饼图和条形图。
+
+3.3	绘制毕业生的专业人数分布的频数分布表，在表中列出各个专业的人数和百分比。
+
+3.4	绘制毕业生各专业人数分布的帕累托图。
+
+3.5	绘制毕业生的政治面貌的频数分布表。
+
+3.6	绘制毕业生的政治面貌的瀑布图。
+
+3.7	绘制毕业生的就业单位类型的频数分布表。
+
+3.8	对毕业生先按性别、再按就业单位类型进行层级分组，绘制树状图。
+
+3.9	对毕业生先按性别、再按政治面貌进行层级分组，绘制树状图。
+
+## 习题4 毕业生.xlsx
+
+数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中），用Excel完成以下任务：
+
+4.1	绘制毕业生月薪的频数分布表，采用适宜的组矩，在表中列出各个组别的人数和百分比。
+
+4.2	绘制毕业生月薪的直方图。
+
+4.3	绘制毕业生月薪的频数折线图、累积百分比折线图，在图中标注出频数或累积百分比。在870位毕业生中，月薪小于等于4000、小于等于6000的各占比多少？。
+
+4.4	绘制毕业生月薪的箱线图，在箱线图中标注出第1个四分位数、中位数和第3个四分位数。
+
+
+
+# 习题讲评视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel习题3讲评](https://www.bilibili.com/video/BV1Py411z7LB/)  
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel习题4讲评](https://www.bilibili.com/video/BV1xx4y1J7pm/)  
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第3章习题讲评](https://www.bilibili.com/video/BV1t3411W7V9/)  
+
+# 学生习作讲评
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> [教材第3章习题学生习作点评](https://lizongzhang.github.io/statwithspss/chap3ex.html){target="_blank"}
+
+  
+    
+# 拓展资源
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> 在线词云图工具 <https://www.wordclouds.com/>    

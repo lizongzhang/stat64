@@ -1,0 +1,73 @@
+---
+title: "教材第3章习题讲评"
+---
+
+# 3.1 定性变量的图表工具
+
+![习题3.1学生习作之一](img/stu3.1a.png){.lightbox}
+
+![习题3.1学生习作之二](img/stu3.1b.png){.lightbox}
+
+![习题3.1条形图](img/key3.1a.png){.lightbox}
+
+![习题3.1帕累托图](img/key3.1b.png){.lightbox}
+
+
+# 3.2或3.3 定量变量的图表工具
+
+
+![习题3.2学生习作之一](img/stu3.2.png){.lightbox}
+
+
+![习题3.2学生习作之二](img/stu3.2b.png){.lightbox}
+
+
+
+![习题3.2 直方图](img/key3.2.png){.lightbox}
+
+- 说明数据分布特点
+
+  - 集中区域，稀疏区域
+  
+  - 数据范围，最大/小值
+  
+  - 对称/右偏/左偏
+
+
+# 3.5 对比条形图/环形图
+
+
+![习题3.5学生习作之一](img/stu3.5a.png){.lightbox}
+
+
+![习题3.5对比条形图](img/key3.5a.png){.lightbox}
+
+![习题3.5对比条形图](img/key3.5b.png){.lightbox}
+
+![习题3.5堆栈条形图](img/key3.5c.png){.lightbox}
+
+
+
+
+![习题3.5学生习作之二](img/stu3.5b.png){.lightbox}
+
+![习题3.5对比环形图](img/key3.5d.png){.lightbox}
+
+# 3.6 箱线图
+
+
+![习题3.6学生习作之一](img/stu3.6a.png){.lightbox}
+
+
+
+
+![习题3.6学生习作之二](img/stu3.6b.png){.lightbox}
+
+![习题3.6数据整理——按中位数排序](img/key3.6a.png){.lightbox}
+
+
+
+![习题3.6箱线图](img/key3.6b.png){.lightbox}
+
+
+

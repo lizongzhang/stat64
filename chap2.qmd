@@ -1,0 +1,75 @@
+---
+title: "第2章"
+---
+
+# 2 Organizing and Visualizing Variables
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap2
+        讲义](https://lizongzhang.github.io/business_stat/chap2.html)  
+
+
+
+# 课堂练习
+
+## 题目1 
+
+阅读以下推文
+
+
+微信公众号狗熊会>案例图书>精品案例>中国女排国际竞争力现况及国内选材建队思路分析
+
+微信公众号狗熊会>案例图书>精品案例>公共自行车损坏识别
+
+微信公众号狗熊会>案例图书>精品案例>bilibili人类云吸猫行为观察
+
+微信公众号狗熊会>案例图书>精品案例>王者荣耀英雄职业数据探索性分析
+
+
+1.1 数据来源？
+
+1.2 研究中的观测单元（观测个体）是什么？
+
+1.3 样本容量？
+
+1.3 研究中使用了哪些变量？
+
+1.4 文中利用统计分析回答了哪些问题？
+
+1.5 该推文对我们开展统计案例分析有何启发？
+
+
+<details>
+
+<summary>点击浏览图片</summary>
+
+<img src="img/gxh2.png" alt="微信狗熊会公众号">
+
+<img src="img/gxh1.png" alt="探索性数据分析">
+
+
+## 教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何从中国知网下载统计数据？](https://www.bilibili.com/video/BV19m4y1F7FE/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[八爪鱼客户端抓取网页数据？](https://www.bilibili.com/video/BV18u411D7GM/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何用Excel整理提取的网页数据？](https://www.bilibili.com/video/BV1HL411N7BG/)
+
+
+## 拓展资源
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">CSMAR 国泰安经济金融数据库  <http://www.gtarsc.com/Home>
+        
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭追踪调查 CFPS <http://www.isss.pku.edu.cn/cfps/>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭金融调查数据 CHFS  <https://chfs.swufe.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国健康与养老数据追踪调查数据CHARLS <http://charls.pku.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">暨南大学社会调查中心  <https://sdc-iesr.jnu.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Kaggle  <https://www.kaggle.com/datasets>
+
+
+
+

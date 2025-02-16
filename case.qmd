@@ -1,0 +1,127 @@
+---
+title: "案例"
+---
+
+**每组4-5人，由组长填写在线问卷，提交分组信息：<https://www.wjx.top/vm/e3AyWsR.aspx#> **
+
+# 小组案例作业
+
+## 案例作业要求
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[案例作业要求](https://lizongzhang.github.io/stat64/casereq.html)
+
+## 案例示例
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第3-4章 广州六大奶茶品牌](https://lizongzhang.github.io/stat24/case1pre.html)
+  
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第7-8章 小组作业收获感](https://lizongzhang.github.io/stat/case2.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第8-9章 汽车油耗](https://lizongzhang.github.io/stat24/case2pre.html)    
+  
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第9-10章 奶茶品牌、区位和价格](https://lizongzhang.github.io/stat/case3.html)
+  
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第11章 二手房房价、区位和房龄](https://lizongzhang.github.io/stat/case4.html)
+
+## 往届小组作业演示文稿
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第3-4章图表工具和描述统计R](https://lizongzhang.github.io/stat/stu6.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[广东省地市领导班子特征分析——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu1.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[奶茶消费调查——第3章图表工具SPSS](https://lizongzhang.github.io/stat/stu2.html)
+    
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[证监会录用人员特征——第3章图表工具Excel](https://lizongzhang.github.io/stat/stu4.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第7-8章区间估计和假设检验R](https://lizongzhang.github.io/stat/stu8.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[证券分析师——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu7.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第9-10章卡方检验和方差分析R](https://lizongzhang.github.io/stat/stu9.html)    
+    
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[广州市住宅房租比较——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu5.html) 
+    
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[大学生择偶观调查——第10章方差分析SPSS](https://lizongzhang.github.io/stat/stu3.html)
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——第11章相关和回归分析R](https://lizongzhang.github.io/stat/stu10.html) 
+    
+
+# 第1次讨论课
+
+-   讨论问题：
+
+    -   选题方向 
+    
+    -   数据收集方式（数据库、网站、问卷调查）
+    
+    -   观测单元是什么？样本容量是否容易超过200？
+    
+    -   定量变量、定性变量分别是什么？
+    
+    -   若采用问卷调查的方式收集数据，如何设计题目收集到定量数据？被访者是否容易回答，数据质量是否可靠？
+    
+    -   遇到的困难
+
+-   数据要求：微观截面数据，有效样本容量大于200，定量变量至少3个，定性变量至少3个，建议变量个数超过8个。
+
+-   在Excel中整理好收集的数据，变量名称简洁含义明确，剔除有缺失值或异常值的个案，将其导入到SPSS。
+
+-   运用第3-4章绘制图表，报告描述性统计量，制作好演示文件PPT。
+
+-   请带笔记本电脑。
+
+# 第2次讨论课
+
+-   在Excel中整理好收集的数据。
+
+-   运用第9章、第10章、第11章(可选做)的方法分析数据。
+
+-   小组作业、实验报告中遇到的问题、困难。
+
+-   请带笔记本电脑。
+
+# 第3-4章小组作业点评
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第3-4章小组作业点评](https://lizongzhang.github.io/statwithspss/case1comment.html)
+
+# 第7-8章小组作业点评
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第7-8章小组作业点评](https://lizongzhang.github.io/statwithspss/case2comment.html)
+
+# 第9-10章小组作业点评
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第9-10章小组作业点评](https://lizongzhang.github.io/statwithspss/case3comment.html)
+
+
+# Q&A
+
+Q1：如何选题？
+
+A：从兴趣出发，考虑数据的可获得性。
+
+-   乐高玩具——微信小程序：积木箱
+
+-   APP：JUMP，航旅纵横、携程，大众点评，贝壳等
+
+-   网站：boss直聘，易车
+
+-   必应/google搜索 关键词 + 数据/dataset
+
+Q2：问卷调查如何收集定量变量？
+
+A：填空题。需要考虑被访者能否容易回答，数据质量是否可靠。
+
+- 每月消费，生活费，每周学习时长，运动时长等，数据波动较大，精确度较差
+
+- 手机\平板使用：购置价格、型号、内存、何时购买、内存使用、下一部手机购买的预期等
+
+-  APP使用情况
+
+
+
+# 发言时间表(见QQ群文件)
+
+
+
+
+
+

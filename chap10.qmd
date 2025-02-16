@@ -1,0 +1,47 @@
+---
+title: "第10章"
+---
+
+# 10 Two-Sample Tests and One-Way ANOVA
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap10
+        讲义](https://lizongzhang.github.io/business_stat/chap10.html)
+
+# 教学视频 
+
+# Excel操作视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 单因素方差分析](https://www.bilibili.com/video/BV1nf4y1v71b/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 双因素方差分析](https://www.bilibili.com/video/BV18v411t7Hb/)
+
+# SPSS操作视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 单因素方差分析ANOVA](https://www.bilibili.com/video/BV1M54y1C7EB
+)
+
+
+# 课堂练习
+
+<details>
+  <summary>根据Excel输出结果回答问题</summary>
+
+![](img/10exatclass.png){.lightbox} 
+
+<details>
+
+# 习题讲评 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材第10章习题讲评](https://www.bilibili.com/video/BV1ok4y1H7FJ/)
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[教材习题10.3在SPSS中的实现: 单因素方差分析](https://www.bilibili.com/video/BV1J94y1H7uv/)
+
+
+# 拓展资源 
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">方差分析数值演示 <https://www.geogebra.org/m/dTCH4EKG>{target="_blank"}
+
+
+
+
