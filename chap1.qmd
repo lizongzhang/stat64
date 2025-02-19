@@ -5,14 +5,14 @@ title: "第1章"
 # Course Introduction
 
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Introduction
-        讲义](https://lizongzhang.github.io/business_stat/intro.html)
+        讲义](https://lizongzhang.github.io/business_stat/intro.html){target="_blank"}
         
         
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Getting Started
-        讲义](https://lizongzhang.github.io/business_stat/chapgs.html)
+        讲义](https://lizongzhang.github.io/business_stat/chapgs.html){target="_blank"}
         
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap1
-        讲义](https://lizongzhang.github.io/business_stat/chap1.html)        
+        讲义](https://lizongzhang.github.io/business_stat/chap1.html){target="_blank"}  
 
 
 
@@ -53,25 +53,25 @@ title: "第1章"
 
 # 软件工具
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[如何加载Excel的“数据分析”加载项](https://www.bilibili.com/video/BV19S4y1r7E4/)
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[如何加载Excel的“数据分析”加载项](https://www.bilibili.com/video/BV19S4y1r7E4/){target="_blank"}
 
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[不用安装就可以免费使用的网页版Excel](https://www.bilibili.com/video/BV1w6421w7Rf/)
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[不用安装就可以免费使用的网页版Excel](https://www.bilibili.com/video/BV1w6421w7Rf/){target="_blank"}
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何将WORD文档转成图片？](https://www.bilibili.com/video/BV1GU4y1f7f9/)
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何将WORD文档转成图片？](https://www.bilibili.com/video/BV1GU4y1f7f9/){target="_blank"}
 
 # SPSS教学视频
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS主菜单](https://www.bilibili.com/video/BV1N541177z6/)
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS主菜单](https://www.bilibili.com/video/BV1N541177z6/){target="_blank"}
 
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何导入Excel文件](https://www.bilibili.com/video/BV1N541177z6/)
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何导入Excel文件](https://www.bilibili.com/video/BV1N541177z6/){target="_blank"}
 
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 提高效率的5个按钮](https://www.bilibili.com/video/BV1vN411p7ok/)
-
-
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS拆分文件 分组数据的统计量的比较](https://www.bilibili.com/video/BV1sy4y1C7FY)
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 提高效率的5个按钮](https://www.bilibili.com/video/BV1vN411p7ok/){target="_blank"}
 
 
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS拆分文件 分组数据的统计量的比较](https://www.bilibili.com/video/BV1sy4y1C7FY){target="_blank"}
 
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何将输出结果导出为WORD文档？](https://www.bilibili.com/video/BV1o34y1N7qf/)
+
+
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何将输出结果导出为WORD文档？](https://www.bilibili.com/video/BV1o34y1N7qf/){target="_blank"}
 
 # SPSS习题
 
@@ -123,14 +123,14 @@ title: "第1章"
 
 # 拓展资源
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">经管之家 <https://bbs.pinggu.org/> 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">经管之家 <https://bbs.pinggu.org/>{target="_blank"} 
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">狗熊会(微信公众号) <https://www.xiong99.com.cn/> 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">狗熊会(微信公众号) <https://www.xiong99.com.cn/>{target="_blank"}
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">UCLA Data Analysis Examples <https://stats.oarc.ucla.edu/other/dae/> 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">UCLA Data Analysis Examples <https://stats.oarc.ucla.edu/other/dae/>{target="_blank"} 
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Learn Excel with Examples <https://www.excel-easy.com/examples.html> 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Learn Excel with Examples <https://www.excel-easy.com/examples.html>{target="_blank"} 
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">The Data And Story Library <https://dasl.datadescription.com/> 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">The Data And Story Library <https://dasl.datadescription.com/>{target="_blank"} 
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> Kaggle <https://www.kaggle.com/> 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> Kaggle <https://www.kaggle.com/>{target="_blank"} 

@@ -69,6 +69,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+  document.querySelectorAll('a').forEach(function(link) {
+    link.setAttribute('target', '_blank');
+  });
+</script>
 
 
 </head>
@@ -173,25 +178,25 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/stuex9.1.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="优秀习作"><img src="img/stuex9.1.png" class="img-fluid figure-img" alt="优秀习作"></a></p>
+<p><a href="img/stuex9.1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="优秀习作"><img src="img/stuex9.1.png" class="img-fluid figure-img" alt="优秀习作"></a></p>
 <figcaption>优秀习作</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/stuex9.2.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="优秀习作"><img src="img/stuex9.2.png" class="img-fluid figure-img" alt="优秀习作"></a></p>
+<p><a href="img/stuex9.2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="优秀习作"><img src="img/stuex9.2.png" class="img-fluid figure-img" alt="优秀习作"></a></p>
 <figcaption>优秀习作</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/stuex9.3.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="繁琐"><img src="img/stuex9.3.png" class="img-fluid figure-img" alt="繁琐"></a></p>
+<p><a href="img/stuex9.3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3" title="繁琐"><img src="img/stuex9.3.png" class="img-fluid figure-img" alt="繁琐"></a></p>
 <figcaption>繁琐</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/stuex9.4.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="原假设和备择假设表述不完整；结论不完整"><img src="img/stuex9.4.png" class="img-fluid figure-img" alt="原假设和备择假设表述不完整；结论不完整"></a></p>
+<p><a href="img/stuex9.4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4" title="原假设和备择假设表述不完整；结论不完整"><img src="img/stuex9.4.png" class="img-fluid figure-img" alt="原假设和备择假设表述不完整；结论不完整"></a></p>
 <figcaption>原假设和备择假设表述不完整；结论不完整</figcaption>
 </figure>
 </div>
@@ -629,7 +634,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
