@@ -943,5 +943,75 @@
     "title": "第4章",
     "section": "习题1 Employee data.sav",
     "text": "习题1 Employee data.sav\n数据文件Employee data.sav\n\nEmployee data.sav文件在SPSS安装目录下,在电脑搜索文件名找到该文件。\nWindows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English\nMac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/\nsample files简介：https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files\n\n1.1 Employee data.sav文件中一共有多少个个案，多少个变量？每个变量的含义是什么？\n1.2 报告educ的均值、中位数、标准差、最小值、最大值。\n1.3 根据educ的值创建定性变量educat, 创建规则为：若educ等于8， educat等于middle school; 若educ等于12， educat等于high school; 若educ大于等于14，且小于等于16， educat等于college; 若educ大于16， educat等postgraduate。报告educat的频数分布。\n1.4 创建变量salchange, 用于衡量current salary与beginning salary的差距。\n1.5 利用Employee data.sav文件中的变量，你还可以创建哪些变量？\n1.6 绘制salary的频数分布表，采用适当的组距，概括salary的分布在哪个区间最密集？\n1.7 绘制salbegin的频数分布表，采用适当的组距，概括salbegin的分布在哪个区间最密集？。\n1.8 按照性别分组，绘制各组别的salary的频数分布表，概括两个组别salary分布的差距。\n1.9 按照minor分组，绘制各组别的salbegin的频数分布表，概括两个组别salary分布的差距。\n1.10 选取两个定性变量，绘制簇状条形图。\n1.11 选取两个定性变量，绘制堆积条形图。\n1.12 选取两个定性变量，一个定量变量，用条形图反映各个组别的定量变量的均值的大小。\n1.13 选取一个定性变量，一个定量变量，绘制分组直方图。\n1.14 选取一个定性变量，两个定量变量，绘制分组散点图。\n1.15 将1.2中报告的表格，修改为三线表。"
+  },
+  {
+    "objectID": "chap2.html#题目1-饼图",
+    "href": "chap2.html#题目1-饼图",
+    "title": "第2章",
+    "section": "题目1 饼图",
+    "text": "题目1 饼图\n\n数据来源：大众点评网，广州六大品牌奶茶店\n样本容量：336\n数据来源：大众点评网，广州6大奶茶品牌\n\n\nShow the code\nlibrary(tidyverse)\nlibrary(readxl)\ndata  &lt;- read_excel(\"data/top6.xlsx\")\n\npar(family  = 'STKaiti')\nlibrary(showtext)\nshowtext_auto()\n\ndata %&gt;% \n  count(brand) %&gt;% \n  mutate(percent = round(n/sum(n)*100, 1))\n\n\n# A tibble: 6 × 3\n  brand                n percent\n  &lt;chr&gt;            &lt;int&gt;   &lt;dbl&gt;\n1 CoCo都可            64    19  \n2 TANING手挞柠檬茶    44    13.1\n3 书亦烧仙草          82    24.4\n4 喜茶                43    12.8\n5 益禾堂              45    13.4\n6 茶百道              58    17.3\n\n\nShow the code\ntable(data$brand) %&gt;% \n  pie()\n\n\n\n\n\n\n\n\n\nShow the code\npie_table &lt;- data %&gt;% \n  count(brand) %&gt;% \n  mutate(percent = round(n/sum(n)*100, 1),\n         per_label = paste0(brand, \" \", percent, \"%\")) %&gt;% \n  arrange(desc(percent))\n  \npie(pie_table$percent, \n    labels = pie_table$per_label, \n    clockwise = TRUE,\n    init.angle = 90)"
+  },
+  {
+    "objectID": "chap2.html#题目2-条形图",
+    "href": "chap2.html#题目2-条形图",
+    "title": "第2章",
+    "section": "题目2 条形图",
+    "text": "题目2 条形图\n\n\n\nShow the code\ndata %&gt;% ggplot(aes(brand, fill = brand)) + \n  geom_bar() +\n  labs(x = \"品牌\", fill = \"品牌\") +\n  theme_bw() +\n  theme(text = element_text(size = 15),\n        legend.position = \"bottom\",\n        legend.text = element_text(size = 10)) \n\n\n\n\n\n\n\n\n\nShow the code\nlibrary(forcats)\ndata %&gt;% ggplot(aes(fct_infreq(brand), fill = brand)) + \n  geom_bar() +\n  geom_text(stat = \"count\", aes(label = after_stat(count)), vjust = -1)+ \n  scale_y_continuous(limits = c(0,100))+\n  guides(x = guide_axis(angle = 45)) +\n  labs(x = \"品牌\", fill = \"品牌\") +\n  theme_bw() +\n  theme(text = element_text(size = 15),\n        legend.position = \"none\",\n        legend.text = element_text(size = 10))"
+  },
+  {
+    "objectID": "chap2.html#题目3-直方图",
+    "href": "chap2.html#题目3-直方图",
+    "title": "第2章",
+    "section": "题目3 直方图",
+    "text": "题目3 直方图\n\n\n\nShow the code\nlibrary(ggplot2)\n\n# 难看的直方图\nggplot(mpg, aes(x = hwy)) +\n  geom_histogram(binwidth = 5, color = \"black\", alpha = 0.9) +\n  labs(title = \"Ugly Histogram\", x = \"Highway Mileage\", y = \"Count\") +\n  theme(\n    plot.title = element_text(size = 20, hjust = 0.5, color = \"purple\"),\n    axis.title.x = element_text(size = 15, angle = 45, vjust = 1, color = \"red\"),\n    axis.title.y = element_text(size = 15, angle = 90, hjust = 1, color = \"green\"),\n    legend.position = \"top\",\n    panel.background = element_rect(fill = \"pink\"),\n    panel.grid.major = element_line(color = \"yellow\", size = 1)\n  )\n\n\n\n\n\n\n\n\n\nShow the code\n# 好看的直方图\nggplot(mpg, aes(x = hwy)) +\n  geom_histogram(breaks = seq(12, 46, 2), \n                 fill = \"#0073C2FF\", \n                 color = \"white\", \n                 alpha = 0.8) +\n  scale_x_continuous(breaks = seq(12, 46, 2),\n                     labels = seq(12, 46, 2)) +\n  scale_y_continuous(limits = c(0,50))+\n  labs(title = \"Highway Mileage Distribution\", x = \"Highway Mileage\", y = \"Frequency\") +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(size = 20, hjust = 0.5),\n    axis.title.x = element_text(size = 18),\n    axis.title.y = element_text(size = 18),\n    panel.grid.major = element_line(color = \"grey90\"),\n    panel.grid.minor = element_blank()\n  )"
+  },
+  {
+    "objectID": "chap2.html#题目4-二维变量的作图",
+    "href": "chap2.html#题目4-二维变量的作图",
+    "title": "第2章",
+    "section": "题目4 二维变量的作图",
+    "text": "题目4 二维变量的作图\n\n\n分组条形图\n\n\nShow the code\ndata %&gt;%\n  group_by(area, brand) %&gt;%\n  summarise(count = n(), .groups = \"drop\") %&gt;% \n  mutate(brand_order = paste(brand, area, rank(-count), sep = \"_\"))  %&gt;% \n  ggplot(aes(reorder(brand_order, -count),\n             count, fill = brand)) +\n  geom_col()+\n  facet_wrap(~ area, scales = \"free_x\", ncol = 3) +\n  geom_text(aes(label = count), vjust = -0.5) +\n  scale_x_discrete(labels = function(x) gsub(\"_.+$\", \"\", x)) + # 移除排序编号\n  scale_y_continuous(limits = c(0, 42)) +\n  labs(x = \"品牌\", y = \"数量\") +\n  theme(axis.text.x = element_text(angle = 42, hjust = 1), \n        legend.position = \"none\")\n\n\n\n\n\n\n\n\n\n\n\n分组直方图\n\n\nShow the code\n#按单个定性变量分组\ndata %&gt;% \n  ggplot(aes(retail.price, fill = brand))+\n  geom_histogram(breaks = seq(6, 38, 2))+\n  facet_wrap(~brand, ncol = 2) +\n  scale_y_continuous(limits = c(0,60))+\n  scale_fill_brewer(palette  = \"Set1\") +\n  labs(title = \"零售价直方图\",\n       x = \"零售价\",\n       y = \"频数\") +\n  scale_x_continuous(breaks = seq(6, 36, 4),\n                     labels = seq(6, 36, 4)) +\n  theme_bw() +\n  theme(text = element_text(size = 15),\n        legend.position = \"bottom\",\n        legend.text = element_text(size = 10))\n\n\n\n\n\n\n\n\n\n\n\n分组直方图\n\n\nShow the code\ndata %&gt;% \n  ggplot(aes(retail.price, reorder(brand, retail.price, FUN = median),\n             col = brand))+\n  geom_boxplot()+\n  labs(title =\"六大奶茶品牌零售价格\",\n       x = \"零售价格\",\n       y = \"品牌\", fill = \"品牌\")+\n  theme_bw() +\n  theme(text = element_text(size = 15),\n        legend.position = \"bottom\",\n        legend.text = element_text(size = 10))"
+  },
+  {
+    "objectID": "chap2.html#定性数据的图表工具",
+    "href": "chap2.html#定性数据的图表工具",
+    "title": "第2章",
+    "section": "定性数据的图表工具",
+    "text": "定性数据的图表工具\nSPSS 如何美化饼图\nSPSS 帕累托图\nSPSS 简单条形图\nSPSS 簇状条形图\nSPSS 堆积条形图\nSPSS 交叉表"
+  },
+  {
+    "objectID": "chap2.html#定量数据的图表工具",
+    "href": "chap2.html#定量数据的图表工具",
+    "title": "第2章",
+    "section": "定量数据的图表工具",
+    "text": "定量数据的图表工具\nSPSS 简单箱线图\nSPSS 簇状箱线图\nSPSS 直方图\nSPSS 分组直方图\nSPSS 探索工具"
+  },
+  {
+    "objectID": "chap2.html#习题1-telco.sav",
+    "href": "chap2.html#习题1-telco.sav",
+    "title": "第2章",
+    "section": "习题1 telco.sav",
+    "text": "习题1 telco.sav\n数据文件telco.sav\n\ntelco.sav文件在SPSS安装目录下,在电脑搜索文件名找到该文件。\nWindows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English\nMac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/\nsample files简介：https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files\n\n1.1 绘制ed的频数分布表，在表中列出各个组别的人数及占比。\n1.2 绘制客户的ed的饼图, 在各个扇区标注百分比，为各个扇区设置你喜欢的颜色。\n1.3 绘制custcat的饼图，按各组百分比降序排列扇区，并在扇区上标注类别名称和百分比。\n1.4 绘制custcat的条形图，按各组频数降序排列条形，并在条形上方标注各组人数。\n1.5 绘制客户custcat和ed的列联表，在表中列出行的百分比，列的百分比。\n1.6 将客户按ed分组，绘制各个组别客户的income的直方图\n1.7 将客户按ed分组，绘制各个组别客户的income的箱线图。\n1.8 将客户按ed分组，绘制各个组别客户的tenure的直方图。\n1.9 将客户按ed分组，绘制各个组别客户的tenure的箱线图。\n1.10 将客户按region、gender分成6个组别，绘制各个组别客户的tenure的直方图。\n1.11 将客户按region、gender分成6个组别，绘制各个组别客户的income的直方图。\n1.12 绘制retire = YES的客户的income的茎叶图。"
+  },
+  {
+    "objectID": "chap2.html#习题2-毕业生.xlsx",
+    "href": "chap2.html#习题2-毕业生.xlsx",
+    "title": "第2章",
+    "section": "习题2 毕业生.xlsx",
+    "text": "习题2 毕业生.xlsx\n数据文件:毕业生.xlsx(在QQ 群文件的“实验数据”文件中）\n\n数据文件下载: https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789\n\n数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中）\n要求：利用SPSS完成\n2.1 绘制毕业生的专业分布的频数分布表、条形图(按各组频数降序排列条形)。\n2.2 绘制毕业生政治面貌分布的饼图，按各组百分比降序排列扇区，并在扇区上标注类别名称和百分比。\n条形图(按各组频数降序排列条形)，为各个扇区设置你喜欢的颜色。\n2.3 绘制毕业生政治面貌和性别的列联表，在表中列出行的百分比，列的百分比。\n2.4 将毕业生按专业分组，绘制各个专业毕业生月薪的直方图。\n2.5 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的直方图\n2.6 将毕业生按专业分组，绘制各个专业毕业生月薪的箱线图。\n2.7 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的箱线图。\n2.8 将毕业生按生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的直方图。\n2.9 将毕业生按生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的箱线图。\n2.10 绘制物流管理专业毕业生月薪的茎叶图。请简要描述该专业毕业生月薪分布的特征。（SPSS主菜单：分析，图…勾选茎叶图，提示：月薪分布在哪个区间最密集？其分布是对称、左偏还是右偏？）"
+  },
+  {
+    "objectID": "chap2.html#习题3-毕业生.xlsx",
+    "href": "chap2.html#习题3-毕业生.xlsx",
+    "title": "第2章",
+    "section": "习题3 毕业生.xlsx",
+    "text": "习题3 毕业生.xlsx\n数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中），用Excel完成以下任务：\n3.1 绘制毕业生性别分布的频数分布表，在表中列出男性和女性的人数及比重。\n3.2 绘制毕业生性别分布的饼图和条形图。\n3.3 绘制毕业生的专业人数分布的频数分布表，在表中列出各个专业的人数和百分比。\n3.4 绘制毕业生各专业人数分布的帕累托图。\n3.5 绘制毕业生的政治面貌的频数分布表。\n3.6 绘制毕业生的政治面貌的瀑布图。\n3.7 绘制毕业生的就业单位类型的频数分布表。\n3.8 对毕业生先按性别、再按就业单位类型进行层级分组，绘制树状图。\n3.9 对毕业生先按性别、再按政治面貌进行层级分组，绘制树状图。"
+  },
+  {
+    "objectID": "chap2.html#习题4-毕业生.xlsx",
+    "href": "chap2.html#习题4-毕业生.xlsx",
+    "title": "第2章",
+    "section": "习题4 毕业生.xlsx",
+    "text": "习题4 毕业生.xlsx\n数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中），用Excel完成以下任务：\n4.1 绘制毕业生月薪的频数分布表，采用适宜的组矩，在表中列出各个组别的人数和百分比。\n4.2 绘制毕业生月薪的直方图。\n4.3 绘制毕业生月薪的频数折线图、累积百分比折线图，在图中标注出频数或累积百分比。在870位毕业生中，月薪小于等于4000、小于等于6000的各占比多少？。\n4.4 绘制毕业生月薪的箱线图，在箱线图中标注出第1个四分位数、中位数和第3个四分位数。"
   }
 ]

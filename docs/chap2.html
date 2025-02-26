@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -160,6 +194,35 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#教学视频" id="toc-教学视频" class="nav-link" data-scroll-target="#教学视频">教学视频</a></li>
   <li><a href="#拓展资源" id="toc-拓展资源" class="nav-link" data-scroll-target="#拓展资源">拓展资源</a></li>
   </ul></li>
+  <li><a href="#课堂练习-1" id="toc-课堂练习-1" class="nav-link" data-scroll-target="#课堂练习-1">课堂练习</a>
+  <ul class="collapse">
+  <li><a href="#题目1-饼图" id="toc-题目1-饼图" class="nav-link" data-scroll-target="#题目1-饼图">题目1 饼图</a></li>
+  <li><a href="#题目2-条形图" id="toc-题目2-条形图" class="nav-link" data-scroll-target="#题目2-条形图">题目2 条形图</a></li>
+  <li><a href="#题目3-直方图" id="toc-题目3-直方图" class="nav-link" data-scroll-target="#题目3-直方图">题目3 直方图</a></li>
+  <li><a href="#题目4-二维变量的作图" id="toc-题目4-二维变量的作图" class="nav-link" data-scroll-target="#题目4-二维变量的作图">题目4 二维变量的作图</a>
+  <ul class="collapse">
+  <li><a href="#分组条形图" id="toc-分组条形图" class="nav-link" data-scroll-target="#分组条形图">分组条形图</a></li>
+  <li><a href="#分组直方图" id="toc-分组直方图" class="nav-link" data-scroll-target="#分组直方图">分组直方图</a></li>
+  <li><a href="#分组直方图-1" id="toc-分组直方图-1" class="nav-link" data-scroll-target="#分组直方图-1">分组直方图</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#excel教学视频" id="toc-excel教学视频" class="nav-link" data-scroll-target="#excel教学视频">Excel教学视频</a></li>
+  <li><a href="#spss教学视频" id="toc-spss教学视频" class="nav-link" data-scroll-target="#spss教学视频">SPSS教学视频</a>
+  <ul class="collapse">
+  <li><a href="#定性数据的图表工具" id="toc-定性数据的图表工具" class="nav-link" data-scroll-target="#定性数据的图表工具">定性数据的图表工具</a></li>
+  <li><a href="#定量数据的图表工具" id="toc-定量数据的图表工具" class="nav-link" data-scroll-target="#定量数据的图表工具">定量数据的图表工具</a></li>
+  </ul></li>
+  <li><a href="#spss习题" id="toc-spss习题" class="nav-link" data-scroll-target="#spss习题">SPSS习题</a>
+  <ul class="collapse">
+  <li><a href="#习题1-telco.sav" id="toc-习题1-telco.sav" class="nav-link" data-scroll-target="#习题1-telco.sav">习题1 telco.sav</a></li>
+  <li><a href="#习题2-毕业生.xlsx" id="toc-习题2-毕业生.xlsx" class="nav-link" data-scroll-target="#习题2-毕业生.xlsx">习题2 毕业生.xlsx</a></li>
+  </ul></li>
+  <li><a href="#excel习题" id="toc-excel习题" class="nav-link" data-scroll-target="#excel习题">Excel习题</a>
+  <ul class="collapse">
+  <li><a href="#习题3-毕业生.xlsx" id="toc-习题3-毕业生.xlsx" class="nav-link" data-scroll-target="#习题3-毕业生.xlsx">习题3 毕业生.xlsx</a></li>
+  <li><a href="#习题4-毕业生.xlsx" id="toc-习题4-毕业生.xlsx" class="nav-link" data-scroll-target="#习题4-毕业生.xlsx">习题4 毕业生.xlsx</a></li>
+  </ul></li>
+  <li><a href="#习题讲评视频" id="toc-习题讲评视频" class="nav-link" data-scroll-target="#习题讲评视频">习题讲评视频</a></li>
   </ul>
 </nav>
     </div>
@@ -225,9 +288,371 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国健康与养老数据追踪调查数据CHARLS <a href="http://charls.pku.edu.cn" class="uri">http://charls.pku.edu.cn</a></p>
 <p><img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">暨南大学社会调查中心 <a href="https://sdc-iesr.jnu.edu.cn" class="uri">https://sdc-iesr.jnu.edu.cn</a></p>
 <p><img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Kaggle <a href="https://www.kaggle.com/datasets" class="uri">https://www.kaggle.com/datasets</a></p>
-
-
 </section>
+</section>
+<section id="课堂练习-1" class="level1">
+<h1>课堂练习</h1>
+<section id="题目1-饼图" class="level2">
+<h2 class="anchored" data-anchor-id="题目1-饼图">题目1 饼图</h2>
+<details>
+<p>数据来源：大众点评网，广州六大品牌奶茶店</p>
+<p>样本容量：336</p>
+<p>数据来源：大众点评网，广州6大奶茶品牌</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>data  <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"data/top6.xlsx"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">family  =</span> <span class="st">'STKaiti'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(showtext)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">showtext_auto</span>()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(brand) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">percent =</span> <span class="fu">round</span>(n<span class="sc">/</span><span class="fu">sum</span>(n)<span class="sc">*</span><span class="dv">100</span>, <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  brand                n percent
+  &lt;chr&gt;            &lt;int&gt;   &lt;dbl&gt;
+1 CoCo都可            64    19  
+2 TANING手挞柠檬茶    44    13.1
+3 书亦烧仙草          82    24.4
+4 喜茶                43    12.8
+5 益禾堂              45    13.4
+6 茶百道              58    17.3</code></pre>
+</div>
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(data<span class="sc">$</span>brand) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pie</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>pie_table <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(brand) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">percent =</span> <span class="fu">round</span>(n<span class="sc">/</span><span class="fu">sum</span>(n)<span class="sc">*</span><span class="dv">100</span>, <span class="dv">1</span>),</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">per_label =</span> <span class="fu">paste0</span>(brand, <span class="st">" "</span>, percent, <span class="st">"%"</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(percent))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">pie</span>(pie_table<span class="sc">$</span>percent, </span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> pie_table<span class="sc">$</span>per_label, </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">clockwise =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">init.angle =</span> <span class="dv">90</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</details></section>
+<section id="题目2-条形图" class="level2">
+<h2 class="anchored" data-anchor-id="题目2-条形图">题目2 条形图</h2>
+<details>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(brand, <span class="at">fill =</span> brand)) <span class="sc">+</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"品牌"</span>, <span class="at">fill =</span> <span class="st">"品牌"</span>) <span class="sc">+</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>),</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(forcats)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="fu">fct_infreq</span>(brand), <span class="at">fill =</span> brand)) <span class="sc">+</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">stat =</span> <span class="st">"count"</span>, <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">after_stat</span>(count)), <span class="at">vjust =</span> <span class="sc">-</span><span class="dv">1</span>)<span class="sc">+</span> </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">100</span>))<span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">x =</span> <span class="fu">guide_axis</span>(<span class="at">angle =</span> <span class="dv">45</span>)) <span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"品牌"</span>, <span class="at">fill =</span> <span class="st">"品牌"</span>) <span class="sc">+</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>),</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"none"</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-2-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</details></section>
+<section id="题目3-直方图" class="level2">
+<h2 class="anchored" data-anchor-id="题目3-直方图">题目3 直方图</h2>
+<details>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 难看的直方图</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mpg, <span class="fu">aes</span>(<span class="at">x =</span> hwy)) <span class="sc">+</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">alpha =</span> <span class="fl">0.9</span>) <span class="sc">+</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Ugly Histogram"</span>, <span class="at">x =</span> <span class="st">"Highway Mileage"</span>, <span class="at">y =</span> <span class="st">"Count"</span>) <span class="sc">+</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">color =</span> <span class="st">"purple"</span>),</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>, <span class="at">angle =</span> <span class="dv">45</span>, <span class="at">vjust =</span> <span class="dv">1</span>, <span class="at">color =</span> <span class="st">"red"</span>),</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>, <span class="at">angle =</span> <span class="dv">90</span>, <span class="at">hjust =</span> <span class="dv">1</span>, <span class="at">color =</span> <span class="st">"green"</span>),</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"pink"</span>),</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"yellow"</span>, <span class="at">size =</span> <span class="dv">1</span>)</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 好看的直方图</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(mpg, <span class="fu">aes</span>(<span class="at">x =</span> hwy)) <span class="sc">+</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">12</span>, <span class="dv">46</span>, <span class="dv">2</span>), </span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>                 <span class="at">fill =</span> <span class="st">"#0073C2FF"</span>, </span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>                 <span class="at">color =</span> <span class="st">"white"</span>, </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>                 <span class="at">alpha =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">12</span>, <span class="dv">46</span>, <span class="dv">2</span>),</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">seq</span>(<span class="dv">12</span>, <span class="dv">46</span>, <span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">50</span>))<span class="sc">+</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Highway Mileage Distribution"</span>, <span class="at">x =</span> <span class="st">"Highway Mileage"</span>, <span class="at">y =</span> <span class="st">"Frequency"</span>) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">18</span>),</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">18</span>),</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"grey90"</span>),</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</details></section>
+<section id="题目4-二维变量的作图" class="level2">
+<h2 class="anchored" data-anchor-id="题目4-二维变量的作图">题目4 二维变量的作图</h2>
+<details>
+<section id="分组条形图" class="level3">
+<h3 class="anchored" data-anchor-id="分组条形图">分组条形图</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(area, brand) <span class="sc">%&gt;%</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">count =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">brand_order =</span> <span class="fu">paste</span>(brand, area, <span class="fu">rank</span>(<span class="sc">-</span>count), <span class="at">sep =</span> <span class="st">"_"</span>))  <span class="sc">%&gt;%</span> </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="fu">reorder</span>(brand_order, <span class="sc">-</span>count),</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>             count, <span class="at">fill =</span> brand)) <span class="sc">+</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>()<span class="sc">+</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> area, <span class="at">scales =</span> <span class="st">"free_x"</span>, <span class="at">ncol =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> count), <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_discrete</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">gsub</span>(<span class="st">"_.+$"</span>, <span class="st">""</span>, x)) <span class="sc">+</span> <span class="co"># 移除排序编号</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">42</span>)) <span class="sc">+</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"品牌"</span>, <span class="at">y =</span> <span class="st">"数量"</span>) <span class="sc">+</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">42</span>, <span class="at">hjust =</span> <span class="dv">1</span>), </span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"none"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="分组直方图" class="level3">
+<h3 class="anchored" data-anchor-id="分组直方图">分组直方图</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#按单个定性变量分组</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(retail.price, <span class="at">fill =</span> brand))<span class="sc">+</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">6</span>, <span class="dv">38</span>, <span class="dv">2</span>))<span class="sc">+</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>brand, <span class="at">ncol =</span> <span class="dv">2</span>) <span class="sc">+</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">60</span>))<span class="sc">+</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette  =</span> <span class="st">"Set1"</span>) <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"零售价直方图"</span>,</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"零售价"</span>,</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"频数"</span>) <span class="sc">+</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">6</span>, <span class="dv">36</span>, <span class="dv">4</span>),</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">seq</span>(<span class="dv">6</span>, <span class="dv">36</span>, <span class="dv">4</span>)) <span class="sc">+</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>),</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="分组直方图-1" class="level3">
+<h3 class="anchored" data-anchor-id="分组直方图-1">分组直方图</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Show the code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(retail.price, <span class="fu">reorder</span>(brand, retail.price, <span class="at">FUN =</span> median),</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">col =</span> brand))<span class="sc">+</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()<span class="sc">+</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span><span class="st">"六大奶茶品牌零售价格"</span>,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"零售价格"</span>,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"品牌"</span>, <span class="at">fill =</span> <span class="st">"品牌"</span>)<span class="sc">+</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>),</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="chap2_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</details></section>
+</section>
+<section id="excel教学视频" class="level1">
+<h1>Excel教学视频</h1>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1uK4y1X752/">Excel图表工具合集</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1UJ4m1b7Lb/">Excel图表工具综合运用——基金经理</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1uc41177Mn/">EXCEL数据清洗合集</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1imxqedE8B/">EXCEL如何美化箱线图？</a></p>
+</section>
+<section id="spss教学视频" class="level1">
+<h1>SPSS教学视频</h1>
+<section id="定性数据的图表工具" class="level2">
+<h2 class="anchored" data-anchor-id="定性数据的图表工具">定性数据的图表工具</h2>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1KN411H7VY/">SPSS 如何美化饼图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1HD4y1d7i6/">SPSS 帕累托图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1HZ4y1L7kT/">SPSS 简单条形图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV12A41177Wh/">SPSS 簇状条形图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1yp4y1r7hv/">SPSS 堆积条形图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1yi4y1j7Xi/">SPSS 交叉表</a></p>
+</section>
+<section id="定量数据的图表工具" class="level2">
+<h2 class="anchored" data-anchor-id="定量数据的图表工具">定量数据的图表工具</h2>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1Bt4y1v7vP/">SPSS 简单箱线图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1xK4y1h7xr/">SPSS 簇状箱线图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1Up4y1r7aV/">SPSS 直方图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1Fr4y1F7RM/">SPSS 分组直方图</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1af4y1B7Bi/">SPSS 探索工具</a></p>
+</section>
+</section>
+<section id="spss习题" class="level1">
+<h1>SPSS习题</h1>
+<section id="习题1-telco.sav" class="level2">
+<h2 class="anchored" data-anchor-id="习题1-telco.sav">习题1 telco.sav</h2>
+<p>数据文件telco.sav</p>
+<ul>
+<li><p>telco.sav文件在SPSS安装目录下,在电脑搜索文件名找到该文件。</p></li>
+<li><p>Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English</p></li>
+<li><p>Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/</p></li>
+<li><p>sample files简介：<a href="https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files" class="uri">https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files</a></p></li>
+</ul>
+<p>1.1 绘制ed的频数分布表，在表中列出各个组别的人数及占比。</p>
+<p>1.2 绘制客户的ed的饼图, 在各个扇区标注百分比，为各个扇区设置你喜欢的颜色。</p>
+<p>1.3 绘制custcat的饼图，按各组百分比降序排列扇区，并在扇区上标注类别名称和百分比。</p>
+<p>1.4 绘制custcat的条形图，按各组频数降序排列条形，并在条形上方标注各组人数。</p>
+<p>1.5 绘制客户custcat和ed的列联表，在表中列出行的百分比，列的百分比。</p>
+<p>1.6 将客户按ed分组，绘制各个组别客户的income的直方图</p>
+<p>1.7 将客户按ed分组，绘制各个组别客户的income的箱线图。</p>
+<p>1.8 将客户按ed分组，绘制各个组别客户的tenure的直方图。</p>
+<p>1.9 将客户按ed分组，绘制各个组别客户的tenure的箱线图。</p>
+<p>1.10 将客户按region、gender分成6个组别，绘制各个组别客户的tenure的直方图。</p>
+<p>1.11 将客户按region、gender分成6个组别，绘制各个组别客户的income的直方图。</p>
+<p>1.12 绘制retire = YES的客户的income的茎叶图。</p>
+</section>
+<section id="习题2-毕业生.xlsx" class="level2">
+<h2 class="anchored" data-anchor-id="习题2-毕业生.xlsx">习题2 毕业生.xlsx</h2>
+<p>数据文件:毕业生.xlsx(在QQ 群文件的“实验数据”文件中）</p>
+<ul>
+<li>数据文件下载: <a href="https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789" class="uri">https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789</a></li>
+</ul>
+<p>数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中）</p>
+<p>要求：利用SPSS完成</p>
+<p>2.1 绘制毕业生的专业分布的频数分布表、条形图(按各组频数降序排列条形)。</p>
+<p>2.2 绘制毕业生政治面貌分布的饼图，按各组百分比降序排列扇区，并在扇区上标注类别名称和百分比。</p>
+<p>条形图(按各组频数降序排列条形)，为各个扇区设置你喜欢的颜色。</p>
+<p>2.3 绘制毕业生政治面貌和性别的列联表，在表中列出行的百分比，列的百分比。</p>
+<p>2.4 将毕业生按专业分组，绘制各个专业毕业生月薪的直方图。</p>
+<p>2.5 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的直方图</p>
+<p>2.6 将毕业生按专业分组，绘制各个专业毕业生月薪的箱线图。</p>
+<p>2.7 将毕业生按是否在广州就业分组，绘制两个组别毕业生月薪的箱线图。</p>
+<p>2.8 将毕业生按生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的直方图。</p>
+<p>2.9 将毕业生按生源地是否在广州，就业地是否在广州分成4个组别，绘制各个组别毕业生薪酬的箱线图。</p>
+<p>2.10 绘制物流管理专业毕业生月薪的茎叶图。请简要描述该专业毕业生月薪分布的特征。（SPSS主菜单：分析，图…勾选茎叶图，提示：月薪分布在哪个区间最密集？其分布是对称、左偏还是右偏？）</p>
+</section>
+</section>
+<section id="excel习题" class="level1">
+<h1>Excel习题</h1>
+<section id="习题3-毕业生.xlsx" class="level2">
+<h2 class="anchored" data-anchor-id="习题3-毕业生.xlsx">习题3 毕业生.xlsx</h2>
+<p>数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中），用Excel完成以下任务：</p>
+<p>3.1 绘制毕业生性别分布的频数分布表，在表中列出男性和女性的人数及比重。</p>
+<p>3.2 绘制毕业生性别分布的饼图和条形图。</p>
+<p>3.3 绘制毕业生的专业人数分布的频数分布表，在表中列出各个专业的人数和百分比。</p>
+<p>3.4 绘制毕业生各专业人数分布的帕累托图。</p>
+<p>3.5 绘制毕业生的政治面貌的频数分布表。</p>
+<p>3.6 绘制毕业生的政治面貌的瀑布图。</p>
+<p>3.7 绘制毕业生的就业单位类型的频数分布表。</p>
+<p>3.8 对毕业生先按性别、再按就业单位类型进行层级分组，绘制树状图。</p>
+<p>3.9 对毕业生先按性别、再按政治面貌进行层级分组，绘制树状图。</p>
+</section>
+<section id="习题4-毕业生.xlsx" class="level2">
+<h2 class="anchored" data-anchor-id="习题4-毕业生.xlsx">习题4 毕业生.xlsx</h2>
+<p>数据文件：毕业生.xlsx(数据文件在QQ 群文件夹中），用Excel完成以下任务：</p>
+<p>4.1 绘制毕业生月薪的频数分布表，采用适宜的组矩，在表中列出各个组别的人数和百分比。</p>
+<p>4.2 绘制毕业生月薪的直方图。</p>
+<p>4.3 绘制毕业生月薪的频数折线图、累积百分比折线图，在图中标注出频数或累积百分比。在870位毕业生中，月薪小于等于4000、小于等于6000的各占比多少？。</p>
+<p>4.4 绘制毕业生月薪的箱线图，在箱线图中标注出第1个四分位数、中位数和第3个四分位数。</p>
+</section>
+</section>
+<section id="习题讲评视频" class="level1">
+<h1>习题讲评视频</h1>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1Py411z7LB/">Excel习题3讲评</a></p>
+<p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1xx4y1J7pm/">Excel习题4讲评</a></p>
+
+
 </section>
 
 </main> <!-- /main -->
