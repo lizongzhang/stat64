@@ -1,6 +1,6 @@
 ---
 title: "<span style='font-size: 80px;'>汽车性能分析</span>"
-subtitle: "<span style='font-size: 80px;'>第8-9章</span>"
+subtitle: "<span style='font-size: 80px;'>假设检验的应用</span>"
 date: today
 author: "<span style='color: #044875;'>Li Zongzhang</span>"
 format: 

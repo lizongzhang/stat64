@@ -10,6 +10,11 @@ title: "案例"
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[案例作业要求](https://lizongzhang.github.io/stat64/casereq.html)
 
+# 小组汇报
+
+
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[统计学期末汇报要求](https://lizongzhang.github.io/stat64/casefinal.html){target="_blank"}
+
 ## 案例示例
 
 -   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[chap 2-3 广州六大奶茶品牌](https://lizongzhang.github.io/stat24/case1pre.html)
@@ -22,7 +27,6 @@ title: "案例"
   
 ## 往届小组作业演示文稿
 
--   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[饮料特征分析——图表工具和描述统计R](https://lizongzhang.github.io/stat/stu6.html)
 
 -   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[广东省地市领导班子特征分析——图表工具SPSS](https://lizongzhang.github.io/stat/stu1.html)
 
@@ -77,17 +81,6 @@ title: "案例"
 
 -   请带笔记本电脑。
 
-# 第3-4章小组作业点评
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第3-4章小组作业点评](https://lizongzhang.github.io/statwithspss/case1comment.html)
-
-# 第7-8章小组作业点评
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第7-8章小组作业点评](https://lizongzhang.github.io/statwithspss/case2comment.html)
-
-# 第9-10章小组作业点评
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[第9-10章小组作业点评](https://lizongzhang.github.io/statwithspss/case3comment.html)
 
 
 # Q&A

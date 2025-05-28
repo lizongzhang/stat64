@@ -9,62 +9,39 @@ title: "第9章"
 
 # 教学视频 
 
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[什么是P值？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=1) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[显著性水平和P值的区别？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=2) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的检验：Z检验还是T检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=3) 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单侧检验还是双侧检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=4) 
+
+<details>
+  <summary> 
+  <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">
+  <span style="color:blue;">配对样本和独立样本的区别</summary>
+
+
+{{< video img/paired_samples480p.mp4 >}}
+    
+<details>
+
 ## Excel操作视频
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 拟合优度检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV1454y167ko/)
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 独立性检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV19A411x7EU/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的Z检验：Z.test函数](https://www.bilibili.com/video/BV1L54y1r73w/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验](https://www.bilibili.com/video/BV1uv411r7ws/)
+        
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验：P值法和临界值法](https://www.bilibili.com/video/BV1mr4y1w7yp/)
+
+
 
 ## SPSS操作视频
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 拟合优度检验](https://www.bilibili.com/video/BV16r4y1c7bZ/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 独立性检验：两个定性变量是否相互独立？](https://www.bilibili.com/video/BV1pD4y1R7KC)
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单个总体参数的T检验](https://www.bilibili.com/video/BV1jZ4y1L7ne/)
 
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 列联表分析应用举例](https://www.bilibili.com/video/BV1Kp4y167vZ)
-
-# 课堂练习
-
-<details>
-  <summary>根据Excel输出结果回答问题</summary>
-  
-数据简介: 下图是505位基金经理的性别、学历、专业的数据结构（数据文件：习题14.1.xlsx），完成以下任务：
-
-![](img/manager1.png){.lightbox} 
-
-请回答以下问题：
-
-1. 补充完整下图中1-6号单元格处的数字
-
-![](img/manager2.png){.lightbox}
-
-2 回答下列问题
-
-- 2.1 写出第1题中独立性检验的原假设和备择假设.
-    
-- 2.2 写出独立性检验中卡方检验统计量的计算公式？
-    
-- 2.3 11.345是卡方分布上的哪个值？可以画图示意.
-    
-- 2.4 解释P值的含义.
-
-- 2.5 基金经理的性别和专业是否独立？若不独立，简要描述二者的关系有何特征？
-
-![](img/manager3.png){.lightbox}
-
-
-<details>
-
-# 习题答案
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[9.14, 9.24, 9.25, 9.47, 9.50, 9.56 ](https://lizongzhang.github.io/business_stat/solution9.html)
-
-# 学生习作讲评
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> [第9章教材习题学生习作点评](https://lizongzhang.github.io/statwithspss/chap9ex.html){target="_blank"}
-
-# 拓展资源
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">独立性检验计算器 <https://www.standarddeviationcalculator.io/chi-square-calculator>{target="_blank"}
-
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[习题答案 9.14, 9.24, 9.25, 9.47, 9.50, 9.56 ](https://lizongzhang.github.io/business_stat/solution9.html)

@@ -7,99 +7,83 @@ title: "第8章"
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap8
         讲义](https://lizongzhang.github.io/business_stat/chap8.html)
 
+
 # 教学视频
 
-<details>
-  <summary>小调查</summary>
-
-![](img/chap7cloud1.png){.lightbox} 
-![](img/chap7cloud2.png){.lightbox} 
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的置信区间是如何构造的？](https://www.bilibili.com/video/BV1j64y1f7rY/)
+            
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体方差的置信区间是如何构造的？](https://www.bilibili.com/video/BV1PV411h7rP/)
 
 
-</details>
+# Excel习题
 
-## 重点难点视频
+## 习题1 置信水平的理解
 
+总体服从均值为80，标准差为5的正态分布。
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[什么是P值？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=1) 
+从总体中抽取容量为36的个体，组成一个样本，利用该样本构造总体均值的90%的置信区间。重复该过程500次，利用这500个样本构造500个总体均值的90%的置信区间。计算这500个置信区间中包含总体均值80的比例是多少？
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[显著性水平和P值的区别？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=2) 
+从总体中抽取容量为36的个体，组成一个样本，利用该样本构造总体均值的95%的置信区间。重复该过程500次，利用这500个样本构造500个总体均值的95%的置信区间。计算这500个置信区间中包含总体均值80的比例是多少？
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的检验：Z检验还是T检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=3) 
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单侧检验还是双侧检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=4) 
-
-<details>
-  <summary> 
-  <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">
-  <span style="color:blue;">配对样本和独立样本的区别</summary>
+从总体中抽取容量为36的个体，组成一个样本，利用该样本构造总体均值的99%的置信区间。重复该过程500次，利用这500个样本构造500个总体均值的99%的置信区间。计算这500个置信区间中包含总体均值80的比例是多少？
 
 
-{{< video img/paired_samples480p.mp4 >}}
-    
-<details>
+# SPSS习题
 
-## Excel操作
+用SPSS完成教材习题7.2或7.4
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的Z检验：Z.test函数](https://www.bilibili.com/video/BV1L54y1r73w/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验](https://www.bilibili.com/video/BV1uv411r7ws/)
-        
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 总体均值的T检验：P值法和临界值法](https://www.bilibili.com/video/BV1mr4y1w7yp/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体方差比的F检验](https://www.bilibili.com/video/BV1Zr4y1F7jK/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体均值是否相等的T检验](https://www.bilibili.com/video/BV16Z4y137HV/) 
-        
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 配对样本的T检验](https://www.bilibili.com/video/BV1mD4y1Q77U/) 
-
-## SPSS操作
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单个总体参数的T检验](https://www.bilibili.com/video/BV1jZ4y1L7ne/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[两个独立样本t检验](https://www.bilibili.com/video/BV1bi4y1j7Gc/)
-
-
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[配对样本的t检验](https://www.bilibili.com/video/BV1Fy4y167rs)
-
-# 课堂练习
-
-<details>
-  <summary>根据Excel输出结果回答问题</summary>
-  
-数据简介：随机选取36人参加打字速度（WPM， Words Per Minute）测试, 如图所示，B列下方是第1轮测试的成绩。 第1轮测试后，这36人利用打字软件TYPER MASTER进行了2小时练习，然后参加了第2轮测试。第2轮测试的成绩在C列下方，两次测试的成绩的差距在D列下方。
-
-请回答以下问题：
-
-1. 请写出如图所示的t检验的假设检验的：
-
-    - 1.1 原假设和备择假设
-    
-    - 1.2 检验统计量服从什么分布？
-    
-    - 1.3 检验统计量的值是什么？
-    
-    - 1.4 P值是多少？并解释P值的含义
-    
-    - 1.5 在0.05的显著性水平下，检验结论是什么？
-
-
-2. 请写出图中F8单元格中的数值的计算式？
-
-![](img/typing.png){.lightbox} 
-
-<details>
 
 # 习题答案
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[8.10, 8.13, 8.16, 8.65](https://lizongzhang.github.io/business_stat/solution8.html)
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[7.5, 7.6, 7.7, 7.12, 7.13, 7.14](https://lizongzhang.github.io/business_stat/solution7.html)
 
 
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel数值模拟： 什么是置信水平？你的理解正确吗？](https://www.bilibili.com/video/BV1eM411D7Va/)
 
 # 学生习作讲评
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> [第8章教材习题学生习作点评](https://lizongzhang.github.io/statwithspss/chap8ex.html){target="_blank"}
+思考1：如何选择置信水平？99%，95%，90%该选哪一个？
+
+  - 选择较高的置信水平可以增加对估计结果的信心，但会增加区间的宽度，从而降低估计的精确性。
+
+  - 较低的置信水平会使置信区间更窄，但可能会增加真实参数不在该区间内的风险。
+  
+思考2：本题中，能用=confidence.norm()来模拟吗？
+
+<details>
+  <summary>三种置信水平的理解</summary>
+
+![](img/chap7exstu1.png){.lightbox} 
+  
+</details> 
+
+
+
+# 拓展资源
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">总体均值的区间估计动画演示 <https://www.geogebra.org/m/k83q9QDx>{target="_blank"}
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">置信水平动画演示 <https://rpsychologist.com/d3/ci/>{target="_blank"}
+
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">总体均值区间估计计算器 <https://www.geogebra.org/m/grhzwpug>{target="_blank"}
+
+为什么总体均值区间估计的构造中要用到双侧alpha分位数？
+
+<details>
+  <summary>表格</summary>
+
+![](img/symmetric.png){.lightbox} 
+  
+  
+<details>  
+
+
+
+
+
+
 
 
 # 拓展资源

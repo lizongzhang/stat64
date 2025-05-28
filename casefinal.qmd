@@ -1,0 +1,410 @@
+---
+title:  "统计学期末汇报要求"
+date: today
+author: 
+  name: "李宗璋"
+  url: https://space.bilibili.com/590872906/
+format: 
+  revealjs:
+    incremental: FALSE
+    theme: sky
+    slide-number: true
+    code-fold: true
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    css: styles.css
+    footer: |
+      <https://lizongzhang.github.io/stat64><br>© 2025 Li Zongzhang 
+    include-before-body: 
+      - header.html
+      - fonts.html
+    title-slide-attributes: 
+      data-background-image: "img/bili_up.jpg"  
+      data-background-size: "50px"        
+      data-background-position: "center bottom 120px"  
+    plugins: [highlight, zoom, notes]
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+#| echo: FALSE
+par(family  = 'STKaiti')
+library(showtext)
+showtext_auto()
+library(tidyverse)
+```
+
+------
+
+## 汇报要求
+
+- 汇报时间：5分钟
+
+- 汇报内容：
+
+  - 数据来源
+  
+  - 变量含义
+
+  - 数据分析
+
+  - 研究结论
+
+  - 经验分享
+
+- 文件形式：演示文稿，转成PDF文档
+
+
+# 示例：汽车性能分析
+
+---
+
+## 1 数据来源
+
+- 数据集：`mpg`
+  - Fuel economy data from 1999 to 2008 for 38 popular models of cars
+- 样本容量：234
+
+---
+
+## 2 变量含义
+
+- `manufacturer`：制造商
+- `model`：车型
+- `displ`：发动机排量（升）
+- `year`：出厂年份
+- `cyl`：气缸数
+- `trans`：变速箱类型
+- `drv`：驱动方式（f = 前驱，r = 后驱，4 = 四驱）
+- `cty`：城市燃油效率（英里/加仑）
+- `hwy`：高速燃油效率（英里/加仑）
+- `fl`：燃油类型
+- `class`：车辆类别
+
+
+----
+
+## 3 数据分析
+
+3.1 可视化
+
+3.2 描述性统计分析
+
+3.3 区间估计
+
+3.4 假设检验
+
+3.5 独立性检验
+
+3.6 方差分析
+
+
+
+----
+
+## 3.1 可视化：帕累托图
+
+```{r}
+#| echo: TRUE
+
+mpg %>% 
+  ggplot(aes(fct_infreq(class))) + 
+  geom_bar(col = "cyan", fill = "cyan")+
+  labs(title = "Pareto Diagram", x = "Manufacturer") +
+    geom_text(stat = "count",
+            aes(label = after_stat(count)), 
+            vjust = -0.5)+     
+  guides(x = guide_axis(angle = 45))+
+  labs(title = "Pareto Diagram", x = "Manufacturer") +
+  scale_y_continuous(limits = c(0, 70))
+```
+
+SUV、紧凑型和中型车占比最高，是主要车型类别。
+
+------
+
+## 3.1 可视化：饼图
+
+```{r}
+#| echo: TRUE
+
+
+df <- mpg %>%
+  mutate(class = fct_lump_n(class, 5)) %>% 
+  count(class) %>%
+  arrange(desc(n)) %>%
+  mutate(pct = round(100 * n / sum(n), 0),
+         label = paste0(class, "\n", pct, "%"),
+         class = factor(class, levels = class) # 按频数降序设置因子顺序
+  )
+
+colors <- colorRampPalette(c("lightblue", "blue", "darkblue"))(nrow(df))
+
+# 绘制饼图（极坐标 + 降序排列）
+ggplot(df, aes(x = "", y = n, fill = class)) +
+  geom_bar(stat = "identity", width = 1) +
+  scale_fill_manual(values = colors) +
+  coord_polar(theta = "y", direction = -1) +  # 逆时针方向排列
+  geom_text(aes(label = label), 
+            col = "white",
+            position = position_stack(vjust = 0.5), size = 5) +
+  theme_void() +
+  theme(legend.position = "none")
+```
+SUV、紧凑型和中型车三类车型占比共计64%。
+
+
+--------------
+
+## 3.1 可视化：分组箱线图
+
+```{r}
+#| echo: TRUE
+
+mpg %>%
+  mutate(class = fct_lump_n(class, 5)) %>% 
+  ggplot(aes(reorder(class,displ),displ,
+             col = class))+
+  geom_boxplot()+
+  guides(x = guide_axis(n.dodge = 3)) +
+  theme(legend.position = "none")
+```
+
+SUV与皮卡排量较大，紧凑型较小。
+
+--------------
+
+## 3.1 可视化：分组直方图
+
+```{r}
+#| echo: TRUE
+
+mpg %>% 
+  ggplot(aes(cty))+
+  geom_histogram(col = 1, fill = 5, binwidth = 2)+
+  stat_bin(aes(label = ifelse(after_stat(count) == 0, "", 
+                              after_stat(count))), binwidth = 2, 
+           geom = "text",vjust = -0.5)+
+  scale_y_continuous(limits = c(0,50), breaks = seq(0,50,10))+
+  scale_x_continuous(breaks = seq(9,35,2)) +
+  facet_wrap(~ drv, ncol = 1,
+    labeller = as_labeller(c(
+      "4" = "4-wheel drive",
+      "f" = "Front-wheel drive",
+      "r" = "Rear-wheel drive"
+    ))) 
+
+```
+前驱车型城市油耗分布较高，后驱车型油耗偏低且集中，四驱居中偏低。
+
+
+---
+
+## 3.2 描述性统计分析
+
+```{r}
+#| echo: true
+library(psych)
+
+mpg %>%
+  select(where(is.numeric)) %>% 
+  select(-year) %>% 
+  describe() %>% 
+  select(n, mean, sd, median, min, max) 
+
+
+```
+
+高速油耗高于城市油耗，发动机排量和气缸数变异较小。
+
+
+---
+
+## 3.3 区间估计
+
+```{r}
+#| echo: true
+library(psych)
+
+
+ci <- t.test(mpg$cty)$conf.int
+sprintf("城市油耗的总体均值的95%%置信区间：[%.2f, %.2f]", ci[1], ci[2])
+
+ci <- t.test(mpg$hwy)$conf.int
+sprintf("高速油耗的总体均值的95%%置信区间：[%.2f, %.2f]", ci[1], ci[2])
+
+```
+
+---
+
+## 3.4 单个总体均值的假设检验
+
+
+
+```{r}
+#| echo: TRUE
+#| fig-width: 15
+#| fig-height: 8
+
+library(ggstatsplot)
+
+gghistostats(mpg, cty, 
+             test.value = 16,
+             bin.args = list(color = "black",
+                             fill = "cyan")) +
+  theme_classic(base_size = 15)
+```
+
+
+---
+
+## 3.4 单个总体均值的假设检验
+
+$H_0: \mu \leq 16$
+
+$H_1: \mu > 16$
+
+拒绝原假设$H_0: \mu \leq 16$ 。
+
+在城市, 油耗均值大于16英里/加仑。
+
+---
+
+## 3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较
+
+```{r}
+#| echo: TRUE
+#| warning: false
+mpg %>%
+  filter(drv %in% c("4", "f")) %>%
+  ggbetweenstats(drv, 
+                 cty,
+                 p.adjust.method = "none",
+                 xlab = "drive",
+                 package = "RColorBrewer",
+                 palette = "Set1",
+                 violin.args = list(width = 0)
+  ) +
+  theme_classic(base_size = 15)
+```
+
+
+---
+
+## 3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较
+
+$H_0: \mu_4 \geq \mu_f$
+
+$H_1: \mu_4 < \mu_f$
+
+在城市, $\mu_4 < \mu_f$, 前驱(20)比四驱(14)省油。
+
+---
+
+## 3.5 独立性检验：驱动类型和气缸数量的关系
+
+```{r}
+#| echo: TRUE
+ggbarstats(mpg,
+           drv,
+           cyl,
+           package = "RColorBrewer",
+           palette = "Paired")+
+  theme_bw(base_size = 15)
+```
+
+---
+
+## 3.5 独立性检验：驱动类型和气缸数量的关系
+
+驱动类型和气缸数量不独立。
+
+4缸，72%前驱，28%四驱; 
+
+6缸，54%前驱， 41%四驱，5%后驱; 
+
+8缸，1%前驱， 69%四驱，30%后驱。
+
+---
+
+## 3.6 方差分析
+
+```{r}
+#| echo: TRUE
+
+mpg %>% 
+  mutate(drv = fct_reorder(drv, displ, .fun = median)) %>%
+  ggbetweenstats(
+    drv, 
+    displ,
+    type = "parametric",        
+    palette = "Accent", 
+    violin.args = list(width = 0),
+    xlab = "drv",
+    ylab = "发动机排量",
+    bf.message = FALSE,
+    digits = 3L
+  )
+
+```
+
+不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。
+---
+
+## 3.6 方差分析
+
+```{r}
+#| echo: TRUE
+
+aov(cty ~ drv, data = mpg) %>% 
+  summary()
+```
+
+
+不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。
+---
+
+
+
+## 4 研究结论
+
+- SUV、紧凑型和中型车三类车型占比共计64%。
+
+- SUV与皮卡排量较大，紧凑型较小。
+
+
+- 城市油耗的总体均值的95%置信区间：[16.31, 17.41]
+
+- 高速油耗的总体均值的95%置信区间：[22.67, 24.21]
+
+- 在城市, 油耗均值大于16英里/加仑。
+
+- 在城市, $\mu_4 < \mu_f$, 前驱(20)比四驱(14)省油。
+
+- 驱动类型和气缸数量不独立：4缸，72%前驱，28%四驱; 6缸，54%前驱， 41%四驱，5%后驱; 8缸，1%前驱， 69%四驱，30%后驱。
+
+- 不同驱动方式的车型发动机排量差异显著: 后驱(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。
+
+
+
+---
+
+## 5 经验分享
+
+- ...
+
+- ...
+
+- ...
+
+- ...
+
+
+
+
+
+
+

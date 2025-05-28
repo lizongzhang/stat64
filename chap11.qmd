@@ -7,73 +7,23 @@ title: "第11章"
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap11
         讲义](https://lizongzhang.github.io/business_stat/chap11.html)
 
-# 教学视频
+# 教学视频 
 
-# Excel操作视频
+## Excel操作视频
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"/>[EXCEL相关回归分析的函数工具](https://www.bilibili.com/video/BV15v411b7B9/)
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 拟合优度检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV1454y167ko/)
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"/>[EXCEL数据分析工具库中的回归分析](https://www.bilibili.com/video/BV13v411b7EU/)
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 独立性检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV19A411x7EU/)
 
-# SPSS操作视频
+## SPSS操作视频
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"/>[SPSS如何报告相关系数矩阵？](https://www.bilibili.com/video/BV1Pw411878L)
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 拟合优度检验](https://www.bilibili.com/video/BV16r4y1c7bZ/)
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"/>[SPSS 一元线性回归？](https://www.bilibili.com/video/BV1QK41137Sf)
-
-# 课堂练习
-
-<details>
-
-<summary>根据Excel输出结果回答问题</summary>
-
-ABC企业100名员工的月工作时长(单位：小时)和月薪数据(单位：元)的数据如下图，请根据Excel输出结果回答问题。
-
-![](img/11exatclass.png){.lightbox}
-
-1.  月工作时长和月薪之间的相关系数是多少？
-
-2.  写出估计的回归方程。
-
-3.  解释估计的回归方程中解释变量的系数的含义。
-
-4.  回归方程的判定系数是多少？写出判定系数的计算表达式，解释其含义。
-
-5.  某员工的月工作时长为200小时，预测其月薪是多少？
-
-</details>
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 独立性检验：两个定性变量是否相互独立？](https://www.bilibili.com/video/BV1pD4y1R7KC)
 
 
-# 习题讲评
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"/>[教材第11章习题讲评](https://www.bilibili.com/video/BV1Lu411W7wZ/)
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"/>[教材习题11.3在SPSS中的实现](https://www.bilibili.com/video/BV1iw411b7qS)
-
-# 学生习作讲评
-
-<details>
-
-<summary>教材习题11.1-11.3</summary>
-
--   估计的回归方程的表达式.
-
--   斜率系数的含义：X变化1单位，Y的**平均变化**是beta1单位.
-
--   预测：将给定的X代入估计的回归方程，求出Y的估计值.
-
-![](img/11exstu1.png){.lightbox}
-
-![](img/11exstu2.png){.lightbox}
-
-![](img/11exstu2.png){.lightbox}
-
-</details>
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 列联表分析应用举例](https://www.bilibili.com/video/BV1Kp4y167vZ)
 
 # 拓展资源
 
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"/>[On the Laws of Inheritance in Man: I. Inheritance of Physical Characters](http://www.medicine.mcgill.ca/epidemiology/hanley/c607/ch10/pearson_1902_sect_1_4.pdf){target="_blank"}
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"/>一元回归OLS估计 [https://www.geogebra.org/m/EPqRjE7K](https://www.geogebra.org/m/EPqRjE7K){target="_blank"}
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"/>OLS方法动画演示 [https://setosa.io/ev/ordinary-least-squares-regression/](https://setosa.io/ev/ordinary-least-squares-regression/){target="_blank"}
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">独立性检验计算器 <https://www.standarddeviationcalculator.io/chi-square-calculator>{target="_blank"}
