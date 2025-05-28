@@ -1279,5 +1279,40 @@
     "title": "第10章",
     "section": "",
     "text": "两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
+  },
+  {
+    "objectID": "review.html",
+    "href": "review.html",
+    "title": "第1章",
+    "section": "",
+    "text": "Introduction 讲义\nGetting Started 讲义\nchap1 讲义"
+  },
+  {
+    "objectID": "review.html#题目1",
+    "href": "review.html#题目1",
+    "title": "第1章",
+    "section": "题目1",
+    "text": "题目1\n\n1.1 浏览下述二手房信息，可以提取二手房的哪些变量？\n\n\n点击浏览图片\n\n\n房源1：五山花园\n\n\n\n房源2：华农嵩山 \n房源3：汇景新城 \n\n\n\n1.2 从该网页中提取的变量是分类数据(有序分类还是无序分类), 还是数值数据(离散数据还是连续数据)？\n\n\n1.3 根据上述二手房房源信息，你感兴趣的问题是什么？"
+  },
+  {
+    "objectID": "review.html#题目2",
+    "href": "review.html#题目2",
+    "title": "第1章",
+    "section": "题目2",
+    "text": "题目2\n\n2.1 开展关于毕业生薪酬的研究，你感兴趣那些问题？列出研究问题。\n\n\n2.2 针对你想研究的的问题，你想收集那些数据？列出变量名称，这些数据是分类数据(有序分类还是无序分类), 还是数值数据(离散数据还是连续数据)？"
+  },
+  {
+    "objectID": "review.html#习题1",
+    "href": "review.html#习题1",
+    "title": "第1章",
+    "section": "习题1",
+    "text": "习题1\n数据文件telco.sav\n\ntelco.sav文件在SPSS安装目录下, 在电脑搜索文件名找到该文件。\nWindows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English\nMac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/\nsample files简介：https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files\n\n1.1 在SPSS中打开telco.sav文件，查看数据有多少行？有多少个变量？\n1.2 telco.sav文件中的变量ed的含义是什么？ed有哪几种取值？每种取值各有多少个个案？\n1.3 telco.sav文件中的变量tenure的含义是什么？报告tenure的均值、中位数、标准差。\n1.4 telco.sav文件中的变量address的含义是什么？报告address的均值、中位数、标准差。\n1.5 报告age, income, employ, resid的均值、中位数、标准差、最小值和最大值。"
+  },
+  {
+    "objectID": "review.html#习题2",
+    "href": "review.html#习题2",
+    "title": "第1章",
+    "section": "习题2",
+    "text": "习题2\n数据文件毕业生.xlsx\n\n数据文件下载: https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789\n\n2.1 将毕业生.xlsx导入到SPSS中，查看数据有多少行？有多少个变量？\n2.2 报告月薪的均值、中位数、标准差、最小值和最大值。\n2.3 统计各个专业的毕业生的人数。哪个专业的人数最多？占比最少？\n2.4 统计各个专业的毕业生的月薪的均值、中位数、标准差、最小值和最大值。\n2.5 将毕业生按就业地点分为广州和非广州两个组别，报告这两个组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。\n2.6 将毕业生按性别分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。\n2.7 将毕业生按单位类型分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。"
   }
 ]

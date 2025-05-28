@@ -27,3 +27,8 @@ title: "第11章"
 # 拓展资源
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">独立性检验计算器 <https://www.standarddeviationcalculator.io/chi-square-calculator>{target="_blank"}
+
+# 复习
+
+
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[知识点思维导图](https://lizongzhang.github.io/business_stat/review.html){target="_blank"}
