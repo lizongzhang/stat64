@@ -11,13 +11,10 @@ title: "第11章"
 
 ## Excel操作视频
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 拟合优度检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV1454y167ko/)
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[EXCEL 独立性检验 CHISQ.TEST函数的使用](https://www.bilibili.com/video/BV19A411x7EU/)
 
 ## SPSS操作视频
-
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 拟合优度检验](https://www.bilibili.com/video/BV16r4y1c7bZ/)
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 独立性检验：两个定性变量是否相互独立？](https://www.bilibili.com/video/BV1pD4y1R7KC)
 
