@@ -1131,7 +1131,7 @@
     "href": "casefinal.html#数据分析",
     "title": "统计学期末汇报要求",
     "section": "3 数据分析",
-    "text": "3 数据分析\n3.1 可视化\n3.2 描述性统计分析\n3.3 区间估计\n3.4 假设检验\n3.5 独立性检验\n3.6 方差分析"
+    "text": "3 数据分析\n3.1 可视化\n3.2 描述性统计分析\n3.3 区间估计\n3.4 假设检验\n3.5 方差分析\n3.6 独立性检验"
   },
   {
     "objectID": "casefinal.html#可视化帕累托图",
@@ -1207,29 +1207,29 @@
     "objectID": "casefinal.html#独立性检验驱动类型和气缸数量的关系",
     "href": "casefinal.html#独立性检验驱动类型和气缸数量的关系",
     "title": "统计学期末汇报要求",
-    "section": "3.5 独立性检验：驱动类型和气缸数量的关系",
-    "text": "3.5 独立性检验：驱动类型和气缸数量的关系\n\n\nCode\nggbarstats(mpg,\n           drv,\n           cyl,\n           package = \"RColorBrewer\",\n           palette = \"Paired\")+\n  theme_bw(base_size = 15)"
+    "section": "3.6 独立性检验：驱动类型和气缸数量的关系",
+    "text": "3.6 独立性检验：驱动类型和气缸数量的关系\n\n\nCode\nggbarstats(mpg,\n           drv,\n           cyl,\n           package = \"RColorBrewer\",\n           palette = \"Paired\")+\n  theme_bw(base_size = 15)"
   },
   {
     "objectID": "casefinal.html#独立性检验驱动类型和气缸数量的关系-1",
     "href": "casefinal.html#独立性检验驱动类型和气缸数量的关系-1",
     "title": "统计学期末汇报要求",
-    "section": "3.5 独立性检验：驱动类型和气缸数量的关系",
-    "text": "3.5 独立性检验：驱动类型和气缸数量的关系\n驱动类型和气缸数量不独立。\n4缸，72%前驱，28%四驱;\n6缸，54%前驱， 41%四驱，5%后驱;\n8缸，1%前驱， 69%四驱，30%后驱。"
+    "section": "3.6 独立性检验：驱动类型和气缸数量的关系",
+    "text": "3.6 独立性检验：驱动类型和气缸数量的关系\n驱动类型和气缸数量不独立。\n4缸，72%前驱，28%四驱;\n6缸，54%前驱， 41%四驱，5%后驱;\n8缸，1%前驱， 69%四驱，30%后驱。"
   },
   {
     "objectID": "casefinal.html#方差分析",
     "href": "casefinal.html#方差分析",
     "title": "统计学期末汇报要求",
-    "section": "3.6 方差分析",
-    "text": "3.6 方差分析\n\n\nCode\nmpg %&gt;% \n  mutate(drv = fct_reorder(drv, displ, .fun = median)) %&gt;%\n  ggbetweenstats(\n    drv, \n    displ,\n    type = \"parametric\",        \n    palette = \"Accent\", \n    violin.args = list(width = 0),\n    xlab = \"drv\",\n    ylab = \"发动机排量\",\n    bf.message = FALSE,\n    digits = 3L\n  )\n\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
+    "section": "3.5 方差分析",
+    "text": "3.5 方差分析\n\n\nCode\nmpg %&gt;% \n  mutate(drv = fct_reorder(drv, displ, .fun = median)) %&gt;%\n  ggbetweenstats(\n    drv, \n    displ,\n    type = \"parametric\",        \n    palette = \"Accent\", \n    violin.args = list(width = 0),\n    xlab = \"drv\",\n    ylab = \"发动机排量\",\n    bf.message = FALSE,\n    digits = 3L\n  )\n\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
   },
   {
     "objectID": "casefinal.html#方差分析-1",
     "href": "casefinal.html#方差分析-1",
     "title": "统计学期末汇报要求",
-    "section": "3.6 方差分析",
-    "text": "3.6 方差分析\n\n\nCode\naov(cty ~ drv, data = mpg) %&gt;% \n  summary()\n\n\n             Df Sum Sq Mean Sq F value Pr(&gt;F)    \ndrv           2   1879   939.4   92.68 &lt;2e-16 ***\nResiduals   231   2342    10.1                   \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
+    "section": "3.5 方差分析",
+    "text": "3.5 方差分析\n\n\nCode\naov(cty ~ drv, data = mpg) %&gt;% \n  summary()\n\n\n             Df Sum Sq Mean Sq F value Pr(&gt;F)    \ndrv           2   1879   939.4   92.68 &lt;2e-16 ***\nResiduals   231   2342    10.1                   \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
   },
   {
     "objectID": "casefinal.html#相关分析",

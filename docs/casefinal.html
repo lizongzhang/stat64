@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="李宗璋">
-  <meta name="dcterms.date" content="2025-05-28">
+  <meta name="dcterms.date" content="2025-05-29">
   <title>统计学64学时 – 统计学期末汇报要求</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -211,7 +211,7 @@
 </div>
 </div>
 
-  <p class="date">2025-05-28</p>
+  <p class="date">2025-05-29</p>
 </section>
 <section id="汇报要求" class="slide level2">
 <h2>汇报要求</h2>
@@ -265,8 +265,8 @@
 <p>3.2 描述性统计分析</p>
 <p>3.3 区间估计</p>
 <p>3.4 假设检验</p>
-<p>3.5 独立性检验</p>
-<p>3.6 方差分析</p>
+<p>3.5 方差分析</p>
+<p>3.6 独立性检验</p>
 </section>
 <section id="可视化帕累托图" class="slide level2">
 <h2>3.1 可视化：帕累托图</h2>
@@ -456,58 +456,36 @@ hwy   234 23.44 5.95   24.0 12.0  44</code></pre>
 <p><span class="math inline">\(H_1: \mu_4 &lt; \mu_f\)</span></p>
 <p>在城市, <span class="math inline">\(\mu_4 &lt; \mu_f\)</span>, 前驱(20)比四驱(14)省油。</p>
 </section>
-<section id="独立性检验驱动类型和气缸数量的关系" class="slide level2">
-<h2>3.5 独立性检验：驱动类型和气缸数量的关系</h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="fu">ggbarstats</span>(mpg,</span>
-<span id="cb13-2"><a></a>           drv,</span>
-<span id="cb13-3"><a></a>           cyl,</span>
-<span id="cb13-4"><a></a>           <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
-<span id="cb13-5"><a></a>           <span class="at">palette =</span> <span class="st">"Paired"</span>)<span class="sc">+</span></span>
-<span id="cb13-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-
-</div>
-<img data-src="casefinal_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
-<section id="独立性检验驱动类型和气缸数量的关系-1" class="slide level2">
-<h2>3.5 独立性检验：驱动类型和气缸数量的关系</h2>
-<p>驱动类型和气缸数量不独立。</p>
-<p>4缸，72%前驱，28%四驱;</p>
-<p>6缸，54%前驱， 41%四驱，5%后驱;</p>
-<p>8缸，1%前驱， 69%四驱，30%后驱。</p>
-</section>
 <section id="方差分析" class="slide level2">
-<h2>3.6 方差分析</h2>
+<h2>3.5 方差分析</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
-<span id="cb14-2"><a></a>  <span class="fu">mutate</span>(<span class="at">drv =</span> <span class="fu">fct_reorder</span>(drv, displ, <span class="at">.fun =</span> median)) <span class="sc">%&gt;%</span></span>
-<span id="cb14-3"><a></a>  <span class="fu">ggbetweenstats</span>(</span>
-<span id="cb14-4"><a></a>    drv, </span>
-<span id="cb14-5"><a></a>    displ,</span>
-<span id="cb14-6"><a></a>    <span class="at">type =</span> <span class="st">"parametric"</span>,        </span>
-<span id="cb14-7"><a></a>    <span class="at">palette =</span> <span class="st">"Accent"</span>, </span>
-<span id="cb14-8"><a></a>    <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>),</span>
-<span id="cb14-9"><a></a>    <span class="at">xlab =</span> <span class="st">"drv"</span>,</span>
-<span id="cb14-10"><a></a>    <span class="at">ylab =</span> <span class="st">"发动机排量"</span>,</span>
-<span id="cb14-11"><a></a>    <span class="at">bf.message =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb14-12"><a></a>    <span class="at">digits =</span> <span class="dv">3</span>L</span>
-<span id="cb14-13"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>mpg <span class="sc">%&gt;%</span> </span>
+<span id="cb13-2"><a></a>  <span class="fu">mutate</span>(<span class="at">drv =</span> <span class="fu">fct_reorder</span>(drv, displ, <span class="at">.fun =</span> median)) <span class="sc">%&gt;%</span></span>
+<span id="cb13-3"><a></a>  <span class="fu">ggbetweenstats</span>(</span>
+<span id="cb13-4"><a></a>    drv, </span>
+<span id="cb13-5"><a></a>    displ,</span>
+<span id="cb13-6"><a></a>    <span class="at">type =</span> <span class="st">"parametric"</span>,        </span>
+<span id="cb13-7"><a></a>    <span class="at">palette =</span> <span class="st">"Accent"</span>, </span>
+<span id="cb13-8"><a></a>    <span class="at">violin.args =</span> <span class="fu">list</span>(<span class="at">width =</span> <span class="dv">0</span>),</span>
+<span id="cb13-9"><a></a>    <span class="at">xlab =</span> <span class="st">"drv"</span>,</span>
+<span id="cb13-10"><a></a>    <span class="at">ylab =</span> <span class="st">"发动机排量"</span>,</span>
+<span id="cb13-11"><a></a>    <span class="at">bf.message =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb13-12"><a></a>    <span class="at">digits =</span> <span class="dv">3</span>L</span>
+<span id="cb13-13"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 
 </div>
-<img data-src="casefinal_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"><p>不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。</p>
+<img data-src="casefinal_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"><p>不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。</p>
 </section>
 <section id="方差分析-1" class="slide level2">
-<h2>3.6 方差分析</h2>
+<h2>3.5 方差分析</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">aov</span>(cty <span class="sc">~</span> drv, <span class="at">data =</span> mpg) <span class="sc">%&gt;%</span> </span>
-<span id="cb15-2"><a></a>  <span class="fu">summary</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a><span class="fu">aov</span>(cty <span class="sc">~</span> drv, <span class="at">data =</span> mpg) <span class="sc">%&gt;%</span> </span>
+<span id="cb14-2"><a></a>  <span class="fu">summary</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>             Df Sum Sq Mean Sq F value Pr(&gt;F)    
@@ -518,6 +496,28 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
 </div>
 <p>不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。</p>
+</section>
+<section id="独立性检验驱动类型和气缸数量的关系" class="slide level2">
+<h2>3.6 独立性检验：驱动类型和气缸数量的关系</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a><span class="fu">ggbarstats</span>(mpg,</span>
+<span id="cb16-2"><a></a>           drv,</span>
+<span id="cb16-3"><a></a>           cyl,</span>
+<span id="cb16-4"><a></a>           <span class="at">package =</span> <span class="st">"RColorBrewer"</span>,</span>
+<span id="cb16-5"><a></a>           <span class="at">palette =</span> <span class="st">"Paired"</span>)<span class="sc">+</span></span>
+<span id="cb16-6"><a></a>  <span class="fu">theme_bw</span>(<span class="at">base_size =</span> <span class="dv">15</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+
+</div>
+<img data-src="casefinal_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
+<section id="独立性检验驱动类型和气缸数量的关系-1" class="slide level2">
+<h2>3.6 独立性检验：驱动类型和气缸数量的关系</h2>
+<p>驱动类型和气缸数量不独立。</p>
+<p>4缸，72%前驱，28%四驱;</p>
+<p>6缸，54%前驱， 41%四驱，5%后驱;</p>
+<p>8缸，1%前驱， 69%四驱，30%后驱。</p>
 </section>
 <section id="研究结论" class="slide level2">
 <h2>4 研究结论</h2>
