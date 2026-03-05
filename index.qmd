@@ -22,10 +22,10 @@ Textbook
 
 - Levine, David M., Kathryn A. Szabat, and David F. Stephan. Business Statistics: A First Course, Global Edition. 7th ed., Pearson, 2016.
 
-<img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载教材及配套数据文件](https://pan.baidu.com/s/1rsGgDFmyJd7wBp6dErXNZw?pwd=6666)
+<img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载教材及配套数据文件](https://pan.baidu.com/s/1rsGgDFmyJd7wBp6dErXNZw?pwd=6666){target="_blank"}
 
 
-教学软件
+# 教学软件
 
 - Microsoft Excel 2016或以上版本 <img src="img/excel_icon.png" style="width: 24px; height: 24px;margin-right: 10px">
 
@@ -34,23 +34,27 @@ Textbook
 <img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载Windows 64位系统的SPSS27安装文件](https://pan.baidu.com/s/1sP17tS6k2Jpg2NhTof0hXA?pwd=5678 )
 
 
-教学视频
+# 教学视频
 
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[Excel数据分析实战](https://space.bilibili.com/590872906/channel/collectiondetail?sid=758820)
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[Excel数据分析实战](https://space.bilibili.com/590872906/channel/collectiondetail?sid=758820){target="_blank"}
 
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS数据分析实战](https://space.bilibili.com/590872906/channel/collectiondetail?sid=758395&ctype=0)
+<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS数据分析实战](https://space.bilibili.com/590872906/channel/collectiondetail?sid=758395&ctype=0){target="_blank"}
 
-教学平台
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[91速课](https://www.91suke.com)测验，考勤等
-
-<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[在91速课中设置姓名和学号的方法](https://lizongzhang.github.io/stat/91.html)
+# 教学平台
 
 - QQ群：提交小组作业，提问答疑
 
-参考书
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[91速课](https://www.91suke.com){target="_blank"}测验，考勤等
 
-<img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载](https://pan.baidu.com/s/1EXJPZbl3NrIn3byaK0kTsQ?pwd=6789)
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[在91速课中设置姓名和学号的方法](https://lizongzhang.github.io/stat/91.html){target="_blank"}
+
+# 参考书
+
+<img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载](https://pan.baidu.com/s/1EXJPZbl3NrIn3byaK0kTsQ?pwd=6789){target="_blank"}
+
+# 教学互动
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px;">[匿名提问与教学节奏反馈](https://v.wjx.cn/vm/QFUwVuy.aspx#){target="_blank"}
 
 
 

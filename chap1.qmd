@@ -134,3 +134,8 @@ title: "第1章"
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">The Data And Story Library <https://dasl.datadescription.com/>{target="_blank"} 
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> Kaggle <https://www.kaggle.com/>{target="_blank"} 
+
+
+# 测验
+
+<img src="img/linke.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[Quiz: GETTING STARTED: IMPORTANT THINGS TO LEARN FIRST](https://ks.wjx.com/vm/hA8GRBD.aspx# ){target="_blank"}
