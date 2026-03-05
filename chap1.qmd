@@ -2,17 +2,73 @@
 title: "第1章"
 ---
 
-# Course Introduction
+# 讲义
 
-<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Introduction
-        讲义](https://lizongzhang.github.io/business_stat/intro.html){target="_blank"}
+<img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[课程简介讲义](https://lizongzhang.github.io/business_stat/intro.html){target="_blank"}
         
         
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Getting Started
         讲义](https://lizongzhang.github.io/business_stat/chapgs.html){target="_blank"}
         
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap1
-        讲义](https://lizongzhang.github.io/business_stat/chap1.html){target="_blank"}  
+        讲义](https://lizongzhang.github.io/business_stat/chap1.html){target="_blank"} 
+        
+# 本章难点
+
+<details>
+
+## GS: Descriptive Statistics & Inferential Statistics
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/branch4.jpg" style="width: 80%; display: block; margin: 15px auto;">
+<img src="img/branch3.png" style="width: 80%; display: block; margin: 15px auto;">
+<img src="img/branch1.png" style="width: 80%; display: block; margin: 15px auto;">
+<img src="img/branch2.png" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+## Classifying Variables by Type
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/var_type1.jpg" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+## Population vs Sample
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/popu_sample1.jpg" style="width: 80%; display: block; margin: 15px auto;">
+
+<img src="img/popu_sample2.jpg" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+## Types of Sampling Methods
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/sampling1.jpg" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+## Types of Survey Errors
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/survey_errors1.jpg" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+</details>
+
 
 
 
@@ -29,16 +85,14 @@ title: "第1章"
 
 - 房源1：五山花园
 
-<img src="img/house_1.png" alt="五山花园">
+<img src="img/house_1.png" style="width: 80%; display: block; margin: 15px auto;">
 
 - 房源2：华农嵩山
-<img src="img/house_2.png" alt="华农嵩山">
+<img src="img/house_2.png" style="width: 80%; display: block; margin: 15px auto;">
 
 
 - 房源3：汇景新城
-<img src="img/house_3.png" alt="汇景新城">
-
-
+<img src="img/house_3.png" style="width: 80%; display: block; margin: 15px auto;">
 
 ### 1.2 从该网页中提取的变量是分类数据(有序分类还是无序分类), 还是数值数据(离散数据还是连续数据)？
 
@@ -135,7 +189,11 @@ title: "第1章"
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> Kaggle <https://www.kaggle.com/>{target="_blank"} 
 
+# 课堂小调查
+
+**电子产品消费调查：<https://v.wjx.cn/vm/rMN4ASP.aspx#>**
+
 
 # 测验
 
-<img src="img/linke.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[Quiz: GETTING STARTED: IMPORTANT THINGS TO LEARN FIRST](https://ks.wjx.com/vm/hA8GRBD.aspx# ){target="_blank"}
+- <img src="img/link.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[Quiz: GETTING STARTED: IMPORTANT THINGS TO LEARN FIRST](https://ks.wjx.com/vm/hA8GRBD.aspx# ){target="_blank"}

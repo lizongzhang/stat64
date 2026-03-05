@@ -683,7 +683,7 @@
     "href": "chap1.html",
     "title": "第1章",
     "section": "",
-    "text": "Introduction 讲义\nGetting Started 讲义\nchap1 讲义"
+    "text": "课程简介讲义\nGetting Started 讲义\nchap1 讲义"
   },
   {
     "objectID": "chap1.html#题目1",
@@ -726,5 +726,47 @@
     "title": "第7章",
     "section": "",
     "text": "7 Sampling Distributions\nchap7 讲义"
+  },
+  {
+    "objectID": "chap1.html#descriptive-statistics-inferential-statistics",
+    "href": "chap1.html#descriptive-statistics-inferential-statistics",
+    "title": "第1章",
+    "section": "Descriptive Statistics & Inferential Statistics",
+    "text": "Descriptive Statistics & Inferential Statistics\n\n\n点击浏览图片"
+  },
+  {
+    "objectID": "chap1.html#gs-descriptive-statistics-inferential-statistics",
+    "href": "chap1.html#gs-descriptive-statistics-inferential-statistics",
+    "title": "第1章",
+    "section": "GS: Descriptive Statistics & Inferential Statistics",
+    "text": "GS: Descriptive Statistics & Inferential Statistics\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#classifying-variables-by-type",
+    "href": "chap1.html#classifying-variables-by-type",
+    "title": "第1章",
+    "section": "Classifying Variables by Type",
+    "text": "Classifying Variables by Type\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#population-vs-sample",
+    "href": "chap1.html#population-vs-sample",
+    "title": "第1章",
+    "section": "Population vs Sample",
+    "text": "Population vs Sample\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#types-of-sampling-methods",
+    "href": "chap1.html#types-of-sampling-methods",
+    "title": "第1章",
+    "section": "Types of Sampling Methods",
+    "text": "Types of Sampling Methods\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#types-of-survey-errors",
+    "href": "chap1.html#types-of-survey-errors",
+    "title": "第1章",
+    "section": "Types of Survey Errors",
+    "text": "Types of Survey Errors\n\n\nClick to view image"
   }
 ]
