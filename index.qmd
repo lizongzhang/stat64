@@ -48,6 +48,8 @@ Textbook
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[在91速课中设置姓名和学号的方法](https://lizongzhang.github.io/stat/91.html){target="_blank"}
 
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px;">[考勤](https://v.wjx.cn/vm/tUedfE9.aspx#){target="_blank"}
+
 # 参考书
 
 <img src="img/download.png" style="width: 24px; height: 24px;margin-right: 10px">[下载](https://pan.baidu.com/s/1EXJPZbl3NrIn3byaK0kTsQ?pwd=6789){target="_blank"}
@@ -55,6 +57,8 @@ Textbook
 # 教学互动
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px;">[匿名提问与教学节奏反馈](https://v.wjx.cn/vm/QFUwVuy.aspx#){target="_blank"}
+
+
 
 
 
