@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "教学软件",
-    "section": "",
-    "text": "Welcome to the course website of “Principles of Statistics and Experiments”!\n\nTextbook\n\nLevine, David M., Kathryn A. Szabat, and David F. Stephan. Business Statistics: A First Course, Global Edition. 7th ed., Pearson, 2016.\n\n下载教材及配套数据文件\n\n教学软件\n\nMicrosoft Excel 2016或以上版本 \n\n注意：不是WPS Excel \n\n\n下载Windows 64位系统的SPSS27安装文件\n\n\n教学视频\nExcel数据分析实战\nSPSS数据分析实战\n\n\n教学平台\n\nQQ群：提交小组作业，提问答疑\n\n91速课测验，考勤等\n在91速课中设置姓名和学号的方法\n考勤\n\n\n参考书\n下载\n\n\n教学互动\n匿名提问与教学节奏反馈\n\n\n\n\nclick here"
-  },
-  {
     "objectID": "chap6.html",
     "href": "chap6.html",
     "title": "第6章",
@@ -196,221 +189,53 @@
     "text": "选题要求\n运用统计方法分析现实问题。\n\n\n数据要求\n\n微观层面的截面数据\n样本容量大于200\n至少3个定量变量，至少3个定性变量，建议变量个数超过8个\n不要使用其他教材中的例题或习题数据，不要使用虚拟数据\n\n\n\n四次作业\n每个小组完成4次作业，提交4个演示文稿，按发言时间表上指定的主题的汇报一次。\n\n第1次：第2-3章 图表和描述性统计量\n第2次：第8-10章 参数估计和假设检验\n第3次：第10章 方差分析\n第4次：第11章 卡方检验\n\n\n\n演示文稿大纲\n\n研究目标\n数据概况\n\n数据来源、样本范围、样本容量\n变量含义\n描述性统计分析\n\n分析过程\n\n呈现统计分析表格、计算结果、检验结果\n\n研究结论\n心得体会\n\n收集数据、软件操作小技巧\n遇到的困难及解决方案\n收获\n\n\n\n\n演示文稿\n\n15-20页左右\n浅色底色, 深色字体, 字号&gt;28\n图表美观，清晰可读性强\n\n\n\n提交要求\n\n将演示文稿转成PDF格式，在发言日的前一天的19:00点将PDF文件提交到QQ群“第#章小组案例”文件夹中\nPDF文件命名格式：小组编号+组长名字+组长班级+章编号.pdf\n\n例如：5黄捷欣22国贸1第3-4章.pdf\n小组编号请查看QQ群中的小组发言时间表\n\n\n\n\n发言时长\n\n5-6分钟, 请演练课堂汇报的时长, 突出重点 。\n发言时有倒计时软件计时, 时间到请结束发言。"
   },
   {
-    "objectID": "casefinal.html",
-    "href": "casefinal.html",
-    "title": "统计学期末汇报要求",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "教学软件",
     "section": "",
-    "text": "Loading required package: sysfonts\n\n\nLoading required package: showtextdb\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.1     ✔ stringr   1.5.2\n✔ ggplot2   4.0.0     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
+    "text": "Welcome to the course website of “Principles of Statistics and Experiments”!\n\nTextbook\n\nLevine, David M., Kathryn A. Szabat, and David F. Stephan. Business Statistics: A First Course, Global Edition. 7th ed., Pearson, 2016.\n\n下载教材及配套数据文件\n\n教学软件\n\nMicrosoft Excel 2016或以上版本 \n\n注意：不是WPS Excel \n\n\n下载Windows 64位系统的SPSS27安装文件\n\n\n教学视频\nExcel数据分析实战\nSPSS数据分析实战\n\n\n教学平台\n\nQQ群：提交小组作业，提问答疑\n\n91速课测验，考勤等\n在91速课中设置姓名和学号的方法\n考勤\n\n\n参考书\n下载\n\n\n教学互动\n匿名提问与教学节奏反馈\n\n\n\n\nclick here"
   },
   {
-    "objectID": "casefinal.html#汇报要求",
-    "href": "casefinal.html#汇报要求",
-    "title": "统计学期末汇报要求",
-    "section": "汇报要求",
-    "text": "汇报要求\n\n汇报时间：5分钟\n汇报内容：\n\n数据来源\n变量含义\n数据分析\n研究结论\n经验分享\n\n文件形式：演示文稿，转成PDF文档"
+    "objectID": "projects.html#project-2",
+    "href": "projects.html#project-2",
+    "title": "Projects",
+    "section": "Project 2",
+    "text": "Project 2"
   },
   {
-    "objectID": "casefinal.html#数据来源",
-    "href": "casefinal.html#数据来源",
-    "title": "统计学期末汇报要求",
-    "section": "1 数据来源",
-    "text": "1 数据来源\n\n数据集：mpg\n\nFuel economy data from 1999 to 2008 for 38 popular models of cars\n\n样本容量：234"
+    "objectID": "projects.html#project-3",
+    "href": "projects.html#project-3",
+    "title": "Projects",
+    "section": "Project 3",
+    "text": "Project 3"
   },
   {
-    "objectID": "casefinal.html#变量含义",
-    "href": "casefinal.html#变量含义",
-    "title": "统计学期末汇报要求",
-    "section": "2 变量含义",
-    "text": "2 变量含义\n\nmanufacturer：制造商\nmodel：车型\ndispl：发动机排量（升）\nyear：出厂年份\ncyl：气缸数\ntrans：变速箱类型\ndrv：驱动方式（f = 前驱，r = 后驱，4 = 四驱）\ncty：城市燃油效率（英里/加仑）\nhwy：高速燃油效率（英里/加仑）\nfl：燃油类型\nclass：车辆类别"
-  },
-  {
-    "objectID": "casefinal.html#数据分析",
-    "href": "casefinal.html#数据分析",
-    "title": "统计学期末汇报要求",
-    "section": "3 数据分析",
-    "text": "3 数据分析\n3.1 可视化\n3.2 描述性统计分析\n3.3 区间估计\n3.4 假设检验\n3.5 方差分析\n3.6 独立性检验"
-  },
-  {
-    "objectID": "casefinal.html#可视化帕累托图",
-    "href": "casefinal.html#可视化帕累托图",
-    "title": "统计学期末汇报要求",
-    "section": "3.1 可视化：帕累托图",
-    "text": "3.1 可视化：帕累托图\n\nmpg %&gt;% \n  ggplot(aes(fct_infreq(class))) + \n  geom_bar(col = \"cyan\", fill = \"cyan\")+\n  labs(title = \"Pareto Diagram\", x = \"Manufacturer\") +\n    geom_text(stat = \"count\",\n            aes(label = after_stat(count)), \n            vjust = -0.5)+     \n  guides(x = guide_axis(angle = 45))+\n  labs(title = \"Pareto Diagram\", x = \"Manufacturer\") +\n  scale_y_continuous(limits = c(0, 70))\n\n\n\n\n\n\n\n\nSUV、紧凑型和中型车占比最高，是主要车型类别。"
-  },
-  {
-    "objectID": "casefinal.html#可视化饼图",
-    "href": "casefinal.html#可视化饼图",
-    "title": "统计学期末汇报要求",
-    "section": "3.1 可视化：饼图",
-    "text": "3.1 可视化：饼图\n\ndf &lt;- mpg %&gt;%\n  mutate(class = fct_lump_n(class, 5)) %&gt;% \n  count(class) %&gt;%\n  arrange(desc(n)) %&gt;%\n  mutate(pct = round(100 * n / sum(n), 0),\n         label = paste0(class, \"\\n\", pct, \"%\"),\n         class = factor(class, levels = class) # 按频数降序设置因子顺序\n  )\n\ncolors &lt;- colorRampPalette(c(\"lightblue\", \"blue\", \"darkblue\"))(nrow(df))\n\n# 绘制饼图（极坐标 + 降序排列）\nggplot(df, aes(x = \"\", y = n, fill = class)) +\n  geom_bar(stat = \"identity\", width = 1) +\n  scale_fill_manual(values = colors) +\n  coord_polar(theta = \"y\", direction = -1) +  # 逆时针方向排列\n  geom_text(aes(label = label), \n            col = \"white\",\n            position = position_stack(vjust = 0.5), size = 5) +\n  theme_void() +\n  theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\nSUV、紧凑型和中型车三类车型占比共计64%。"
-  },
-  {
-    "objectID": "casefinal.html#可视化分组箱线图",
-    "href": "casefinal.html#可视化分组箱线图",
-    "title": "统计学期末汇报要求",
-    "section": "3.1 可视化：分组箱线图",
-    "text": "3.1 可视化：分组箱线图\n\nmpg %&gt;%\n  mutate(class = fct_lump_n(class, 5)) %&gt;% \n  ggplot(aes(reorder(class,displ),displ,\n             col = class))+\n  geom_boxplot()+\n  guides(x = guide_axis(n.dodge = 3)) +\n  theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\nSUV与皮卡排量较大，紧凑型较小。"
-  },
-  {
-    "objectID": "casefinal.html#可视化分组直方图",
-    "href": "casefinal.html#可视化分组直方图",
-    "title": "统计学期末汇报要求",
-    "section": "3.1 可视化：分组直方图",
-    "text": "3.1 可视化：分组直方图\n\nmpg %&gt;% \n  ggplot(aes(cty))+\n  geom_histogram(col = 1, fill = 5, binwidth = 2)+\n  stat_bin(aes(label = ifelse(after_stat(count) == 0, \"\", \n                              after_stat(count))), binwidth = 2, \n           geom = \"text\",vjust = -0.5)+\n  scale_y_continuous(limits = c(0,50), breaks = seq(0,50,10))+\n  scale_x_continuous(breaks = seq(9,35,2)) +\n  facet_wrap(~ drv, ncol = 1,\n    labeller = as_labeller(c(\n      \"4\" = \"4-wheel drive\",\n      \"f\" = \"Front-wheel drive\",\n      \"r\" = \"Rear-wheel drive\"\n    ))) \n\n\n\n\n\n\n\n\n前驱车型城市油耗分布较高，后驱车型油耗偏低且集中，四驱居中偏低。"
-  },
-  {
-    "objectID": "casefinal.html#描述性统计分析",
-    "href": "casefinal.html#描述性统计分析",
-    "title": "统计学期末汇报要求",
-    "section": "3.2 描述性统计分析",
-    "text": "3.2 描述性统计分析\n\nlibrary(psych)\n\n\nAttaching package: 'psych'\n\n\nThe following objects are masked from 'package:ggplot2':\n\n    %+%, alpha\n\nmpg %&gt;%\n  select(where(is.numeric)) %&gt;% \n  select(-year) %&gt;% \n  describe() %&gt;% \n  select(n, mean, sd, median, min, max) \n\n        n  mean   sd median  min max\ndispl 234  3.47 1.29    3.3  1.6   7\ncyl   234  5.89 1.61    6.0  4.0   8\ncty   234 16.86 4.26   17.0  9.0  35\nhwy   234 23.44 5.95   24.0 12.0  44\n\n\n高速油耗高于城市油耗，发动机排量和气缸数变异较小。"
-  },
-  {
-    "objectID": "casefinal.html#区间估计",
-    "href": "casefinal.html#区间估计",
-    "title": "统计学期末汇报要求",
-    "section": "3.3 区间估计",
-    "text": "3.3 区间估计\n\nlibrary(psych)\n\n\nci &lt;- t.test(mpg$cty)$conf.int\nsprintf(\"城市油耗的总体均值的95%%置信区间：[%.2f, %.2f]\", ci[1], ci[2])\n\n[1] \"城市油耗的总体均值的95%置信区间：[16.31, 17.41]\"\n\nci &lt;- t.test(mpg$hwy)$conf.int\nsprintf(\"高速油耗的总体均值的95%%置信区间：[%.2f, %.2f]\", ci[1], ci[2])\n\n[1] \"高速油耗的总体均值的95%置信区间：[22.67, 24.21]\""
-  },
-  {
-    "objectID": "casefinal.html#单个总体均值的假设检验",
-    "href": "casefinal.html#单个总体均值的假设检验",
-    "title": "统计学期末汇报要求",
-    "section": "3.4 单个总体均值的假设检验",
-    "text": "3.4 单个总体均值的假设检验\n\nlibrary(ggstatsplot)\n\nYou can cite this package as:\n     Patil, I. (2021). Visualizations with statistical details: The 'ggstatsplot' approach.\n     Journal of Open Source Software, 6(61), 3167, doi:10.21105/joss.03167\n\ngghistostats(mpg, cty, \n             test.value = 16,\n             bin.args = list(color = \"black\",\n                             fill = \"cyan\")) +\n  theme_classic(base_size = 15)"
-  },
-  {
-    "objectID": "casefinal.html#单个总体均值的假设检验-1",
-    "href": "casefinal.html#单个总体均值的假设检验-1",
-    "title": "统计学期末汇报要求",
-    "section": "3.4 单个总体均值的假设检验",
-    "text": "3.4 单个总体均值的假设检验\n\\(H_0: \\mu \\leq 16\\)\n\\(H_1: \\mu &gt; 16\\)\n拒绝原假设\\(H_0: \\mu \\leq 16\\) 。\n在城市, 油耗均值大于16英里/加仑。"
-  },
-  {
-    "objectID": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较",
-    "href": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较",
-    "title": "统计学期末汇报要求",
-    "section": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较",
-    "text": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较\n\nmpg %&gt;%\n  filter(drv %in% c(\"4\", \"f\")) %&gt;%\n  ggbetweenstats(drv, \n                 cty,\n                 p.adjust.method = \"none\",\n                 xlab = \"drive\",\n                 package = \"RColorBrewer\",\n                 palette = \"Set1\",\n                 violin.args = list(width = 0)\n  ) +\n  theme_classic(base_size = 15)"
-  },
-  {
-    "objectID": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较-1",
-    "href": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较-1",
-    "title": "统计学期末汇报要求",
-    "section": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较",
-    "text": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较\n\\(H_0: \\mu_4 \\geq \\mu_f\\)\n\\(H_1: \\mu_4 &lt; \\mu_f\\)\n在城市, \\(\\mu_4 &lt; \\mu_f\\), 前驱(20)比四驱(14)省油。"
-  },
-  {
-    "objectID": "casefinal.html#方差分析",
-    "href": "casefinal.html#方差分析",
-    "title": "统计学期末汇报要求",
-    "section": "3.5 方差分析",
-    "text": "3.5 方差分析\n\nmpg %&gt;% \n  mutate(drv = fct_reorder(drv, displ, .fun = median)) %&gt;%\n  ggbetweenstats(\n    drv, \n    displ,\n    type = \"parametric\",        \n    palette = \"Accent\", \n    violin.args = list(width = 0),\n    xlab = \"drv\",\n    ylab = \"发动机排量\",\n    bf.message = FALSE,\n    digits = 3L\n  )\n\n\n\n\n\n\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
-  },
-  {
-    "objectID": "casefinal.html#方差分析-1",
-    "href": "casefinal.html#方差分析-1",
-    "title": "统计学期末汇报要求",
-    "section": "3.5 方差分析",
-    "text": "3.5 方差分析\n\naov(cty ~ drv, data = mpg) %&gt;% \n  summary()\n\n             Df Sum Sq Mean Sq F value Pr(&gt;F)    \ndrv           2   1879   939.4   92.68 &lt;2e-16 ***\nResiduals   231   2342    10.1                   \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
-  },
-  {
-    "objectID": "casefinal.html#独立性检验驱动类型和气缸数量的关系",
-    "href": "casefinal.html#独立性检验驱动类型和气缸数量的关系",
-    "title": "统计学期末汇报要求",
-    "section": "3.6 独立性检验：驱动类型和气缸数量的关系",
-    "text": "3.6 独立性检验：驱动类型和气缸数量的关系\n\nggbarstats(mpg,\n           drv,\n           cyl,\n           package = \"RColorBrewer\",\n           palette = \"Paired\")+\n  theme_bw(base_size = 15)"
-  },
-  {
-    "objectID": "casefinal.html#独立性检验驱动类型和气缸数量的关系-1",
-    "href": "casefinal.html#独立性检验驱动类型和气缸数量的关系-1",
-    "title": "统计学期末汇报要求",
-    "section": "3.6 独立性检验：驱动类型和气缸数量的关系",
-    "text": "3.6 独立性检验：驱动类型和气缸数量的关系\n驱动类型和气缸数量不独立。\n4缸，72%前驱，28%四驱;\n6缸，54%前驱， 41%四驱，5%后驱;\n8缸，1%前驱， 69%四驱，30%后驱。"
-  },
-  {
-    "objectID": "casefinal.html#研究结论",
-    "href": "casefinal.html#研究结论",
-    "title": "统计学期末汇报要求",
-    "section": "4 研究结论",
-    "text": "4 研究结论\n\nSUV、紧凑型和中型车三类车型占比共计64%。\nSUV与皮卡排量较大，紧凑型较小。\n城市油耗的总体均值的95%置信区间：[16.31, 17.41]\n高速油耗的总体均值的95%置信区间：[22.67, 24.21]\n在城市, 油耗均值大于16英里/加仑。\n在城市, \\(\\mu_4 &lt; \\mu_f\\), 前驱(20)比四驱(14)省油。\n驱动类型和气缸数量不独立：4缸，72%前驱，28%四驱; 6缸，54%前驱， 41%四驱，5%后驱; 8缸，1%前驱， 69%四驱，30%后驱。\n不同驱动方式的车型发动机排量差异显著: 后驱(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
-  },
-  {
-    "objectID": "casefinal.html#经验分享",
-    "href": "casefinal.html#经验分享",
-    "title": "统计学期末汇报要求",
-    "section": "5 经验分享",
-    "text": "5 经验分享\n\n…\n…\n…\n…"
-  },
-  {
-    "objectID": "case.html",
-    "href": "case.html",
-    "title": "案例",
+    "objectID": "chap11.html",
+    "href": "chap11.html",
+    "title": "第11章",
     "section": "",
-    "text": "每组4-5人，由组长填写在线问卷，提交分组信息：https://www.wjx.top/vm/e3AyWsR.aspx#"
+    "text": "chap11 讲义"
   },
   {
-    "objectID": "case.html#案例作业要求",
-    "href": "case.html#案例作业要求",
-    "title": "案例",
-    "section": "案例作业要求",
-    "text": "案例作业要求\n案例作业要求"
+    "objectID": "chap11.html#excel操作视频",
+    "href": "chap11.html#excel操作视频",
+    "title": "第11章",
+    "section": "Excel操作视频",
+    "text": "Excel操作视频\nEXCEL 独立性检验 CHISQ.TEST函数的使用"
   },
   {
-    "objectID": "case.html#案例示例",
-    "href": "case.html#案例示例",
-    "title": "案例",
-    "section": "案例示例",
-    "text": "案例示例\n\nchap 2-3 广州六大奶茶品牌\nchap 8-9 小组作业收获感\nchap 10 汽车油耗\nchap 11 奶茶品牌、区位和价格"
-  },
-  {
-    "objectID": "case.html#往届小组作业演示文稿",
-    "href": "case.html#往届小组作业演示文稿",
-    "title": "案例",
-    "section": "往届小组作业演示文稿",
-    "text": "往届小组作业演示文稿\n\n广东省地市领导班子特征分析——图表工具SPSS\n奶茶消费调查——图表工具SPSS\n证监会录用人员特征——图表工具Excel\n饮料特征分析——区间估计和假设检验R\n证券分析师——卡方检验和方差分析R\n饮料特征分析——卡方检验和方差分析R\n广州市住宅房租比较——方差分析SPSS\n大学生择偶观调查——方差分析SPSS"
-  },
-  {
-    "objectID": "chap10.html",
-    "href": "chap10.html",
-    "title": "第10章",
-    "section": "",
-    "text": "chap10 讲义\n\n\n什么是P值？\n显著性水平和P值的区别？\n总体均值的检验：Z检验还是T检验？\n单侧检验还是双侧检验？\n\n\n 配对样本和独立样本的区别\n\n\n\n\n\n\nExcel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析\n\n\n\n两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
-  },
-  {
-    "objectID": "chap10.html#重点难点视频",
-    "href": "chap10.html#重点难点视频",
-    "title": "第10章",
-    "section": "",
-    "text": "什么是P值？\n显著性水平和P值的区别？\n总体均值的检验：Z检验还是T检验？\n单侧检验还是双侧检验？\n\n\n 配对样本和独立样本的区别"
-  },
-  {
-    "objectID": "chap10.html#excel操作",
-    "href": "chap10.html#excel操作",
-    "title": "第10章",
-    "section": "",
-    "text": "Excel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析"
-  },
-  {
-    "objectID": "chap10.html#spss操作",
-    "href": "chap10.html#spss操作",
-    "title": "第10章",
-    "section": "",
-    "text": "两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
-  },
-  {
-    "objectID": "case2pre.html",
-    "href": "case2pre.html",
-    "title": "汽车性能分析",
-    "section": "",
-    "text": "数据来源：mpg {ggplot2}\n样本容量：234\ncty: city miles per gallon\nhwy: highway miles per gallon\n\n英里每加仑，数值越大，代表越省油。\n\ntrans: type of transmission\ndrv: the type of drive train,\n\nf = front-wheel drive,\nr = rear wheel drive,\n4 = 4wd"
+    "objectID": "chap11.html#spss操作视频",
+    "href": "chap11.html#spss操作视频",
+    "title": "第11章",
+    "section": "SPSS操作视频",
+    "text": "SPSS操作视频\nSPSS 独立性检验：两个定性变量是否相互独立？\nSPSS 列联表分析应用举例"
   },
   {
     "objectID": "case2pre.html#数据和变量",
     "href": "case2pre.html#数据和变量",
     "title": "汽车性能分析",
-    "section": "",
-    "text": "数据来源：mpg {ggplot2}\n样本容量：234\ncty: city miles per gallon\nhwy: highway miles per gallon\n\n英里每加仑，数值越大，代表越省油。\n\ntrans: type of transmission\ndrv: the type of drive train,\n\nf = front-wheel drive,\nr = rear wheel drive,\n4 = 4wd"
+    "section": "1 数据和变量",
+    "text": "1 数据和变量\n数据来源：mpg {ggplot2}\n样本容量：234\ncty: city miles per gallon\nhwy: highway miles per gallon\n\n英里每加仑，数值越大，代表越省油。\n\ntrans: type of transmission\ndrv: the type of drive train,\n\nf = front-wheel drive,\nr = rear wheel drive,\n4 = 4wd"
   },
   {
     "objectID": "case2pre.html#油耗性能分析",
@@ -508,14 +333,14 @@
     "href": "case2pre.html#驱动类型分布",
     "title": "汽车性能分析",
     "section": "3 驱动类型分布",
-    "text": "3 驱动类型分布\n\n#计算三种驱动的百分比\nround(100*prop.table(table(mpg$drv)))\n\n\n 4  f  r \n44 45 11 \n\nggpiestats(mpg,\n           drv,\n           ratio = c(0.45, 0.45, 0.1),\n           package = \"RColorBrewer\",\n           palette = \"Set2\")+\n  theme_bw(base_size = 15)\n\n\n\n\n\n\n\n\n四驱、前驱、后驱：45%，45%， 10%"
+    "text": "3 驱动类型分布\n\n#计算三种驱动的百分比\nround(100*prop.table(table(mpg$drv)))\n\n\n 4  f  r \n44 45 11 \n\nggpiestats(mpg,\n           drv,\n           ratio = c(0.45, 0.45, 0.1),\n           package = \"RColorBrewer\",\n           palette = \"Set2\")+\n  theme_bw(base_size = 15)\n\n\n四驱、前驱、后驱：45%，45%， 10%"
   },
   {
     "objectID": "case2pre.html#驱动类型和传动类型的关系分析",
     "href": "case2pre.html#驱动类型和传动类型的关系分析",
     "title": "汽车性能分析",
     "section": "4 驱动类型和传动类型的关系分析",
-    "text": "4 驱动类型和传动类型的关系分析\n\nmpg %&gt;% \n  mutate(transmission = if_else(substr(trans, 1, 4) == \"auto\", \n                                \"automatic\", \n                                \"manual\")) %&gt;% \n  ggbarstats(drv,\n             transmission,\n             package = \"RColorBrewer\",\n             palette = \"Paired\")+\n  theme_bw(base_size = 15)\n\n\n\n\n\n\n\n\n驱动类型和传动类型相互独立。"
+    "text": "4 驱动类型和传动类型的关系分析\n\nmpg %&gt;% \n  mutate(transmission = if_else(substr(trans, 1, 4) == \"auto\", \n                                \"automatic\", \n                                \"manual\")) %&gt;% \n  ggbarstats(drv,\n             transmission,\n             package = \"RColorBrewer\",\n             palette = \"Paired\")+\n  theme_bw(base_size = 15)\n\n\n驱动类型和传动类型相互独立。"
   },
   {
     "objectID": "case2pre.html#驱动类型和气缸数量的关系分析",
@@ -560,39 +385,298 @@
     "text": "Thanks for your attention！"
   },
   {
-    "objectID": "chap11.html",
-    "href": "chap11.html",
-    "title": "第11章",
+    "objectID": "chap8.html",
+    "href": "chap8.html",
+    "title": "第8章",
     "section": "",
-    "text": "chap11 讲义"
+    "text": "chap8 讲义"
   },
   {
-    "objectID": "chap11.html#excel操作视频",
-    "href": "chap11.html#excel操作视频",
-    "title": "第11章",
+    "objectID": "chap8.html#习题1-置信水平的理解",
+    "href": "chap8.html#习题1-置信水平的理解",
+    "title": "第8章",
+    "section": "习题1 置信水平的理解",
+    "text": "习题1 置信水平的理解\n总体服从均值为80，标准差为5的正态分布。\n从总体中抽取容量为36的个体，组成一个样本，利用该样本构造总体均值的90%的置信区间。重复该过程500次，利用这500个样本构造500个总体均值的90%的置信区间。计算这500个置信区间中包含总体均值80的比例是多少？\n从总体中抽取容量为36的个体，组成一个样本，利用该样本构造总体均值的95%的置信区间。重复该过程500次，利用这500个样本构造500个总体均值的95%的置信区间。计算这500个置信区间中包含总体均值80的比例是多少？\n从总体中抽取容量为36的个体，组成一个样本，利用该样本构造总体均值的99%的置信区间。重复该过程500次，利用这500个样本构造500个总体均值的99%的置信区间。计算这500个置信区间中包含总体均值80的比例是多少？"
+  },
+  {
+    "objectID": "chap9.html",
+    "href": "chap9.html",
+    "title": "第9章",
+    "section": "",
+    "text": "chap9 讲义"
+  },
+  {
+    "objectID": "chap9.html#excel操作视频",
+    "href": "chap9.html#excel操作视频",
+    "title": "第9章",
     "section": "Excel操作视频",
-    "text": "Excel操作视频\nEXCEL 独立性检验 CHISQ.TEST函数的使用"
+    "text": "Excel操作视频\nExcel 总体均值的Z检验：Z.test函数\nExcel 总体均值的T检验\nExcel 总体均值的T检验：P值法和临界值法"
   },
   {
-    "objectID": "chap11.html#spss操作视频",
-    "href": "chap11.html#spss操作视频",
-    "title": "第11章",
+    "objectID": "chap9.html#spss操作视频",
+    "href": "chap9.html#spss操作视频",
+    "title": "第9章",
     "section": "SPSS操作视频",
-    "text": "SPSS操作视频\nSPSS 独立性检验：两个定性变量是否相互独立？\nSPSS 列联表分析应用举例"
+    "text": "SPSS操作视频\n单个总体参数的T检验\n习题答案 9.14, 9.24, 9.25, 9.47, 9.50, 9.56"
   },
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2"
+    "objectID": "chap10.html",
+    "href": "chap10.html",
+    "title": "第10章",
+    "section": "",
+    "text": "chap10 讲义\n\n\n什么是P值？\n显著性水平和P值的区别？\n总体均值的检验：Z检验还是T检验？\n单侧检验还是双侧检验？\n\n\n 配对样本和独立样本的区别\n\n\n\n\n\n\nExcel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析\n\n\n\n两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
   },
   {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "objectID": "chap10.html#重点难点视频",
+    "href": "chap10.html#重点难点视频",
+    "title": "第10章",
+    "section": "",
+    "text": "什么是P值？\n显著性水平和P值的区别？\n总体均值的检验：Z检验还是T检验？\n单侧检验还是双侧检验？\n\n\n 配对样本和独立样本的区别"
+  },
+  {
+    "objectID": "chap10.html#excel操作",
+    "href": "chap10.html#excel操作",
+    "title": "第10章",
+    "section": "",
+    "text": "Excel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析"
+  },
+  {
+    "objectID": "chap10.html#spss操作",
+    "href": "chap10.html#spss操作",
+    "title": "第10章",
+    "section": "",
+    "text": "两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
+  },
+  {
+    "objectID": "case.html",
+    "href": "case.html",
+    "title": "小组任务",
+    "section": "",
+    "text": "提交分组信息：https://www.wjx.top/vm/rXASrvi.aspx#"
+  },
+  {
+    "objectID": "case.html#组队标准",
+    "href": "case.html#组队标准",
+    "title": "小组任务",
+    "section": "组队标准",
+    "text": "组队标准\n\n标准规模：每组原则上由 4 位同学组成。\n人数调节：若班级总人数无法被 4 完全整除，允许出现个别 3人组 或 5人组。"
+  },
+  {
+    "objectID": "case.html#填报与随机分配",
+    "href": "case.html#填报与随机分配",
+    "title": "小组任务",
+    "section": "填报与随机分配",
+    "text": "填报与随机分配\n\n填报限期：请各组长于 第2周下课前 完成本问卷的组员名单填报。\n逾期后果：逾期（第 2 周下课后）仍未提交名单的同学，将视为放弃自主组队权利。\n强制指派：届时，老师将根据剩余名单进行随机分配或合并，确保每位同学都有组归属并能按时开展小组作业。"
+  },
+  {
+    "objectID": "case.html#合作伙伴守则",
+    "href": "case.html#合作伙伴守则",
+    "title": "小组任务",
+    "section": "合作伙伴守则",
+    "text": "合作伙伴守则\n\n共识建立：请同学们在组队时充分沟通，确保组员在学习态度和任务分配上达成共识。\n剔除机制：若组内出现成员经多次沟通仍严重不配合的行为，小组可提交沟通记录并向老师申请剔除该组员。\n申请限期：剔除申请截止于 第 10 周。\n独立惩罚：被剔除的成员需独立完成小组作业。"
+  },
+  {
+    "objectID": "case.html#目的",
+    "href": "case.html#目的",
+    "title": "小组任务",
+    "section": "目的",
+    "text": "目的\n\n实践应用：运用统计方法分析现实问题。\n过程体验：完整体验从收集数据、整理数据、图表展示、统计分析、提炼研究结论。\n最终产出：提交演示文件、汇报展示。\n\n\n最好的学习方法： “The best way to learn is to do; the worst way to teach is to talk.” —— Paul Halmos (1916-2006)# 小组案例作业"
+  },
+  {
+    "objectID": "case.html#选题要求",
+    "href": "case.html#选题要求",
+    "title": "小组任务",
+    "section": "选题要求",
+    "text": "选题要求\n\n运用统计方法分析现实问题。"
+  },
+  {
+    "objectID": "case.html#数据要求",
+    "href": "case.html#数据要求",
+    "title": "小组任务",
+    "section": "数据要求",
+    "text": "数据要求\n\n微观层面的截面数据\n样本容量大于200 (5人组，样本容量需增加50%)\n至少3个定量变量，至少3个定性变量，建议变量个数超过8个\n不要使用其他教材中的例题或习题数据，不要使用虚拟数据"
+  },
+  {
+    "objectID": "case.html#案例选题-第3-4周",
+    "href": "case.html#案例选题-第3-4周",
+    "title": "小组任务",
+    "section": "案例选题 (第3-4周)",
+    "text": "案例选题 (第3-4周)\n\n讨论问题：\n\n选题方向\n数据收集方式（数据库、网站、问卷调查）\n观测单元是什么？样本容量是否容易超过200？\n定量变量、定性变量分别是什么？\n若采用问卷调查的方式收集数据，如何设计题目收集到定量数据？被访者是否容易回答，数据质量是否可靠？\n遇到的困难\n\n数据要求：微观截面数据，有效样本容量大于200，定量变量至少3个，定性变量至少3个，建议变量个数超过8个。\n在Excel中整理好收集的数据，变量名称简洁含义明确，剔除有缺失值或异常值的个案，将其导入到SPSS。\n运用第2-3章绘制图表，报告描述性统计量，制作好演示文件。\n请带笔记本电脑。"
+  },
+  {
+    "objectID": "case.html#第23章讨论课-第6-7周",
+    "href": "case.html#第23章讨论课-第6-7周",
+    "title": "小组任务",
+    "section": "第2，3章讨论课 (第6-7周)",
+    "text": "第2，3章讨论课 (第6-7周)\n\n在Excel中整理好收集的数据。\n运用第2，3章方法分析数据\n\n图表工具\n\n选取一个定量变量绘制频数分布表\n选取一个定量变量绘制直方图\n选取一个定量变量绘制累积百分比折线图\n选取一个定量变量绘制箱线图\n选取一个定性变量绘制频数分布表\n选取一个定性变量绘制帕累托图\n选取一个定性变量绘制饼图\n选取一个定性变量绘制瀑布图\n选取两个定性变量绘制树状图\n\n描述性统计量的报告\n\n报告均值、标准差、中位数、最小值、最大值、偏度、峰度等描述性统计量\n\n参数估计方法的运用\n\n选取一个定量变量对其总体均值进行区间估计\n选取一个定量变量对其总体方差进行区间估计\n\n\n准备的文件\nExcel数据文件,将上述分析存放在不同的表单中\nPPT文件(15-20页)\n\n数据来源\n变量含义\nExcel的输出结果\n主要结论"
+  },
+  {
+    "objectID": "case.html#第8-9章讨论课-第10-11周",
+    "href": "case.html#第8-9章讨论课-第10-11周",
+    "title": "小组任务",
+    "section": "第8, 9章讨论课 (第10-11周)",
+    "text": "第8, 9章讨论课 (第10-11周)\n\n运用第8, 9章方法分析数据\n\n单个总体均值的假设检验\n两个总体均值的假设检验\n卡方检验\n方差分析\n\n将Excel的输出结果，及文字说明整理到PPT文档。"
+  },
+  {
+    "objectID": "case.html#第10-11章讨论课-第13-14周",
+    "href": "case.html#第10-11章讨论课-第13-14周",
+    "title": "小组任务",
+    "section": "第10, 11章讨论课 (第13-14周)",
+    "text": "第10, 11章讨论课 (第13-14周)\n\n运用第9, 11章方法分析数据\n\n单个总体均值的假设检验\n两个总体均值的假设检验\n卡方检验\n方差分析\n\n将Excel的输出结果，及文字说明整理到PPT文档。"
+  },
+  {
+    "objectID": "case.html#小组汇报-第15-16周",
+    "href": "case.html#小组汇报-第15-16周",
+    "title": "小组任务",
+    "section": "小组汇报 (第15-16周)",
+    "text": "小组汇报 (第15-16周)"
+  },
+  {
+    "objectID": "case.html#期末汇报",
+    "href": "case.html#期末汇报",
+    "title": "小组任务",
+    "section": "期末汇报",
+    "text": "期末汇报\n\n汇报要求"
+  },
+  {
+    "objectID": "casefinal.html#汇报要求",
+    "href": "casefinal.html#汇报要求",
+    "title": "统计学期末汇报要求",
+    "section": "汇报要求",
+    "text": "汇报要求\n\n汇报时间：5分钟\n汇报内容：\n\n数据来源\n变量含义\n数据分析\n研究结论\n经验分享\n\n文件形式：演示文稿，转成PDF文档"
+  },
+  {
+    "objectID": "casefinal.html#数据来源",
+    "href": "casefinal.html#数据来源",
+    "title": "统计学期末汇报要求",
+    "section": "1 数据来源",
+    "text": "1 数据来源\n\n数据集：mpg\n\nFuel economy data from 1999 to 2008 for 38 popular models of cars\n\n样本容量：234"
+  },
+  {
+    "objectID": "casefinal.html#变量含义",
+    "href": "casefinal.html#变量含义",
+    "title": "统计学期末汇报要求",
+    "section": "2 变量含义",
+    "text": "2 变量含义\n\nmanufacturer：制造商\nmodel：车型\ndispl：发动机排量（升）\nyear：出厂年份\ncyl：气缸数\ntrans：变速箱类型\ndrv：驱动方式（f = 前驱，r = 后驱，4 = 四驱）\ncty：城市燃油效率（英里/加仑）\nhwy：高速燃油效率（英里/加仑）\nfl：燃油类型\nclass：车辆类别"
+  },
+  {
+    "objectID": "casefinal.html#数据分析",
+    "href": "casefinal.html#数据分析",
+    "title": "统计学期末汇报要求",
+    "section": "3 数据分析",
+    "text": "3 数据分析\n3.1 可视化\n3.2 描述性统计分析\n3.3 区间估计\n3.4 假设检验\n3.5 方差分析\n3.6 独立性检验"
+  },
+  {
+    "objectID": "casefinal.html#可视化帕累托图",
+    "href": "casefinal.html#可视化帕累托图",
+    "title": "统计学期末汇报要求",
+    "section": "3.1 可视化：帕累托图",
+    "text": "3.1 可视化：帕累托图\n\n\nCode\nmpg %&gt;% \n  ggplot(aes(fct_infreq(class))) + \n  geom_bar(col = \"cyan\", fill = \"cyan\")+\n  labs(title = \"Pareto Diagram\", x = \"Manufacturer\") +\n    geom_text(stat = \"count\",\n            aes(label = after_stat(count)), \n            vjust = -0.5)+     \n  guides(x = guide_axis(angle = 45))+\n  labs(title = \"Pareto Diagram\", x = \"Manufacturer\") +\n  scale_y_continuous(limits = c(0, 70))\n\n\n\nSUV、紧凑型和中型车占比最高，是主要车型类别。"
+  },
+  {
+    "objectID": "casefinal.html#可视化饼图",
+    "href": "casefinal.html#可视化饼图",
+    "title": "统计学期末汇报要求",
+    "section": "3.1 可视化：饼图",
+    "text": "3.1 可视化：饼图\n\n\nCode\ndf &lt;- mpg %&gt;%\n  mutate(class = fct_lump_n(class, 5)) %&gt;% \n  count(class) %&gt;%\n  arrange(desc(n)) %&gt;%\n  mutate(pct = round(100 * n / sum(n), 0),\n         label = paste0(class, \"\\n\", pct, \"%\"),\n         class = factor(class, levels = class) # 按频数降序设置因子顺序\n  )\n\ncolors &lt;- colorRampPalette(c(\"lightblue\", \"blue\", \"darkblue\"))(nrow(df))\n\n# 绘制饼图（极坐标 + 降序排列）\nggplot(df, aes(x = \"\", y = n, fill = class)) +\n  geom_bar(stat = \"identity\", width = 1) +\n  scale_fill_manual(values = colors) +\n  coord_polar(theta = \"y\", direction = -1) +  # 逆时针方向排列\n  geom_text(aes(label = label), \n            col = \"white\",\n            position = position_stack(vjust = 0.5), size = 5) +\n  theme_void() +\n  theme(legend.position = \"none\")\n\n\n\nSUV、紧凑型和中型车三类车型占比共计64%。"
+  },
+  {
+    "objectID": "casefinal.html#可视化分组箱线图",
+    "href": "casefinal.html#可视化分组箱线图",
+    "title": "统计学期末汇报要求",
+    "section": "3.1 可视化：分组箱线图",
+    "text": "3.1 可视化：分组箱线图\n\n\nCode\nmpg %&gt;%\n  mutate(class = fct_lump_n(class, 5)) %&gt;% \n  ggplot(aes(reorder(class,displ),displ,\n             col = class))+\n  geom_boxplot()+\n  guides(x = guide_axis(n.dodge = 3)) +\n  theme(legend.position = \"none\")\n\n\n\nSUV与皮卡排量较大，紧凑型较小。"
+  },
+  {
+    "objectID": "casefinal.html#可视化分组直方图",
+    "href": "casefinal.html#可视化分组直方图",
+    "title": "统计学期末汇报要求",
+    "section": "3.1 可视化：分组直方图",
+    "text": "3.1 可视化：分组直方图\n\n\nCode\nmpg %&gt;% \n  ggplot(aes(cty))+\n  geom_histogram(col = 1, fill = 5, binwidth = 2)+\n  stat_bin(aes(label = ifelse(after_stat(count) == 0, \"\", \n                              after_stat(count))), binwidth = 2, \n           geom = \"text\",vjust = -0.5)+\n  scale_y_continuous(limits = c(0,50), breaks = seq(0,50,10))+\n  scale_x_continuous(breaks = seq(9,35,2)) +\n  facet_wrap(~ drv, ncol = 1,\n    labeller = as_labeller(c(\n      \"4\" = \"4-wheel drive\",\n      \"f\" = \"Front-wheel drive\",\n      \"r\" = \"Rear-wheel drive\"\n    ))) \n\n\n\n前驱车型城市油耗分布较高，后驱车型油耗偏低且集中，四驱居中偏低。"
+  },
+  {
+    "objectID": "casefinal.html#描述性统计分析",
+    "href": "casefinal.html#描述性统计分析",
+    "title": "统计学期末汇报要求",
+    "section": "3.2 描述性统计分析",
+    "text": "3.2 描述性统计分析\n\n\nCode\nlibrary(psych)\n\nmpg %&gt;%\n  select(where(is.numeric)) %&gt;% \n  select(-year) %&gt;% \n  describe() %&gt;% \n  select(n, mean, sd, median, min, max) \n\n\n        n  mean   sd median  min max\ndispl 234  3.47 1.29    3.3  1.6   7\ncyl   234  5.89 1.61    6.0  4.0   8\ncty   234 16.86 4.26   17.0  9.0  35\nhwy   234 23.44 5.95   24.0 12.0  44\n\n\n高速油耗高于城市油耗，发动机排量和气缸数变异较小。"
+  },
+  {
+    "objectID": "casefinal.html#区间估计",
+    "href": "casefinal.html#区间估计",
+    "title": "统计学期末汇报要求",
+    "section": "3.3 区间估计",
+    "text": "3.3 区间估计\n\n\nCode\nlibrary(psych)\n\n\nci &lt;- t.test(mpg$cty)$conf.int\nsprintf(\"城市油耗的总体均值的95%%置信区间：[%.2f, %.2f]\", ci[1], ci[2])\n\n\n[1] \"城市油耗的总体均值的95%置信区间：[16.31, 17.41]\"\n\n\nCode\nci &lt;- t.test(mpg$hwy)$conf.int\nsprintf(\"高速油耗的总体均值的95%%置信区间：[%.2f, %.2f]\", ci[1], ci[2])\n\n\n[1] \"高速油耗的总体均值的95%置信区间：[22.67, 24.21]\""
+  },
+  {
+    "objectID": "casefinal.html#单个总体均值的假设检验",
+    "href": "casefinal.html#单个总体均值的假设检验",
+    "title": "统计学期末汇报要求",
+    "section": "3.4 单个总体均值的假设检验",
+    "text": "3.4 单个总体均值的假设检验\n\n\nCode\nlibrary(ggstatsplot)\n\ngghistostats(mpg, cty, \n             test.value = 16,\n             bin.args = list(color = \"black\",\n                             fill = \"cyan\")) +\n  theme_classic(base_size = 15)"
+  },
+  {
+    "objectID": "casefinal.html#单个总体均值的假设检验-1",
+    "href": "casefinal.html#单个总体均值的假设检验-1",
+    "title": "统计学期末汇报要求",
+    "section": "3.4 单个总体均值的假设检验",
+    "text": "3.4 单个总体均值的假设检验\n\\(H_0: \\mu \\leq 16\\)\n\\(H_1: \\mu &gt; 16\\)\n拒绝原假设\\(H_0: \\mu \\leq 16\\) 。\n在城市, 油耗均值大于16英里/加仑。"
+  },
+  {
+    "objectID": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较",
+    "href": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较",
+    "title": "统计学期末汇报要求",
+    "section": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较",
+    "text": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较\n\n\nCode\nmpg %&gt;%\n  filter(drv %in% c(\"4\", \"f\")) %&gt;%\n  ggbetweenstats(drv, \n                 cty,\n                 p.adjust.method = \"none\",\n                 xlab = \"drive\",\n                 package = \"RColorBrewer\",\n                 palette = \"Set1\",\n                 violin.args = list(width = 0)\n  ) +\n  theme_classic(base_size = 15)"
+  },
+  {
+    "objectID": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较-1",
+    "href": "casefinal.html#两个总体均值的比较四驱和前驱城市道路油耗比较-1",
+    "title": "统计学期末汇报要求",
+    "section": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较",
+    "text": "3.4 两个总体均值的比较：四驱和前驱城市道路油耗比较\n\\(H_0: \\mu_4 \\geq \\mu_f\\)\n\\(H_1: \\mu_4 &lt; \\mu_f\\)\n在城市, \\(\\mu_4 &lt; \\mu_f\\), 前驱(20)比四驱(14)省油。"
+  },
+  {
+    "objectID": "casefinal.html#方差分析",
+    "href": "casefinal.html#方差分析",
+    "title": "统计学期末汇报要求",
+    "section": "3.5 方差分析",
+    "text": "3.5 方差分析\n\n\nCode\nmpg %&gt;% \n  mutate(drv = fct_reorder(drv, displ, .fun = median)) %&gt;%\n  ggbetweenstats(\n    drv, \n    displ,\n    type = \"parametric\",        \n    palette = \"Accent\", \n    violin.args = list(width = 0),\n    xlab = \"drv\",\n    ylab = \"发动机排量\",\n    bf.message = FALSE,\n    digits = 3L\n  )\n\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
+  },
+  {
+    "objectID": "casefinal.html#方差分析-1",
+    "href": "casefinal.html#方差分析-1",
+    "title": "统计学期末汇报要求",
+    "section": "3.5 方差分析",
+    "text": "3.5 方差分析\n\n\nCode\naov(cty ~ drv, data = mpg) %&gt;% \n  summary()\n\n\n             Df Sum Sq Mean Sq F value Pr(&gt;F)    \ndrv           2   1879   939.4   92.68 &lt;2e-16 ***\nResiduals   231   2342    10.1                   \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n不同驱动方式的车型发动机排量差异显著，后驱车排量(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
+  },
+  {
+    "objectID": "casefinal.html#独立性检验驱动类型和气缸数量的关系",
+    "href": "casefinal.html#独立性检验驱动类型和气缸数量的关系",
+    "title": "统计学期末汇报要求",
+    "section": "3.6 独立性检验：驱动类型和气缸数量的关系",
+    "text": "3.6 独立性检验：驱动类型和气缸数量的关系\n\n\nCode\nggbarstats(mpg,\n           drv,\n           cyl,\n           package = \"RColorBrewer\",\n           palette = \"Paired\")+\n  theme_bw(base_size = 15)"
+  },
+  {
+    "objectID": "casefinal.html#独立性检验驱动类型和气缸数量的关系-1",
+    "href": "casefinal.html#独立性检验驱动类型和气缸数量的关系-1",
+    "title": "统计学期末汇报要求",
+    "section": "3.6 独立性检验：驱动类型和气缸数量的关系",
+    "text": "3.6 独立性检验：驱动类型和气缸数量的关系\n驱动类型和气缸数量不独立。\n4缸，72%前驱，28%四驱;\n6缸，54%前驱， 41%四驱，5%后驱;\n8缸，1%前驱， 69%四驱，30%后驱。"
+  },
+  {
+    "objectID": "casefinal.html#研究结论",
+    "href": "casefinal.html#研究结论",
+    "title": "统计学期末汇报要求",
+    "section": "4 研究结论",
+    "text": "4 研究结论\n\nSUV、紧凑型和中型车三类车型占比共计64%。\nSUV与皮卡排量较大，紧凑型较小。\n城市油耗的总体均值的95%置信区间：[16.31, 17.41]\n高速油耗的总体均值的95%置信区间：[22.67, 24.21]\n在城市, 油耗均值大于16英里/加仑。\n在城市, \\(\\mu_4 &lt; \\mu_f\\), 前驱(20)比四驱(14)省油。\n驱动类型和气缸数量不独立：4缸，72%前驱，28%四驱; 6缸，54%前驱， 41%四驱，5%后驱; 8缸，1%前驱， 69%四驱，30%后驱。\n不同驱动方式的车型发动机排量差异显著: 后驱(5.2)最大，四驱(4.0)居中，前驱(2.6)最小。"
+  },
+  {
+    "objectID": "casefinal.html#经验分享",
+    "href": "casefinal.html#经验分享",
+    "title": "统计学期末汇报要求",
+    "section": "5 经验分享",
+    "text": "5 经验分享\n\n…\n…\n…\n…"
   },
   {
     "objectID": "case1code.html",
@@ -686,6 +770,41 @@
     "text": "课程简介讲义\nGetting Started 讲义\nchap1 讲义"
   },
   {
+    "objectID": "chap1.html#gs-descriptive-statistics-inferential-statistics",
+    "href": "chap1.html#gs-descriptive-statistics-inferential-statistics",
+    "title": "第1章",
+    "section": "GS: Descriptive Statistics & Inferential Statistics",
+    "text": "GS: Descriptive Statistics & Inferential Statistics\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#classifying-variables-by-type",
+    "href": "chap1.html#classifying-variables-by-type",
+    "title": "第1章",
+    "section": "Classifying Variables by Type",
+    "text": "Classifying Variables by Type\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#population-vs-sample",
+    "href": "chap1.html#population-vs-sample",
+    "title": "第1章",
+    "section": "Population vs Sample",
+    "text": "Population vs Sample\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#types-of-sampling-methods",
+    "href": "chap1.html#types-of-sampling-methods",
+    "title": "第1章",
+    "section": "Types of Sampling Methods",
+    "text": "Types of Sampling Methods\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap1.html#types-of-survey-errors",
+    "href": "chap1.html#types-of-survey-errors",
+    "title": "第1章",
+    "section": "Types of Survey Errors",
+    "text": "Types of Survey Errors\n\n\nClick to view image"
+  },
+  {
     "objectID": "chap1.html#题目1",
     "href": "chap1.html#题目1",
     "title": "第1章",
@@ -726,47 +845,5 @@
     "title": "第7章",
     "section": "",
     "text": "7 Sampling Distributions\nchap7 讲义"
-  },
-  {
-    "objectID": "chap1.html#descriptive-statistics-inferential-statistics",
-    "href": "chap1.html#descriptive-statistics-inferential-statistics",
-    "title": "第1章",
-    "section": "Descriptive Statistics & Inferential Statistics",
-    "text": "Descriptive Statistics & Inferential Statistics\n\n\n点击浏览图片"
-  },
-  {
-    "objectID": "chap1.html#gs-descriptive-statistics-inferential-statistics",
-    "href": "chap1.html#gs-descriptive-statistics-inferential-statistics",
-    "title": "第1章",
-    "section": "GS: Descriptive Statistics & Inferential Statistics",
-    "text": "GS: Descriptive Statistics & Inferential Statistics\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap1.html#classifying-variables-by-type",
-    "href": "chap1.html#classifying-variables-by-type",
-    "title": "第1章",
-    "section": "Classifying Variables by Type",
-    "text": "Classifying Variables by Type\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap1.html#population-vs-sample",
-    "href": "chap1.html#population-vs-sample",
-    "title": "第1章",
-    "section": "Population vs Sample",
-    "text": "Population vs Sample\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap1.html#types-of-sampling-methods",
-    "href": "chap1.html#types-of-sampling-methods",
-    "title": "第1章",
-    "section": "Types of Sampling Methods",
-    "text": "Types of Sampling Methods\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap1.html#types-of-survey-errors",
-    "href": "chap1.html#types-of-survey-errors",
-    "title": "第1章",
-    "section": "Types of Survey Errors",
-    "text": "Types of Survey Errors\n\n\nClick to view image"
   }
 ]
