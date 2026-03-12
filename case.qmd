@@ -54,6 +54,8 @@ date-format: "YYYY-MM-DD"
 
 ## 案例选题  (第3-4周)
 
+- <img src="img/link.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[请填写小组任务选题信息](https://v.wjx.cn/vm/PyK7c7f.aspx# ){target="_blank"}
+
 -   讨论问题：
 
     -   选题方向 

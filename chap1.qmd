@@ -113,66 +113,6 @@ title: "第1章"
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何将WORD文档转成图片？](https://www.bilibili.com/video/BV1GU4y1f7f9/){target="_blank"}
 
-# SPSS教学视频
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS主菜单](https://www.bilibili.com/video/BV1N541177z6/){target="_blank"}
-
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何导入Excel文件](https://www.bilibili.com/video/BV1N541177z6/){target="_blank"}
-
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 提高效率的5个按钮](https://www.bilibili.com/video/BV1vN411p7ok/){target="_blank"}
-
-
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS拆分文件 分组数据的统计量的比较](https://www.bilibili.com/video/BV1sy4y1C7FY){target="_blank"}
-
-
-
-<img src="img/video.png" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 如何将输出结果导出为WORD文档？](https://www.bilibili.com/video/BV1o34y1N7qf/){target="_blank"}
-
-# SPSS习题
-
-## 习题1
-
-数据文件telco.sav 
-
-- telco.sav文件在SPSS安装目录下, 在电脑搜索文件名找到该文件。
-
-- Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English
-
-- Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/
-
-- sample files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
-
-1.1 在SPSS中打开telco.sav文件，查看数据有多少行？有多少个变量？
-
-1.2 telco.sav文件中的变量ed的含义是什么？ed有哪几种取值？每种取值各有多少个个案？
-
-1.3 telco.sav文件中的变量tenure的含义是什么？报告tenure的均值、中位数、标准差。
-
-1.4 telco.sav文件中的变量address的含义是什么？报告address的均值、中位数、标准差。
-
-1.5 报告age, income, employ, resid的均值、中位数、标准差、最小值和最大值。
-
-
-## 习题2
-
-数据文件毕业生.xlsx
-
--   数据文件下载: <https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789> 
-
-2.1 将毕业生.xlsx导入到SPSS中，查看数据有多少行？有多少个变量？
-
-2.2 报告月薪的均值、中位数、标准差、最小值和最大值。
-
-2.3 统计各个专业的毕业生的人数。哪个专业的人数最多？占比最少？
-
-2.4 统计各个专业的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
-
-2.5 将毕业生按就业地点分为广州和非广州两个组别，报告这两个组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
-
-2.6 将毕业生按性别分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
-
-2.7 将毕业生按单位类型分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
-
-
 
 
 # 拓展资源
@@ -188,6 +128,26 @@ title: "第1章"
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">The Data And Story Library <https://dasl.datadescription.com/>{target="_blank"} 
 
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px"> Kaggle <https://www.kaggle.com/>{target="_blank"} 
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">CSMAR 国泰安经济金融数据库  <http://www.gtarsc.com/Home>
+        
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭追踪调查 CFPS <http://www.isss.pku.edu.cn/cfps/>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国家庭金融调查数据 CHFS  <https://chfs.swufe.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中国健康与养老数据追踪调查数据CHARLS <http://charls.pku.edu.cn>
+    
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">暨南大学社会调查中心  <https://sdc-iesr.jnu.edu.cn>
+    
+# 教学视频
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何从中国知网下载统计数据？](https://www.bilibili.com/video/BV19m4y1F7FE/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[八爪鱼客户端抓取网页数据？](https://www.bilibili.com/video/BV18u411D7GM/)
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[如何用Excel整理提取的网页数据？](https://www.bilibili.com/video/BV1HL411N7BG/)
+
+
 
 # 课堂小调查
 

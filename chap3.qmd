@@ -79,3 +79,51 @@ title: "第3章"
 1.14 选取一个定性变量，两个定量变量，绘制分组散点图。
 
 1.15 将1.2中报告的表格，修改为三线表。 
+
+
+
+# SPSS习题
+
+## 习题1
+
+数据文件telco.sav 
+
+- telco.sav文件在SPSS安装目录下, 在电脑搜索文件名找到该文件。
+
+- Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English
+
+- Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/
+
+- sample files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
+
+1.1 在SPSS中打开telco.sav文件，查看数据有多少行？有多少个变量？
+
+1.2 telco.sav文件中的变量ed的含义是什么？ed有哪几种取值？每种取值各有多少个个案？
+
+1.3 telco.sav文件中的变量tenure的含义是什么？报告tenure的均值、中位数、标准差。
+
+1.4 telco.sav文件中的变量address的含义是什么？报告address的均值、中位数、标准差。
+
+1.5 报告age, income, employ, resid的均值、中位数、标准差、最小值和最大值。
+
+
+## 习题2
+
+数据文件毕业生.xlsx
+
+-   数据文件下载: <https://pan.baidu.com/s/1BESTgZl7whkY4HuSq6ZGgw?pwd=6789> 
+
+2.1 将毕业生.xlsx导入到SPSS中，查看数据有多少行？有多少个变量？
+
+2.2 报告月薪的均值、中位数、标准差、最小值和最大值。
+
+2.3 统计各个专业的毕业生的人数。哪个专业的人数最多？占比最少？
+
+2.4 统计各个专业的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
+
+2.5 将毕业生按就业地点分为广州和非广州两个组别，报告这两个组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
+
+2.6 将毕业生按性别分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
+
+2.7 将毕业生按单位类型分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
+
