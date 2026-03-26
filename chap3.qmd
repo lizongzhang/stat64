@@ -18,6 +18,38 @@ title: "第3章"
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 数据分析加载项中的描述统计功能](https://www.bilibili.com/video/BV1Sy4y1r78g/){target="_blank"}
 
+# Excel习题
+
+## 习题1
+
+基于 505 位基金经理的性别、学历/学位、从业年限、专业背景、毕业院校类型、管理的基金类型和年化收益率等数据（数据文件：fund.xlsx），完成以下任务。
+
+1.1 计算基金经理性别、专业的众数。
+
+1.2 计算基金经理学历/学位的众数和中位数，若要描述基金经理学历/学位分布的集中趋势，选用众数还是中位数？为什么？
+
+1.3 利用描述性统计量反映基金经理从业年限的集中趋势、离散程度和分布形状，概括从业年限的分布特征。
+
+1.4 利用描述性统计量反映基金经理管理的基金的年化收益率的集中趋势、离散程度和分布形状，概括年化收益率的分布特征。
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel习题1 讲评--描述性统计量的报告 ](https://www.bilibili.com/video/BV1qM4m1S7Rb){target="_blank"}
+
+## 习题2
+
+数据文件：毕业生.xlsx
+
+2.1 计算毕业生性别、专业、就业单位类型的众数。
+
+2.2 毕业生月薪的分布是左偏分布、对称分布还是右偏分布？是尖峰分布、正态分布还是平峰分布？简要说明理由。
+
+2.3 将毕业生按照专业分组，计算各专业毕业生月薪的均值、最大值、最小值、样本标准差和样本方差。
+
+2.4 将毕业生按照性别分组，计算男、女毕业生月薪的均值、最大值、最小值、样本标准差和样本方差。
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel习题2 讲评--数据透视表中的计算功能 ](https://www.bilibili.com/video/BV1Hr421g75i){target="_blank"}
+
+
+
 # SPSS教学视频
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 图表构建器绘制簇状条形图](https://www.bilibili.com/video/BV1d14y167gw/)
@@ -82,31 +114,6 @@ title: "第3章"
 
 
 
-# SPSS习题
-
-## 习题1
-
-数据文件telco.sav 
-
-- telco.sav文件在SPSS安装目录下, 在电脑搜索文件名找到该文件。
-
-- Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English
-
-- Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/
-
-- sample files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
-
-1.1 在SPSS中打开telco.sav文件，查看数据有多少行？有多少个变量？
-
-1.2 telco.sav文件中的变量ed的含义是什么？ed有哪几种取值？每种取值各有多少个个案？
-
-1.3 telco.sav文件中的变量tenure的含义是什么？报告tenure的均值、中位数、标准差。
-
-1.4 telco.sav文件中的变量address的含义是什么？报告address的均值、中位数、标准差。
-
-1.5 报告age, income, employ, resid的均值、中位数、标准差、最小值和最大值。
-
-
 ## 习题2
 
 数据文件毕业生.xlsx
@@ -126,4 +133,27 @@ title: "第3章"
 2.6 将毕业生按性别分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
 
 2.7 将毕业生按单位类型分组，报个各组别的毕业生的月薪的均值、中位数、标准差、最小值和最大值。
+
+## 习题3
+
+数据文件telco.sav 
+
+- telco.sav文件在SPSS安装目录下, 在电脑搜索文件名找到该文件。
+
+- Windows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English
+
+- Mac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/
+
+- sample files简介：<https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files>
+
+3.1 在SPSS中打开telco.sav文件，查看数据有多少行？有多少个变量？
+
+3.2 telco.sav文件中的变量ed的含义是什么？ed有哪几种取值？每种取值各有多少个个案？
+
+3.3 telco.sav文件中的变量tenure的含义是什么？报告tenure的均值、中位数、标准差。
+
+3.4 telco.sav文件中的变量address的含义是什么？报告address的均值、中位数、标准差。
+
+3.5 报告age, income, employ, resid的均值、中位数、标准差、最小值和最大值。
+
 
