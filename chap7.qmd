@@ -8,3 +8,23 @@ title: "第7章"
         讲义](https://lizongzhang.github.io/business_stat/chap7.html) 
 
 
+## 拓展资源
+
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">正态分布概率密度曲线动画演示 <https://www.geogebra.org/m/nrgtzj5a>{target="_blank"}
+
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">分位数计算器 <https://gallery.shinyapps.io/dist_calc/>{target="_blank"}
+  
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Central Limit Theorem for Means <https://gallery.shinyapps.io/CLT_mean/>{target="_blank"}
+  
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">中心极限定理 n=2-31 <https://astools.datadesk.com/clt.html>{target="_blank"}
+  
+<img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">Galton Board <https://www.mathsisfun.com/data/quincunx.html>{target="_blank"}
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[3Blue1Brown: 为什么正态分布里会有一个π？](https://www.bilibili.com/video/BV1wu411W7uU/){target="_blank"}
+
+
+<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[3Blue1Brown: 到底为什么“中心极限”是正态分布啊](https://www.bilibili.com/video/BV1EP411p7bV/){target="_blank"}
+
+

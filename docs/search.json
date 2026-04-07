@@ -4,7 +4,7 @@
     "href": "chap6.html",
     "title": "第6章",
     "section": "",
-    "text": "chap6 讲义\n\n\nEXCEL利用norm.dist函数绘制正态分布概率密度曲线\n\n\n\n利用Excel绘制标准正态分布表。\n\n\n\n标准正态分布表\n\n\n第6题 如何用Excel创建标准正态分布函数表？\n中心极限定理\n\n\n\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
+    "text": "chap6 讲义\n\n\nEXCEL利用norm.dist函数绘制正态分布概率密度曲线\n\n\n\n利用Excel绘制标准正态分布表。\n\n\n\n标准正态分布表\n\n\n第6题 如何用Excel创建标准正态分布函数表？\n中心极限定理\n\n\n\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a"
   },
   {
     "objectID": "chap6.html#教学视频",
@@ -25,7 +25,7 @@
     "href": "chap6.html#拓展资源",
     "title": "第6章",
     "section": "",
-    "text": "正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
+    "text": "正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a"
   },
   {
     "objectID": "chap3.html",
@@ -844,7 +844,7 @@
     "href": "chap7.html",
     "title": "第7章",
     "section": "",
-    "text": "7 Sampling Distributions\nchap7 讲义"
+    "text": "chap7 讲义\n\n\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
   },
   {
     "objectID": "chap2.html#题目5",
@@ -894,5 +894,12 @@
     "title": "第3章",
     "section": "习题3",
     "text": "习题3\n数据文件telco.sav\n\ntelco.sav文件在SPSS安装目录下, 在电脑搜索文件名找到该文件。\nWindows系统下该文件的路径：C:/ProgramFiles/IBM/SPSS/Statistics/27/Samples/English\nMac系统下该文件的路径：/Applications/IBM SPSS Statistics 27/Samples/English/\nsample files简介：https://www.ibm.com/docs/en/spss-statistics/27.0.0?topic=system-sample-files\n\n3.1 在SPSS中打开telco.sav文件，查看数据有多少行？有多少个变量？\n3.2 telco.sav文件中的变量ed的含义是什么？ed有哪几种取值？每种取值各有多少个个案？\n3.3 telco.sav文件中的变量tenure的含义是什么？报告tenure的均值、中位数、标准差。\n3.4 telco.sav文件中的变量address的含义是什么？报告address的均值、中位数、标准差。\n3.5 报告age, income, employ, resid的均值、中位数、标准差、最小值和最大值。"
+  },
+  {
+    "objectID": "chap7.html#拓展资源",
+    "href": "chap7.html#拓展资源",
+    "title": "第7章",
+    "section": "",
+    "text": "正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
   }
 ]
