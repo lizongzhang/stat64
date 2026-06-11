@@ -165,7 +165,7 @@ date-format: "YYYY-MM-DD"
 
 # 小组任务提交(第16周)
 
--   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[提交要求](https://lizongzhang.github.io/stat25/laptop_analysis.html){target="_blank"}
+-   <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[提交要求](https://lizongzhang.github.io/stat64/laptop_analysis.html){target="_blank"}
 
 
 # 案例分析示例
