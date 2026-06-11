@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "统计学64学时"
+  title: "统计学64"
   navbar:
     left:
       - href: index.qmd
@@ -11,6 +11,7 @@ website:
       - chap1.qmd
       - chap2.qmd
       - chap3.qmd
+      - chap4.qmd
       - chap6.qmd
       - chap7.qmd
       - chap8.qmd
@@ -22,21 +23,15 @@ website:
       - icon: envelope
         href: lizongzhang9@qq.com
   page-footer:
-    right: "Statistics: turning data into insights."
+    right: "Data illuminates insights."
     left: "&copy; Copyright 2026, Li Zongzhang"
 format:
   html:
-    theme: 
-      light: [yeti, theme_light.scss]
-      #dark: [darkly, theme_dark.scss]
+    theme: [yeti, theme_light.scss]
+    fontcolor: "#044875"
     toc: true
-    number_sections: true
-header-includes:
-  - |
-    <script>
-      document.querySelectorAll('a').forEach(function(link) {
-        link.setAttribute('target', '_blank');
-      });
-    </script>
 editor: source
+execute:
+  default-language: R
+
 
