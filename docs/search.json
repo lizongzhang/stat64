@@ -901,5 +901,187 @@
     "title": "第7章",
     "section": "",
     "text": "正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
+  },
+  {
+    "objectID": "laptop_analysis.html#目录",
+    "href": "laptop_analysis.html#目录",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "目录",
+    "text": "目录\n\n\n1. 数据概览\n\n样本基本情况\n变量说明\n\n2. 描述性统计\n\n定量变量统计量\n分类变量分布\n\n\n3. 图形分析\n\n饼图、帕累托图\n箱线图、直方图、散点图\n\n4. 推断统计\n\n区间估计\nt 检验、方差分析、卡方检验"
+  },
+  {
+    "objectID": "laptop_analysis.html#样本基本情况",
+    "href": "laptop_analysis.html#样本基本情况",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "样本基本情况",
+    "text": "样本基本情况\n\n\n\n\n\n\n\n\n指标\n数值\n\n\n\n\n总样本量\n142\n\n\n男生人数\n34\n\n\n女生人数\n108\n\n\n性能需求\n52\n\n\n轻度使用\n90\n\n\n平均笔记本价格\n¥6261\n\n\n平均月生活费\n¥2100"
+  },
+  {
+    "objectID": "laptop_analysis.html#变量说明",
+    "href": "laptop_analysis.html#变量说明",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "变量说明",
+    "text": "变量说明\n\n\n\n\n\n\n\n\n变量名\n含义\n类型\n\n\n\n\nlaptop\n笔记本电脑价格（元）\n定量\n\n\ncost\n月生活费（元）\n定量\n\n\nmobile\n手机价格（元）\n定量\n\n\nlaptop_usage\n笔记本使用时长（月）\n定量\n\n\ngender\n性别\n分类\n\n\ndemand\n需求类型\n分类\n\n\nbrand\n品牌偏好\n分类"
+  },
+  {
+    "objectID": "laptop_analysis.html#定量变量描述性统计",
+    "href": "laptop_analysis.html#定量变量描述性统计",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "定量变量描述性统计",
+    "text": "定量变量描述性统计\n\n\n\n\n\n\n\n\n变量\n均值\n中位数\n标准差\n最小值\n最大值\n\n\n\n\n月生活费\n2,100.1\n2,000.0\n672.1\n800.0\n5,000.0\n\n\n笔记本价格\n6,260.6\n6,000.0\n2,362.2\n1,800.0\n13,000.0\n\n\n使用时长\n15.7\n16.0\n10.3\n1.0\n62.0\n\n\n手机价格\n5,329.8\n5,299.5\n2,828.4\n1,200.0\n13,999.0"
+  },
+  {
+    "objectID": "laptop_analysis.html#性别分布饼图",
+    "href": "laptop_analysis.html#性别分布饼图",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "性别分布（饼图）",
+    "text": "性别分布（饼图）"
+  },
+  {
+    "objectID": "laptop_analysis.html#品牌偏好帕累托图",
+    "href": "laptop_analysis.html#品牌偏好帕累托图",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "品牌偏好（帕累托图）",
+    "text": "品牌偏好（帕累托图）"
+  },
+  {
+    "objectID": "laptop_analysis.html#笔记本价格箱线图按性别",
+    "href": "laptop_analysis.html#笔记本价格箱线图按性别",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "笔记本价格箱线图（按性别）",
+    "text": "笔记本价格箱线图（按性别）"
+  },
+  {
+    "objectID": "laptop_analysis.html#月生活费直方图",
+    "href": "laptop_analysis.html#月生活费直方图",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "月生活费直方图",
+    "text": "月生活费直方图"
+  },
+  {
+    "objectID": "laptop_analysis.html#笔记本价格-vs.-手机价格散点图",
+    "href": "laptop_analysis.html#笔记本价格-vs.-手机价格散点图",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "笔记本价格 vs. 手机价格（散点图）",
+    "text": "笔记本价格 vs. 手机价格（散点图）"
+  },
+  {
+    "objectID": "laptop_analysis.html#笔记本价格的-95-置信区间",
+    "href": "laptop_analysis.html#笔记本价格的-95-置信区间",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "笔记本价格的 95% 置信区间",
+    "text": "笔记本价格的 95% 置信区间\n\n\n\n\n\n\n\n\n笔记本价格 95% 置信区间\n\n\n变量\n均值\n标准误\n置信下限\n置信上限\n\n\n\n\n笔记本价格\n6,260.6\n198.2\n5,868.7\n6,652.5\n\n\n\n\n\n\n\n\n\n\n\n\n\n区间估计结论\n\n\n在 95% 的置信水平下，大学生笔记本电脑的总体平均价格的区间估计： [¥5869 , ¥6653 ]。"
+  },
+  {
+    "objectID": "laptop_analysis.html#两样本-t-检验男女笔记本价格差异",
+    "href": "laptop_analysis.html#两样本-t-检验男女笔记本价格差异",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "两样本 t 检验：男女笔记本价格差异",
+    "text": "两样本 t 检验：男女笔记本价格差异\n\n\n\n\n\n\n\n\n各组描述性统计\n\n\n组别\n样本量\n均值\n标准差\n\n\n\n\n男\n34\n7,515.0\n2,260.6\n\n\n女\n108\n5,865.7\n2,262.6"
+  },
+  {
+    "objectID": "laptop_analysis.html#t-检验结果",
+    "href": "laptop_analysis.html#t-检验结果",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "t 检验结果",
+    "text": "t 检验结果\n\n\n\n\n\n\n\n\n统计量\n数值\n\n\n\n\nt 值\n3.709\n\n\n自由度\n55.4\n\n\np 值\n0.0005\n\n\n均值差\n-1649.2\n\n\n\n\n\n\n\n\n\n\n\n\n\nt 检验结论\n\n\n研究问题：男生与女生的笔记本电脑平均价格是否存在显著差异？\n统计结论：p = 5^{-4} &lt; 0.05（显著）\n实质结论：在 α = 0.05 的显著性水平下，男女生笔记本价格存在显著差异，男生的平均购买价格显著更高，差额约为 ¥1649元。"
+  },
+  {
+    "objectID": "laptop_analysis.html#方差分析品牌偏好与笔记本价格",
+    "href": "laptop_analysis.html#方差分析品牌偏好与笔记本价格",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "方差分析：品牌偏好与笔记本价格",
+    "text": "方差分析：品牌偏好与笔记本价格\n\n\n\n\n\n\n\n\n各组描述性统计\n\n\n品牌偏好\n样本量\n均值\n标准差\n\n\n\n\n性价比\n22\n5,177.0\n2,244.7\n\n\n主流品牌\n81\n5,800.2\n2,078.7\n\n\n游戏本\n21\n8,042.2\n1,947.9\n\n\n高端品牌\n18\n7,578.3\n2,639.9"
+  },
+  {
+    "objectID": "laptop_analysis.html#方差分析表",
+    "href": "laptop_analysis.html#方差分析表",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "方差分析表",
+    "text": "方差分析表\n\n\n\n\n\n\n\n\n来源\n平方和\n自由度\n均方\nF值\np值\n\n\n\n\n组间\n140,913,175\n3\n46,971,058\n10.036\n0.0000\n\n\n组内\n645,846,220\n138\n4,680,045\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n方差分析结论\n\n\n研究问题：不同品牌偏好的学生，其笔记本电脑平均价格是否存在显著差异？\n统计结论：F(3, 138) = 10.036，p = 0 &lt; 0.05（显著）\n实质结论：在 α = 0.05 的显著性水平下，不同品牌偏好组的笔记本价格存在显著差异，品牌偏好是影响购买价格的重要因素。从描述性统计可以看出，高端品牌偏好者的平均价格明显高于性价比偏好者。"
+  },
+  {
+    "objectID": "laptop_analysis.html#卡方检验性别-需求类型",
+    "href": "laptop_analysis.html#卡方检验性别-需求类型",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "卡方检验：性别 × 需求类型",
+    "text": "卡方检验：性别 × 需求类型\n\n\n\n\n\n\n\n\n性别 × 需求类型列联表\n\n\n性别\n性能需求\n轻度使用\n\n\n\n\n男\n23\n11\n\n\n女\n29\n79"
+  },
+  {
+    "objectID": "laptop_analysis.html#卡方检验结果",
+    "href": "laptop_analysis.html#卡方检验结果",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "卡方检验结果",
+    "text": "卡方检验结果\n\n\n\n\n\n\n\n\n统计量\n数值\n\n\n\n\n卡方值\n16.826\n\n\n自由度\n1\n\n\np 值\n0.0000\n\n\n\n\n\n\n\n\n\n\n\n\n\n卡方检验结论\n\n\n研究问题：性别与需求类型之间是否存在关联？\n统计结论：χ²(1) = 16.826，p = 0 &lt; 0.05（显著）\n实质结论：在 α = 0.05 的显著性水平下，性别与需求类型之间存在显著关联。从列联表可以看出，不同性别的学生在笔记本使用需求上表现出明显不同的偏好模式。"
+  },
+  {
+    "objectID": "laptop_analysis.html#主要发现总结",
+    "href": "laptop_analysis.html#主要发现总结",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "主要发现总结",
+    "text": "主要发现总结\n\n\n1. 描述性统计\n\n平均笔记本价格：¥6261\n平均月生活费：¥2100\n女生占比：76.1%\n\n2. 价格分布\n\n笔记本价格 95% 置信区间：¥5869 ~ ¥6653\n主流品牌占主导地位\n\n\n3. 推断统计结论\n\n性别与价格：男女笔记本价格存在显著差异（p = 0）\n品牌与价格：品牌偏好对价格影响显著（p = 0）\n性别与需求：两者存在关联（p = 0）"
+  },
+  {
+    "objectID": "laptop_analysis.html#谢谢",
+    "href": "laptop_analysis.html#谢谢",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "谢谢！",
+    "text": "谢谢！\n\nQuestions?\n\n\n数据分析团队\n2026-06-11"
+  },
+  {
+    "objectID": "laptop_analysis.html#品牌偏好",
+    "href": "laptop_analysis.html#品牌偏好",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "品牌偏好",
+    "text": "品牌偏好"
+  },
+  {
+    "objectID": "laptop_analysis.html#笔记本价格箱线图",
+    "href": "laptop_analysis.html#笔记本价格箱线图",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "笔记本价格箱线图",
+    "text": "笔记本价格箱线图"
+  },
+  {
+    "objectID": "laptop_analysis.html#两样本-t-检验男女生笔记本价格差异",
+    "href": "laptop_analysis.html#两样本-t-检验男女生笔记本价格差异",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "两样本 t 检验：男女生笔记本价格差异",
+    "text": "两样本 t 检验：男女生笔记本价格差异\n\n\n\n\n\n\n\n\n各组描述性统计\n\n\n组别\n样本量\n均值\n标准差\n\n\n\n\n男\n34\n7,515.0\n2,260.6\n\n\n女\n108\n5,865.7\n2,262.6"
+  },
+  {
+    "objectID": "laptop_analysis.html#谢谢敬请批评指正",
+    "href": "laptop_analysis.html#谢谢敬请批评指正",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "谢谢！敬请批评指正！",
+    "text": "谢谢！敬请批评指正！\n2026-06-11 :::"
+  },
+  {
+    "objectID": "case.html#第10章讨论课-第10-11周",
+    "href": "case.html#第10章讨论课-第10-11周",
+    "title": "小组任务",
+    "section": "第10章讨论课 (第10-11周)",
+    "text": "第10章讨论课 (第10-11周)\n-     两个总体均值的假设检验\n\n-     卡方检验\n\n-     方差分析\n\n将Excel的输出结果，及文字说明整理到PPT文档。"
+  },
+  {
+    "objectID": "case.html#第11章讨论课-第13-14周",
+    "href": "case.html#第11章讨论课-第13-14周",
+    "title": "小组任务",
+    "section": "第11章讨论课 (第13-14周)",
+    "text": "第11章讨论课 (第13-14周)\n-     卡方检验\n\n将Excel的输出结果，及文字说明整理到PPT文档。"
+  },
+  {
+    "objectID": "case.html#小组任务提交第16周",
+    "href": "case.html#小组任务提交第16周",
+    "title": "小组任务",
+    "section": "小组任务提交(第16周)",
+    "text": "小组任务提交(第16周)\n\n提交要求"
+  },
+  {
+    "objectID": "laptop_analysis.html#小组任务提交要求",
+    "href": "laptop_analysis.html#小组任务提交要求",
+    "title": "大学生笔记本电脑使用情况分析",
+    "section": "小组任务提交要求",
+    "text": "小组任务提交要求\n\n提交截止：第16周周四（2026年6月18日）20:00\n提交要求：\n\n文件格式：PDF（PowerPoint / WPS 转PDF）\n文件命名：第#组+组长姓名+班级+主题关键词+小组汇报.pdf\n\n示例：第1组曾熙雯 25会计2 早茶小组任务.pdf\n\n提交位置：QQ群“小组汇报”文件夹"
   }
 ]

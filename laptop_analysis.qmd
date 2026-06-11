@@ -1,0 +1,704 @@
+---
+title: "大学生笔记本电脑<br>使用情况分析"
+date: today
+author: 
+  name: "Li Zongzhang"
+format: 
+  revealjs:
+    incremental: false
+    theme: [sky]
+    slide-number: c/t
+    show-slide-number: all
+    code-fold: true
+    code-copy: true
+    code-summary: "查看R代码"
+    chalkboard: 
+      buttons: true
+      board-canvas-background: "#f0f0f0"
+    preview-links: auto
+    toc-title: "大纲"
+    css: style.css
+    footer: |
+      [Stat](https://lizongzhang.github.io/stat64) | © 2026 , [Li Zongzhang](https://space.bilibili.com/590872906/)
+    include-before-body: 
+      - header.html
+      - fonts.html
+    menu: 
+      side: left
+      width: wide
+    plugins: [highlight, zoom, notes]
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+library(tidyverse)
+library(showtext)
+showtext_auto()
+```
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(gt)
+library(patchwork)
+library(scales)
+library(ggrepel)
+
+# 读取数据
+df <- read_csv("wjx.csv", show_col_types = FALSE) |>
+  mutate(
+    gender = factor(gender, levels = c("male", "female"),
+                    labels = c("男", "女")),
+    demand = factor(demand, levels = c("performance", "lite"),
+                    labels = c("性能需求", "轻度使用")),
+    brand = factor(brand, 
+                   levels = c("value", "mainstream", "gaming", "premium"),
+                   labels = c("性价比", "主流品牌", "游戏本", "高端品牌"))
+  )
+
+# 科研风格配色方案（淡雅马卡龙色）
+colors_gender   <- c("男" = "#91C4E6", "女" = "#F5B6C8")
+colors_demand   <- c("性能需求" = "#E8B4BC", "轻度使用" = "#B8D8BA")
+colors_brand    <- c(
+  "性价比"   = "#FDD9B5",
+  "主流品牌" = "#D4E4F0", 
+  "游戏本"   = "#E8C8D8",
+  "高端品牌" = "#C8D5B9"
+)
+
+# 单色渐变调色板（用于直方图等）
+color_single <- "#9DBDC6"
+color_accent <- "#E89CA3"
+
+# 主题设置
+theme_set(theme_minimal(base_size = 14, base_family = ""))
+```
+
+---
+
+## 目录 {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+**1. 数据概览**
+
+- 样本基本情况
+- 变量说明
+
+**2. 描述性统计**
+
+- 定量变量统计量
+- 分类变量分布
+:::
+
+::: {.column width="50%"}
+**3. 图形分析**
+
+- 饼图、帕累托图
+- 箱线图、直方图、散点图
+
+**4. 推断统计**
+
+- 区间估计
+- t 检验、方差分析、卡方检验
+:::
+::::
+
+---
+
+# 1 数据概览
+
+---
+
+## 样本基本情况
+
+```{r}
+#| echo: false
+
+tibble(
+  指标 = c("总样本量", "男生人数", "女生人数",
+           "性能需求", "轻度使用",
+           "平均笔记本价格", "平均月生活费"),
+  数值 = c(
+    nrow(df),
+    sum(df$gender == "男"),
+    sum(df$gender == "女"),
+    sum(df$demand == "性能需求"),
+    sum(df$demand == "轻度使用"),
+    sprintf("¥%.0f", mean(df$laptop, na.rm = TRUE)),
+    sprintf("¥%.0f", mean(df$cost, na.rm = TRUE))
+  )
+) |>
+  gt() |>
+  cols_label(指标 = "指标", 数值 = "数值") |>
+  cols_align(align = "left", columns = 指标) |>
+  cols_align(align = "right", columns = 数值) |>
+  tab_options(
+    table.width = pct(70),
+    table.font.size = px(16),
+    data_row.padding = px(8)
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#9DBDC6"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+---
+
+## 变量说明
+
+```{r}
+#| echo: false
+
+tibble(
+  变量名 = c("laptop", "cost", "mobile", "laptop_usage",
+             "gender", "demand", "brand"),
+  含义 = c("笔记本电脑价格（元）", "月生活费（元）", "手机价格（元）",
+           "笔记本使用时长（月）", "性别", "需求类型", "品牌偏好"),
+  类型 = c("定量", "定量", "定量", "定量",
+           "分类", "分类", "分类")
+) |>
+  gt() |>
+  cols_label(变量名 = "变量名", 含义 = "含义", 类型 = "类型") |>
+  cols_align(align = "center") |>
+  tab_options(
+    table.width = pct(90),
+    table.font.size = px(15),
+    data_row.padding = px(6)
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#9DBDC6"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+---
+
+# 2 描述性统计
+
+---
+
+## 定量变量描述性统计
+
+```{r}
+#| echo: false
+
+df |>
+  select(laptop, cost, mobile, laptop_usage) |>
+  pivot_longer(everything(), names_to = "变量", values_to = "值") |>
+  group_by(变量) |>
+  summarise(
+    均值   = mean(值, na.rm = TRUE),
+    中位数 = median(值, na.rm = TRUE),
+    标准差 = sd(值, na.rm = TRUE),
+    最小值 = min(值, na.rm = TRUE),
+    最大值 = max(值, na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  mutate(
+    变量 = case_when(
+      变量 == "laptop" ~ "笔记本价格",
+      变量 == "cost" ~ "月生活费",
+      变量 == "mobile" ~ "手机价格",
+      变量 == "laptop_usage" ~ "使用时长"
+    )
+  ) |>
+  gt() |>
+  fmt_number(columns = c(均值, 中位数, 标准差, 最小值, 最大值),
+             decimals = 1) |>
+  cols_align(align = "center") |>
+  tab_options(
+    table.width = pct(100),
+    table.font.size = px(13)
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#D4B5A0"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+---
+
+# 3 图形分析
+
+---
+
+## 性别分布（饼图）
+
+```{r}
+#| echo: false
+#| fig-width: 6
+#| fig-height: 5
+
+df |>
+  count(gender) |>
+  mutate(
+    pct = n / sum(n),
+    label = sprintf("%s\n%.1f%%", gender, pct * 100)
+  ) |>
+  ggplot(aes(x = "", y = n, fill = gender)) +
+  geom_col(width = 1, color = "white", linewidth = 2) +
+  geom_text(aes(label = label),
+            position = position_stack(vjust = 0.5),
+            size = 6, fontface = "bold", color = "white") +
+  coord_polar(theta = "y") +
+  scale_fill_manual(values = colors_gender) +
+  labs(title = "性别分布", fill = "性别") +
+  theme_void(base_size = 16) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 20),
+    legend.position = "right"
+  )
+```
+
+---
+
+## 品牌偏好
+
+```{r}
+#| echo: false
+#| fig-width: 9
+#| fig-height: 5
+
+brand_pareto <- df |>
+  count(brand, name = "频数") |>
+  arrange(desc(频数)) |>
+  mutate(
+    累计频数 = cumsum(频数),
+    累计百分比 = 累计频数 / sum(频数) * 100,
+    brand = fct_reorder(brand, -频数)
+  )
+
+ggplot(brand_pareto, aes(x = brand)) +
+  geom_col(aes(y = 频数), fill = "#B8CADA", alpha = 0.85, width = 0.6) +
+  geom_line(aes(y = 累计百分比 * max(频数) / 100, group = 1),
+            color = "#D89CA3", linewidth = 1.5) +
+  geom_point(aes(y = 累计百分比 * max(频数) / 100),
+             color = "#D89CA3", size = 4) +
+  geom_text(aes(y = 频数, label = 频数),
+            vjust = -0.5, size = 5, fontface = "bold", color = "#5A6C7D") +
+  scale_y_continuous(
+    name = "频数",
+    sec.axis = sec_axis(~ . * 100 / max(brand_pareto$频数),
+                        name = "累计百分比（%）")
+  ) +
+  labs(title = "品牌偏好帕累托图", x = "品牌偏好") +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+    axis.title.y.right = element_text(color = "#D89CA3"),
+    axis.text.y.right = element_text(color = "#D89CA3")
+  )
+```
+
+---
+
+## 笔记本价格箱线图
+
+```{r}
+#| echo: false
+#| fig-width: 8
+#| fig-height: 5
+
+ggplot(df, aes(x = gender, y = laptop, fill = gender)) +
+  geom_boxplot(alpha = 0.75, outlier.size = 3, outlier.alpha = 0.5,
+               outlier.color = "#A0A0A0") +
+  stat_summary(fun = mean, geom = "point",
+               shape = 23, size = 4, fill = "#F4D03F", color = "#5A6C7D") +
+  scale_fill_manual(values = colors_gender) +
+  scale_y_continuous(labels = label_comma()) +
+  labs(
+    title = "笔记本价格分布（按性别）",
+    x = "性别", y = "笔记本价格（元）",
+    caption = "黄色菱形表示均值"
+  ) +
+  theme_minimal(base_size = 16) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+    legend.position = "none",
+    panel.grid.minor = element_blank()
+  )
+```
+
+---
+
+## 月生活费直方图
+
+```{r}
+#| echo: false
+#| fig-width: 8
+#| fig-height: 5
+
+ggplot(df, aes(x = cost)) +
+  geom_histogram(binwidth = 300, fill = "#B8D8BA",
+                 color = "white", alpha = 0.85) +
+  geom_vline(xintercept = mean(df$cost, na.rm = TRUE),
+             linetype = "dashed", color = "#D89CA3", linewidth = 1.5) +
+  annotate("text", x = mean(df$cost, na.rm = TRUE) + 400,
+           y = Inf, vjust = 2,
+           label = sprintf("均值 = ¥%.0f", mean(df$cost, na.rm = TRUE)),
+           color = "#D89CA3", size = 5, fontface = "bold") +
+  scale_x_continuous(labels = label_comma()) +
+  labs(
+    title = "月生活费分布",
+    x = "月生活费（元）", y = "频数"
+  ) +
+  theme_minimal(base_size = 16) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+    panel.grid.minor = element_blank()
+  )
+```
+
+---
+
+## 笔记本价格 vs. 手机价格（散点图）
+
+```{r}
+#| echo: false
+#| fig-width: 8
+#| fig-height: 5.5
+
+ggplot(df, aes(x = laptop, y = mobile, color = gender)) +
+  geom_point(size = 3, alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE, linewidth = 1.2, alpha = 0.2) +
+  scale_color_manual(values = colors_gender) +
+  scale_x_continuous(labels = label_comma()) +
+  scale_y_continuous(labels = label_comma()) +
+  labs(
+    title = "笔记本价格 vs. 手机价格",
+    x = "笔记本价格（元）",
+    y = "手机价格（元）",
+    color = "性别"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 18),
+    legend.position = "top",
+    panel.grid.minor = element_blank()
+  )
+```
+
+---
+
+# 4 推断统计
+
+---
+
+## 笔记本价格的 95% 置信区间
+
+```{r}
+#| echo: false
+
+t_test_laptop <- t.test(df$laptop)
+
+tibble(
+  变量 = "笔记本价格",
+  均值 = t_test_laptop$estimate,
+  标准误 = sd(df$laptop) / sqrt(nrow(df)),
+  置信下限 = t_test_laptop$conf.int[1],
+  置信上限 = t_test_laptop$conf.int[2]
+) |>
+  gt() |>
+  fmt_number(columns = c(均值, 标准误, 置信下限, 置信上限),
+             decimals = 1) |>
+  cols_align(align = "center") |>
+  tab_header(title = "笔记本价格 95% 置信区间") |>
+  tab_options(
+    table.width = pct(80),
+    table.font.size = px(15)
+  ) |>
+  tab_style(
+    style = list(cell_fill(color = "#B8D8BA"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+::: {.callout-note}
+## 区间估计结论
+
+在 95% 的置信水平下，大学生笔记本电脑的**总体平均价格**的区间估计： [**¥`r round(t_test_laptop$conf.int[1], 0)`** , **¥`r round(t_test_laptop$conf.int[2], 0)`** ]。
+:::
+
+---
+
+## 两样本 t 检验：男女生笔记本价格差异
+
+```{r}
+#| echo: false
+
+t_test_gender <- t.test(laptop ~ gender, data = df)
+
+tibble(
+  组别 = c("男", "女"),
+  样本量 = c(
+    sum(df$gender == "男"),
+    sum(df$gender == "女")
+  ),
+  均值 = c(
+    mean(df$laptop[df$gender == "男"], na.rm = TRUE),
+    mean(df$laptop[df$gender == "女"], na.rm = TRUE)
+  ),
+  标准差 = c(
+    sd(df$laptop[df$gender == "男"], na.rm = TRUE),
+    sd(df$laptop[df$gender == "女"], na.rm = TRUE)
+  )
+) |>
+  gt() |>
+  fmt_number(columns = c(均值, 标准差), decimals = 1) |>
+  cols_align(align = "center") |>
+  tab_header(title = "各组描述性统计") |>
+  tab_options(table.width = pct(70), table.font.size = px(14)) |>
+  tab_style(
+    style = list(cell_fill(color = "#9DBDC6"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+---
+
+## t 检验结果
+
+```{r}
+#| echo: false
+
+tibble(
+  统计量 = c("t 值", "自由度", "p 值", "均值差"),
+  数值 = c(
+    sprintf("%.3f", t_test_gender$statistic),
+    sprintf("%.1f", t_test_gender$parameter),
+    sprintf("%.4f", t_test_gender$p.value),
+    sprintf("%.1f", diff(t_test_gender$estimate))
+  )
+) |>
+  gt() |>
+  cols_align(align = "center") |>
+  tab_options(table.width = pct(50), table.font.size = px(15)) |>
+  tab_style(
+    style = list(cell_fill(color = "#9DBDC6"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+::: {.callout-important}
+## t 检验结论
+
+**研究问题**：男生与女生的笔记本电脑平均价格是否存在显著差异？
+
+**统计结论**：p = `r round(t_test_gender$p.value, 4)` `r if(t_test_gender$p.value >= 0.05) "> 0.05（不显著）" else "< 0.05（显著）"`
+
+**实质结论**：在 α = 0.05 的显著性水平下，`r if(t_test_gender$p.value >= 0.05) "**没有充分证据**表明男女生笔记本价格存在显著差异，两组价格水平相当。" else paste0("**男女生笔记本价格存在显著差异**，", if(diff(t_test_gender$estimate) < 0) "男生" else "女生", "的平均购买价格显著更高，差额约为 ¥", abs(round(diff(t_test_gender$estimate), 0)), "元。")`
+:::
+
+---
+
+## 方差分析：品牌偏好与笔记本价格
+
+```{r}
+#| echo: false
+
+aov_result <- aov(laptop ~ brand, data = df)
+aov_summary <- summary(aov_result)
+
+# 描述性统计
+df |>
+  group_by(brand) |>
+  summarise(
+    样本量 = n(),
+    均值 = mean(laptop, na.rm = TRUE),
+    标准差 = sd(laptop, na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  gt() |>
+  fmt_number(columns = c(均值, 标准差), decimals = 1) |>
+  cols_label(brand = "品牌偏好") |>
+  cols_align(align = "center") |>
+  tab_header(title = "各组描述性统计") |>
+  tab_options(table.width = pct(80), table.font.size = px(14)) |>
+  tab_style(
+    style = list(cell_fill(color = "#D4B5A0"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+---
+
+## 方差分析表
+
+```{r}
+#| echo: false
+
+tibble(
+  来源 = c("组间", "组内"),
+  平方和 = c(
+    aov_summary[[1]]$`Sum Sq`[1],
+    aov_summary[[1]]$`Sum Sq`[2]
+  ),
+  自由度 = c(
+    aov_summary[[1]]$Df[1],
+    aov_summary[[1]]$Df[2]
+  ),
+  均方 = c(
+    aov_summary[[1]]$`Mean Sq`[1],
+    aov_summary[[1]]$`Mean Sq`[2]
+  ),
+  F值 = c(
+    sprintf("%.3f", aov_summary[[1]]$`F value`[1]),
+    ""
+  ),
+  p值 = c(
+    sprintf("%.4f", aov_summary[[1]]$`Pr(>F)`[1]),
+    ""
+  )
+) |>
+  gt() |>
+  fmt_number(columns = c(平方和, 均方), decimals = 0) |>
+  cols_align(align = "center") |>
+  tab_options(table.width = pct(90), table.font.size = px(14)) |>
+  tab_style(
+    style = list(cell_fill(color = "#D4B5A0"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+::: {.callout-important}
+## 方差分析结论
+
+**研究问题**：不同品牌偏好的学生，其笔记本电脑平均价格是否存在显著差异？
+
+**统计结论**：F(`r aov_summary[[1]]$Df[1]`, `r aov_summary[[1]]$Df[2]`) = `r round(aov_summary[[1]]$"F value"[1], 3)`，p = `r round(aov_summary[[1]]$"Pr(>F)"[1], 4)` `r if(aov_summary[[1]]$"Pr(>F)"[1] < 0.05) "< 0.05（显著）" else "> 0.05（不显著）"`
+
+**实质结论**：在 α = 0.05 的显著性水平下，`r if(aov_summary[[1]]$"Pr(>F)"[1] < 0.05) "**不同品牌偏好组的笔记本价格存在显著差异**，品牌偏好是影响购买价格的重要因素。从描述性统计可以看出，高端品牌偏好者的平均价格明显高于性价比偏好者。" else "**没有充分证据**表明不同品牌偏好组的笔记本价格存在显著差异，各组价格水平相当。"`
+:::
+
+---
+
+## 卡方检验：性别 × 需求类型
+
+```{r}
+#| echo: false
+
+# 列联表
+contingency <- table(df$gender, df$demand)
+
+contingency |>
+  as.data.frame.matrix() |>
+  rownames_to_column("性别") |>
+  gt() |>
+  cols_align(align = "center") |>
+  tab_header(title = "性别 × 需求类型列联表") |>
+  tab_options(table.width = pct(50), table.font.size = px(15)) |>
+  tab_style(
+    style = list(cell_fill(color = "#E8B4BC"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+---
+
+## 卡方检验结果
+
+```{r}
+#| echo: false
+
+chi_result <- chisq.test(contingency)
+
+tibble(
+  统计量 = c("卡方值", "自由度", "p 值"),
+  数值 = c(
+    sprintf("%.3f", chi_result$statistic),
+    sprintf("%d", chi_result$parameter),
+    sprintf("%.4f", chi_result$p.value)
+  )
+) |>
+  gt() |>
+  cols_align(align = "center") |>
+  tab_options(table.width = pct(50), table.font.size = px(15)) |>
+  tab_style(
+    style = list(cell_fill(color = "#E8B4BC"),
+                 cell_text(color = "white", weight = "bold")),
+    locations = cells_column_labels()
+  )
+```
+
+::: {.callout-important}
+## 卡方检验结论
+
+**研究问题**：性别与需求类型之间是否存在关联？
+
+**统计结论**：χ²(`r chi_result$parameter`) = `r round(chi_result$statistic, 3)`，p = `r round(chi_result$p.value, 4)` `r if(chi_result$p.value < 0.05) "< 0.05（显著）" else "> 0.05（不显著）"`
+
+**实质结论**：在 α = 0.05 的显著性水平下，`r if(chi_result$p.value < 0.05) "**性别与需求类型之间存在显著关联**。从列联表可以看出，不同性别的学生在笔记本使用需求上表现出明显不同的偏好模式。" else "**没有充分证据**表明性别与需求类型之间存在关联，两个变量相互独立，即不同性别的学生在使用需求上的分布基本一致。"`
+:::
+
+---
+
+## 主要发现总结 {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+**1. 描述性统计**
+
+- 平均笔记本价格：¥`r round(mean(df$laptop), 0)`
+- 平均月生活费：¥`r round(mean(df$cost), 0)`
+- 女生占比：`r round(sum(df$gender=="女")/nrow(df)*100, 1)`%
+
+**2. 价格分布**
+
+- 笔记本价格 95% 置信区间：<br>¥`r round(t_test_laptop$conf.int[1], 0)` ~ ¥`r round(t_test_laptop$conf.int[2], 0)`
+- 主流品牌占主导地位
+:::
+
+::: {.column width="50%"}
+**3. 推断统计结论**
+
+- **性别与价格**：男女笔记本价格`r if(t_test_gender$p.value < 0.05) "存在显著差异" else "无显著差异"`（p = `r round(t_test_gender$p.value, 3)`）
+
+- **品牌与价格**：品牌偏好对价格影响`r if(aov_summary[[1]]$"Pr(>F)"[1] < 0.05) "显著" else "不显著"`（p = `r round(aov_summary[[1]]$"Pr(>F)"[1], 3)`）
+
+- **性别与需求**：两者`r if(chi_result$p.value < 0.05) "存在关联" else "相互独立"`（p = `r round(chi_result$p.value, 3)`）
+:::
+::::
+
+---
+
+谢谢！敬请批评指正！
+
+
+---
+
+---
+
+## 小组任务提交要求
+
+- 提交截止：第16周周四（2026年6月18日）20:00
+
+- 提交要求：
+
+    - 文件格式：PDF（PowerPoint / WPS 转PDF）
+  
+    - 文件命名：第#组+组长姓名+班级+主题关键词+小组汇报.pdf
+  
+        - 示例：第1组曾熙雯 25会计2 早茶小组任务.pdf
+  
+    - 提交位置：QQ群“小组汇报”文件夹
+
+---
