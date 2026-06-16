@@ -7,7 +7,22 @@ title: "第3章"
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap3
         讲义](https://lizongzhang.github.io/business_stat/chap3.html) 
 
-# 本章难点
+# 本章重点
+
+## Exploratory Data Analysis and Descriptive Statistics
+
+* **Variable Classification:** Identifying variable types (e.g., categorical/qualitative vs. numerical/quantitative).
+* **Frequency Distributions (Categorical Data):** Calculating relative frequencies and percentages for categorical groups.
+* **Frequency Distributions (Grouped Numerical Data):** Calculating relative frequencies, percentages, and cumulative percentages for grouped data intervals.
+* **Measures of Central Tendency:** Calculating and interpreting the mean, median, and mode of a raw dataset.
+* **Measures of Dispersion (Spread):** Calculating the range of a raw dataset.
+* **Distribution Shape:** Assessing skewness (symmetric, left-skewed, right-skewed) based on the relationship between central tendency measures or raw data.
+* **Quartiles and IQR:** Utilizing the five-number summary to calculate the Interquartile Range (IQR) and interpreting its meaning.
+* **Outlier Detection:** Applying the $1.5 \times IQR$ rule to identify potential outliers in a dataset.
+* **Normal Distribution Applications:** Using the Empirical Rule (68-95-99.7 rule) or Z-scores to estimate percentages/probabilities for normally distributed data.
+* **Relative Variability:** Calculating and interpreting the Coefficient of Variation ($CV = \frac{s}{\bar{x}}$) to compare the dispersion of variables with different scales or units.
+
+
 
 <details>
 
@@ -30,7 +45,8 @@ title: "第3章"
 
 </details>
 
-## Sampling Distribution of the proportion 
+
+
 
 </details>
 

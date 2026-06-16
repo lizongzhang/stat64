@@ -1041,5 +1041,12 @@
     "title": "第9章",
     "section": "Sampling Distribution of the proportion",
     "text": "Sampling Distribution of the proportion"
+  },
+  {
+    "objectID": "chap3.html#exploratory-data-analysis-and-descriptive-statistics",
+    "href": "chap3.html#exploratory-data-analysis-and-descriptive-statistics",
+    "title": "第3章",
+    "section": "Exploratory Data Analysis and Descriptive Statistics",
+    "text": "Exploratory Data Analysis and Descriptive Statistics\n\nVariable Classification: Identifying variable types (e.g., categorical/qualitative vs. numerical/quantitative).\nFrequency Distributions (Categorical Data): Calculating relative frequencies and percentages for categorical groups.\nFrequency Distributions (Grouped Numerical Data): Calculating relative frequencies, percentages, and cumulative percentages for grouped data intervals.\nMeasures of Central Tendency: Calculating and interpreting the mean, median, and mode of a raw dataset.\nMeasures of Dispersion (Spread): Calculating the range of a raw dataset.\nDistribution Shape: Assessing skewness (symmetric, left-skewed, right-skewed) based on the relationship between central tendency measures or raw data.\nQuartiles and IQR: Utilizing the five-number summary to calculate the Interquartile Range (IQR) and interpreting its meaning.\nOutlier Detection: Applying the \\(1.5 \\times IQR\\) rule to identify potential outliers in a dataset.\nNormal Distribution Applications: Using the Empirical Rule (68-95-99.7 rule) or Z-scores to estimate percentages/probabilities for normally distributed data.\nRelative Variability: Calculating and interpreting the Coefficient of Variation (\\(CV = \\frac{s}{\\bar{x}}\\)) to compare the dispersion of variables with different scales or units."
   }
 ]

@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -149,11 +178,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#numerical-descriptive-measures" id="toc-numerical-descriptive-measures" class="nav-link active" data-scroll-target="#numerical-descriptive-measures">3 Numerical Descriptive Measures</a></li>
-  <li><a href="#本章难点" id="toc-本章难点" class="nav-link" data-scroll-target="#本章难点">本章难点</a>
+  <li><a href="#本章重点" id="toc-本章重点" class="nav-link" data-scroll-target="#本章重点">本章重点</a>
   <ul class="collapse">
+  <li><a href="#exploratory-data-analysis-and-descriptive-statistics" id="toc-exploratory-data-analysis-and-descriptive-statistics" class="nav-link" data-scroll-target="#exploratory-data-analysis-and-descriptive-statistics">Exploratory Data Analysis and Descriptive Statistics</a></li>
   <li><a href="#boxplot" id="toc-boxplot" class="nav-link" data-scroll-target="#boxplot">boxplot</a></li>
   <li><a href="#coefficient-of-variation" id="toc-coefficient-of-variation" class="nav-link" data-scroll-target="#coefficient-of-variation">Coefficient of Variation</a></li>
-  <li><a href="#sampling-distribution-of-the-proportion" id="toc-sampling-distribution-of-the-proportion" class="nav-link" data-scroll-target="#sampling-distribution-of-the-proportion">Sampling Distribution of the proportion</a></li>
   </ul></li>
   <li><a href="#excel教学视频" id="toc-excel教学视频" class="nav-link" data-scroll-target="#excel教学视频">Excel教学视频</a></li>
   <li><a href="#excel习题" id="toc-excel习题" class="nav-link" data-scroll-target="#excel习题">Excel习题</a>
@@ -197,9 +226,24 @@ ul.task-list li input[type="checkbox"] {
 <h1>3 Numerical Descriptive Measures</h1>
 <p><img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://lizongzhang.github.io/business_stat/chap3.html">chap3 讲义</a></p>
 </section>
-<section id="本章难点" class="level1">
-<h1>本章难点</h1>
+<section id="本章重点" class="level1">
+<h1>本章重点</h1>
+<section id="exploratory-data-analysis-and-descriptive-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-data-analysis-and-descriptive-statistics">Exploratory Data Analysis and Descriptive Statistics</h2>
+<ul>
+<li><strong>Variable Classification:</strong> Identifying variable types (e.g., categorical/qualitative vs.&nbsp;numerical/quantitative).</li>
+<li><strong>Frequency Distributions (Categorical Data):</strong> Calculating relative frequencies and percentages for categorical groups.</li>
+<li><strong>Frequency Distributions (Grouped Numerical Data):</strong> Calculating relative frequencies, percentages, and cumulative percentages for grouped data intervals.</li>
+<li><strong>Measures of Central Tendency:</strong> Calculating and interpreting the mean, median, and mode of a raw dataset.</li>
+<li><strong>Measures of Dispersion (Spread):</strong> Calculating the range of a raw dataset.</li>
+<li><strong>Distribution Shape:</strong> Assessing skewness (symmetric, left-skewed, right-skewed) based on the relationship between central tendency measures or raw data.</li>
+<li><strong>Quartiles and IQR:</strong> Utilizing the five-number summary to calculate the Interquartile Range (IQR) and interpreting its meaning.</li>
+<li><strong>Outlier Detection:</strong> Applying the <span class="math inline">\(1.5 \times IQR\)</span> rule to identify potential outliers in a dataset.</li>
+<li><strong>Normal Distribution Applications:</strong> Using the Empirical Rule (68-95-99.7 rule) or Z-scores to estimate percentages/probabilities for normally distributed data.</li>
+<li><strong>Relative Variability:</strong> Calculating and interpreting the Coefficient of Variation (<span class="math inline">\(CV = \frac{s}{\bar{x}}\)</span>) to compare the dispersion of variables with different scales or units.</li>
+</ul>
 <details>
+</details></section>
 <section id="boxplot" class="level2">
 <h2 class="anchored" data-anchor-id="boxplot">boxplot</h2>
 <details>
@@ -217,12 +261,9 @@ Click to view image
 </summary>
 <p><img src="img/cv.png" style="width: 80%; display: block; margin: 15px auto;"></p>
 </details>
-</section>
-<section id="sampling-distribution-of-the-proportion" class="level2">
-<h2 class="anchored" data-anchor-id="sampling-distribution-of-the-proportion">Sampling Distribution of the proportion</h2>
-</section></details>
-</section>
 
+</section>
+</section>
 <section id="excel教学视频" class="level1">
 <h1>Excel教学视频</h1>
 <p><img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px"><a href="https://www.bilibili.com/video/BV1va411A7Db/" target="_blank">Excel 计算描述性统计量的函数</a></p>
