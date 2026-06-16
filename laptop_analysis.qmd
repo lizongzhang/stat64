@@ -19,7 +19,7 @@ format:
     toc-title: "大纲"
     css: style.css
     footer: |
-      [Stat](https://lizongzhang.github.io/stat64) | © 2026 , [Li Zongzhang](https://space.bilibili.com/590872906/)
+      [STAT](https://lizongzhang.github.io/stat64) | © 2026 , [Li Zongzhang](https://space.bilibili.com/590872906/)
     include-before-body: 
       - header.html
       - fonts.html

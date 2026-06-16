@@ -522,7 +522,7 @@
     "href": "chap10.html",
     "title": "第10章",
     "section": "",
-    "text": "chap10 讲义\n\n\n什么是P值？\n显著性水平和P值的区别？\n总体均值的检验：Z检验还是T检验？\n单侧检验还是双侧检验？\n\n\n 配对样本和独立样本的区别\n\n\n\n\n\n\nExcel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析\n\n\n\n两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
+    "text": "chap10 讲义"
   },
   {
     "objectID": "chap10.html#重点难点视频",
@@ -542,8 +542,8 @@
     "objectID": "chap10.html#spss操作",
     "href": "chap10.html#spss操作",
     "title": "第10章",
-    "section": "",
-    "text": "两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
+    "section": "SPSS操作",
+    "text": "SPSS操作\n两个独立样本t检验\n配对样本的t检验\nSPSS 单因素方差分析ANOVA"
   },
   {
     "objectID": "case.html",
@@ -922,5 +922,26 @@
     "title": "第7章",
     "section": "",
     "text": "正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
+  },
+  {
+    "objectID": "chap10.html#excel教学视频",
+    "href": "chap10.html#excel教学视频",
+    "title": "第10章",
+    "section": "Excel教学视频",
+    "text": "Excel教学视频\nExcel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析"
+  },
+  {
+    "objectID": "chap10.html#pooled-variance-t-test",
+    "href": "chap10.html#pooled-variance-t-test",
+    "title": "第10章",
+    "section": "Pooled Variance t-test",
+    "text": "Pooled Variance t-test\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n2.Report the test statistic and p-value for this test.\n\nWhat is the formula to compute the pooled variance for this test?\nIs it appropriate to use the pooled variance t-test for this problem? Why or why not? F_0.025(9, 9) = 4.026, F_0.975(9, 9) = 0.248\nBased on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain?"
+  },
+  {
+    "objectID": "chap10.html#one-way-anova",
+    "href": "chap10.html#one-way-anova",
+    "title": "第10章",
+    "section": "One-Way ANOVA",
+    "text": "One-Way ANOVA\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n\nCompute the values of items (a) through (e) in the ANOVA summary table.\nWhat is the meaning of the p-value of F test?\nAt the 0.05 level of significance, is there evidence of a difference among the Capital, Great Lakes, Mid-Atlantic, and New england region accounting firms with respect to the mean number of partners?"
   }
 ]

@@ -8,16 +8,66 @@ title: "第10章"
         讲义](https://lizongzhang.github.io/business_stat/chap10.html)
         
         
-## 重点难点视频
+# 课堂练习
+
+## Pooled Variance t-test
+
+<details>
+<summary>Click to view image</summary>
+
+P349，Example 10.1
+
+<img src="img/chap10pic1.png" style="width: 80%; display: block; margin: 15px auto;">
+
+<img src="img/chap10pic2.png" style="width: 80%; display: block; margin: 15px auto;">
+
+1.Write the null and alternative hypotheses for this test.
+
+2.Report the test statistic and p-value for this test.
+
+3. What is the formula to compute the pooled variance for this test?
+
+4. Is it appropriate to use the pooled variance t-test for this problem? Why or why not? F_0.025(9, 9) = 4.026, F_0.975(9, 9) = 0.248
+
+5. Based on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain? 
+
+</details>
+
+## One-Way ANOVA
+
+<details>
+<summary>Click to view image</summary>
+
+P349，Example 10.1
+
+<img src="img/chap10pic3.png" style="width: 80%; display: block; margin: 15px auto;">
+
+<img src="img/chap10pic4.png" style="width: 80%; display: block; margin: 15px auto;">
+
+1.Write the null and alternative hypotheses for this test.
+
+2. Compute the values of items (a) through (e) in the ANOVA summary table.
+
+3. What is the meaning of the p-value of F test?
+
+4. At the 0.05 level of significance, is there evidence of a difference among the Capital, Great Lakes, Mid-Atlantic, and New
+england region accounting firms with respect to the mean
+number of partners?
+</details>
 
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[什么是P值？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=1) 
+<details>
+<img src="img/chap10pic5.png" style="width: 80%; display: block; margin: 15px auto;">
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[显著性水平和P值的区别？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=2) 
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[总体均值的检验：Z检验还是T检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=3) 
 
-<img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单侧检验还是双侧检验？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=4) 
+</details>
+
+
+
+
+        
+# 重点难点
 
 <details>
   <summary> 
@@ -29,9 +79,7 @@ title: "第10章"
     
 <details>
 
-## Excel操作
-
-
+## Excel教学视频
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[Excel 两个总体方差比的F检验](https://www.bilibili.com/video/BV1Zr4y1F7jK/)
 
@@ -43,17 +91,12 @@ title: "第10章"
 
 ## SPSS操作
 
-
-
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[两个独立样本t检验](https://www.bilibili.com/video/BV1bi4y1j7Gc/)
-
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[配对样本的t检验](https://www.bilibili.com/video/BV1Fy4y167rs)     
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[SPSS 单因素方差分析ANOVA](https://www.bilibili.com/video/BV1M54y1C7EB
 )
-
-
 
 # 习题答案
 
