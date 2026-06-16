@@ -914,14 +914,14 @@
     "href": "chap7.html",
     "title": "第7章",
     "section": "",
-    "text": "chap7 讲义\n\n\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
+    "text": "chap7 讲义"
   },
   {
     "objectID": "chap7.html#拓展资源",
     "href": "chap7.html#拓展资源",
     "title": "第7章",
-    "section": "",
-    "text": "正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
+    "section": "拓展资源",
+    "text": "拓展资源\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
   },
   {
     "objectID": "chap10.html#excel教学视频",
@@ -942,6 +942,104 @@
     "href": "chap10.html#one-way-anova",
     "title": "第10章",
     "section": "One-Way ANOVA",
-    "text": "One-Way ANOVA\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n\nCompute the values of items (a) through (e) in the ANOVA summary table.\nWhat is the meaning of the p-value of F test?\nAt the 0.05 level of significance, is there evidence of a difference among the Capital, Great Lakes, Mid-Atlantic, and New england region accounting firms with respect to the mean number of partners?"
+    "text": "One-Way ANOVA\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n\nCompute the values of items (a) through (g) in the ANOVA summary table.\nWhat is the meaning of the p-value of F test?\nAt the 0.05 level of significance, is there evidence of a difference among the Capital, Great Lakes, Mid-Atlantic, and New england region accounting firms with respect to the mean number of partners?"
+  },
+  {
+    "objectID": "chap1.html#gs-dcova",
+    "href": "chap1.html#gs-dcova",
+    "title": "第1章",
+    "section": "GS: DCOVA",
+    "text": "GS: DCOVA\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap7.html#the-central-limit-theorem",
+    "href": "chap7.html#the-central-limit-theorem",
+    "title": "第7章",
+    "section": "The Central limit Theorem",
+    "text": "The Central limit Theorem\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap7.html#sampling-distribution-for-the-mean",
+    "href": "chap7.html#sampling-distribution-for-the-mean",
+    "title": "第7章",
+    "section": "Sampling distribution for the mean",
+    "text": "Sampling distribution for the mean"
+  },
+  {
+    "objectID": "chap7.html#sampling-distribution-of-the-proportion",
+    "href": "chap7.html#sampling-distribution-of-the-proportion",
+    "title": "第7章",
+    "section": "Sampling Distribution of the proportion",
+    "text": "Sampling Distribution of the proportion"
+  },
+  {
+    "objectID": "chap3.html#boxplot",
+    "href": "chap3.html#boxplot",
+    "title": "第3章",
+    "section": "boxplot",
+    "text": "boxplot\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap3.html#coefficient-of-variation",
+    "href": "chap3.html#coefficient-of-variation",
+    "title": "第3章",
+    "section": "Coefficient of Variation",
+    "text": "Coefficient of Variation\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap3.html#sampling-distribution-of-the-proportion",
+    "href": "chap3.html#sampling-distribution-of-the-proportion",
+    "title": "第3章",
+    "section": "Sampling Distribution of the proportion",
+    "text": "Sampling Distribution of the proportion"
+  },
+  {
+    "objectID": "chap8.html#confidence-level",
+    "href": "chap8.html#confidence-level",
+    "title": "第8章",
+    "section": "confidence level",
+    "text": "confidence level"
+  },
+  {
+    "objectID": "chap8.html#confidence-interval-estimate-for-the-mean",
+    "href": "chap8.html#confidence-interval-estimate-for-the-mean",
+    "title": "第8章",
+    "section": "Confidence Interval Estimate for the Mean",
+    "text": "Confidence Interval Estimate for the Mean"
+  },
+  {
+    "objectID": "chap8.html#confidence-interval-estimate-for-the-proportion",
+    "href": "chap8.html#confidence-interval-estimate-for-the-proportion",
+    "title": "第8章",
+    "section": "Confidence Interval Estimate for the Proportion",
+    "text": "Confidence Interval Estimate for the Proportion"
+  },
+  {
+    "objectID": "chap8.html#determining-sample-size",
+    "href": "chap8.html#determining-sample-size",
+    "title": "第8章",
+    "section": "Determining Sample Size",
+    "text": "Determining Sample Size"
+  },
+  {
+    "objectID": "chap9.html#type-i-error-and-type-ii-error",
+    "href": "chap9.html#type-i-error-and-type-ii-error",
+    "title": "第9章",
+    "section": "Type I error and Type II error",
+    "text": "Type I error and Type II error\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap9.html#sampling-distribution-for-the-mean",
+    "href": "chap9.html#sampling-distribution-for-the-mean",
+    "title": "第9章",
+    "section": "Sampling distribution for the mean",
+    "text": "Sampling distribution for the mean"
+  },
+  {
+    "objectID": "chap9.html#sampling-distribution-of-the-proportion",
+    "href": "chap9.html#sampling-distribution-of-the-proportion",
+    "title": "第9章",
+    "section": "Sampling Distribution of the proportion",
+    "text": "Sampling Distribution of the proportion"
   }
 ]

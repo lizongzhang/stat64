@@ -46,7 +46,7 @@ P349，Example 10.1
 
 1.Write the null and alternative hypotheses for this test.
 
-2. Compute the values of items (a) through (e) in the ANOVA summary table.
+2. Compute the values of items (a) through (g) in the ANOVA summary table.
 
 3. What is the meaning of the p-value of F test?
 

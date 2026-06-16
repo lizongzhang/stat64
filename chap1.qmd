@@ -17,7 +17,17 @@ title: "第1章"
 
 <details>
 
+
+## GS: DCOVA
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/DCOVA.png" style="width: 80%; display: block; margin: 15px auto;">
+</details>
+
 ## GS: Descriptive Statistics & Inferential Statistics
+
 
 <details>
 <summary>Click to view image</summary>

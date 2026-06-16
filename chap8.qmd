@@ -6,6 +6,22 @@ title: "第8章"
 
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap8
         讲义](https://lizongzhang.github.io/business_stat/chap8.html)
+        
+
+# 本章难点
+
+<details>
+
+
+## confidence level
+
+## Confidence Interval Estimate for the Mean
+
+## Confidence Interval Estimate for the Proportion 
+
+## Determining Sample Size
+
+</details>
 
 
 # 教学视频

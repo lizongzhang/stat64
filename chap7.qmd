@@ -6,6 +6,32 @@ title: "第7章"
 
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap7
         讲义](https://lizongzhang.github.io/business_stat/chap7.html) 
+        
+        
+
+# 本章难点
+
+<details>
+
+
+## The Central limit Theorem
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/CLT.png" style="width: 80%; display: block; margin: 15px auto;">
+
+<img src="img/CLT2.png" style="width: 80%; display: block; margin: 15px auto;">
+
+
+</details>
+
+## Sampling distribution for the mean
+
+## Sampling Distribution of the proportion 
+
+</details>
+
 
 
 ## 拓展资源

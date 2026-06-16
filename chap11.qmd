@@ -6,6 +6,30 @@ title: "第11章"
 
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap11
         讲义](https://lizongzhang.github.io/business_stat/chap11.html)
+        
+# 课堂练习
+
+<details>
+<summary>Click to view image</summary>
+
+P421，Ex 11.18
+
+<img src="img/ex11_18.png" style="width: 80%; display: block; margin: 15px auto;">
+
+At the 0.05 significance level, test whether age group and listening to rock music are independent.
+
+1.Write the null and alternative hypotheses for this test.
+
+2.Calculate the expected frequency for this test.
+
+3.Report the chi-square test statistic.
+
+4.What's your conclusion? $\quad \chi^2_{0.05}(2) = 5.991$
+
+
+
+</details>
+
 
 # 教学视频 
 

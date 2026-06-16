@@ -7,7 +7,32 @@ title: "第3章"
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap3
         讲义](https://lizongzhang.github.io/business_stat/chap3.html) 
 
+# 本章难点
 
+<details>
+
+
+## boxplot
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/outlier.png" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+## Coefficient of Variation
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/cv.png" style="width: 80%; display: block; margin: 15px auto;">
+
+</details>
+
+## Sampling Distribution of the proportion 
+
+</details>
 
 
 # Excel教学视频

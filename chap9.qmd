@@ -7,6 +7,32 @@ title: "第9章"
 <img src="img/teacher.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[chap9
         讲义](https://lizongzhang.github.io/business_stat/chap9.html)
 
+
+# 本章难点
+
+<details>
+
+
+## Type I error and Type II error
+
+<details>
+<summary>Click to view image</summary>
+
+<img src="img/Type I error and Type II error.png" style="width: 80%; display: block; margin: 15px auto;">
+
+<img src="img/CLT2.png" style="width: 80%; display: block; margin: 15px auto;">
+
+
+</details>
+
+## Sampling distribution for the mean
+
+## Sampling Distribution of the proportion 
+
+</details>
+
+
+
 # 教学视频 
 
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[什么是P值？](https://www.bilibili.com/video/BV1F64y1C7nq/?p=1) 
