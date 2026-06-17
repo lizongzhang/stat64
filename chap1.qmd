@@ -166,4 +166,4 @@ title: "第1章"
 
 # 测验
 
-- <img src="img/link.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[Quiz: GETTING STARTED: IMPORTANT THINGS TO LEARN FIRST](https://ks.wjx.com/vm/hA8GRBD.aspx# ){target="_blank"}
+- <img src="img/link.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px;">[Quiz: GETTING STARTED: IMPORTANT THINGS TO LEARN FIRST]( ){target="_blank"}

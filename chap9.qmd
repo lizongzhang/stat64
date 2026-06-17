@@ -62,4 +62,6 @@ title: "第9章"
 <img src="img/video.png" alt="讲义" style="width: 24px; height: 24px;margin-right: 10px">[单个总体参数的T检验](https://www.bilibili.com/video/BV1jZ4y1L7ne/)
 
 
+# 习题答案
+
 <img src="img/link.png" style="width: 24px; height: 24px;margin-right: 10px">[习题答案 9.14, 9.24, 9.25, 9.47, 9.50, 9.56 ](https://lizongzhang.github.io/business_stat/solution9.html)
