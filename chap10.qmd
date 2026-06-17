@@ -38,7 +38,7 @@ P349，Example 10.1
 <details>
 <summary>Click to view image</summary>
 
-P349，Example 10.1
+P387， Ex10.57
 
 <img src="img/chap10pic3.png" style="width: 80%; display: block; margin: 15px auto;">
 
