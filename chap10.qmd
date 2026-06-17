@@ -27,7 +27,7 @@ P349，Example 10.1
 
 3. What is the formula to compute the pooled variance for this test?
 
-4. Is it appropriate to use the pooled variance t-test for this problem? Why or why not? F_0.025(9, 9) = 4.026, F_0.975(9, 9) = 0.248
+4. Is it appropriate to use the pooled variance t-test for this problem? Why or why not? $F_{0.025}(9, 9) = 4.026, F_{0.975}(9, 9) = 0.248$
 
 5. Based on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain? 
 

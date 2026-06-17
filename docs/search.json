@@ -599,7 +599,7 @@
     "href": "chap10.html#pooled-variance-t-test",
     "title": "第10章",
     "section": "Pooled Variance t-test",
-    "text": "Pooled Variance t-test\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n2.Report the test statistic and p-value for this test.\n\nWhat is the formula to compute the pooled variance for this test?\nIs it appropriate to use the pooled variance t-test for this problem? Why or why not? F_0.025(9, 9) = 4.026, F_0.975(9, 9) = 0.248\nBased on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain?"
+    "text": "Pooled Variance t-test\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n2.Report the test statistic and p-value for this test.\n\nWhat is the formula to compute the pooled variance for this test?\nIs it appropriate to use the pooled variance t-test for this problem? Why or why not? \\(F_{0.025}(9, 9) = 4.026, F_{0.975}(9, 9) = 0.248\\)\nBased on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain?"
   },
   {
     "objectID": "chap10.html#one-way-anova",
