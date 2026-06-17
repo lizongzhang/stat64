@@ -35,6 +35,27 @@
     "text": "chap3 讲义"
   },
   {
+    "objectID": "chap3.html#exploratory-data-analysis-and-descriptive-statistics",
+    "href": "chap3.html#exploratory-data-analysis-and-descriptive-statistics",
+    "title": "第3章",
+    "section": "Exploratory Data Analysis and Descriptive Statistics",
+    "text": "Exploratory Data Analysis and Descriptive Statistics\n\nVariable Classification: Identifying variable types (e.g., categorical/qualitative vs. numerical/quantitative).\nFrequency Distributions (Categorical Data): Calculating relative frequencies and percentages for categorical groups.\nFrequency Distributions (Grouped Numerical Data): Calculating relative frequencies, percentages, and cumulative percentages for grouped data intervals.\nMeasures of Central Tendency: Calculating and interpreting the mean, median, and mode of a raw dataset.\nMeasures of Dispersion (Spread): Calculating the range of a raw dataset.\nDistribution Shape: Assessing skewness (symmetric, left-skewed, right-skewed) based on the relationship between central tendency measures or raw data.\nQuartiles and IQR: Utilizing the five-number summary to calculate the Interquartile Range (IQR) and interpreting its meaning.\nOutlier Detection: Applying the \\(1.5 \\times IQR\\) rule to identify potential outliers in a dataset.\nNormal Distribution Applications: Using the Empirical Rule (68-95-99.7 rule) or Z-scores to estimate percentages/probabilities for normally distributed data.\nRelative Variability: Calculating and interpreting the Coefficient of Variation (\\(CV = \\frac{s}{\\bar{x}}\\)) to compare the dispersion of variables with different scales or units."
+  },
+  {
+    "objectID": "chap3.html#boxplot",
+    "href": "chap3.html#boxplot",
+    "title": "第3章",
+    "section": "boxplot",
+    "text": "boxplot\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap3.html#coefficient-of-variation",
+    "href": "chap3.html#coefficient-of-variation",
+    "title": "第3章",
+    "section": "Coefficient of Variation",
+    "text": "Coefficient of Variation\n\n\nClick to view image"
+  },
+  {
     "objectID": "chap3.html#习题1",
     "href": "chap3.html#习题1",
     "title": "第3章",
@@ -336,6 +357,27 @@
     "text": "chap9 讲义"
   },
   {
+    "objectID": "chap9.html#type-i-error-and-type-ii-error",
+    "href": "chap9.html#type-i-error-and-type-ii-error",
+    "title": "第9章",
+    "section": "Type I error and Type II error",
+    "text": "Type I error and Type II error\n\n\nClick to view image"
+  },
+  {
+    "objectID": "chap9.html#sampling-distribution-for-the-mean",
+    "href": "chap9.html#sampling-distribution-for-the-mean",
+    "title": "第9章",
+    "section": "Sampling distribution for the mean",
+    "text": "Sampling distribution for the mean"
+  },
+  {
+    "objectID": "chap9.html#sampling-distribution-of-the-proportion",
+    "href": "chap9.html#sampling-distribution-of-the-proportion",
+    "title": "第9章",
+    "section": "Sampling Distribution of the proportion",
+    "text": "Sampling Distribution of the proportion"
+  },
+  {
     "objectID": "chap9.html#excel操作视频",
     "href": "chap9.html#excel操作视频",
     "title": "第9章",
@@ -355,6 +397,34 @@
     "title": "第8章",
     "section": "",
     "text": "chap8 讲义"
+  },
+  {
+    "objectID": "chap8.html#confidence-level",
+    "href": "chap8.html#confidence-level",
+    "title": "第8章",
+    "section": "confidence level",
+    "text": "confidence level"
+  },
+  {
+    "objectID": "chap8.html#confidence-interval-estimate-for-the-mean",
+    "href": "chap8.html#confidence-interval-estimate-for-the-mean",
+    "title": "第8章",
+    "section": "Confidence Interval Estimate for the Mean",
+    "text": "Confidence Interval Estimate for the Mean"
+  },
+  {
+    "objectID": "chap8.html#confidence-interval-estimate-for-the-proportion",
+    "href": "chap8.html#confidence-interval-estimate-for-the-proportion",
+    "title": "第8章",
+    "section": "Confidence Interval Estimate for the Proportion",
+    "text": "Confidence Interval Estimate for the Proportion"
+  },
+  {
+    "objectID": "chap8.html#determining-sample-size",
+    "href": "chap8.html#determining-sample-size",
+    "title": "第8章",
+    "section": "Determining Sample Size",
+    "text": "Determining Sample Size"
   },
   {
     "objectID": "chap8.html#习题1-置信水平的理解",
@@ -525,18 +595,25 @@
     "text": "chap10 讲义"
   },
   {
-    "objectID": "chap10.html#重点难点视频",
-    "href": "chap10.html#重点难点视频",
+    "objectID": "chap10.html#pooled-variance-t-test",
+    "href": "chap10.html#pooled-variance-t-test",
     "title": "第10章",
-    "section": "",
-    "text": "什么是P值？\n显著性水平和P值的区别？\n总体均值的检验：Z检验还是T检验？\n单侧检验还是双侧检验？\n\n\n 配对样本和独立样本的区别"
+    "section": "Pooled Variance t-test",
+    "text": "Pooled Variance t-test\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n2.Report the test statistic and p-value for this test.\n\nWhat is the formula to compute the pooled variance for this test?\nIs it appropriate to use the pooled variance t-test for this problem? Why or why not? F_0.025(9, 9) = 4.026, F_0.975(9, 9) = 0.248\nBased on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain?"
   },
   {
-    "objectID": "chap10.html#excel操作",
-    "href": "chap10.html#excel操作",
+    "objectID": "chap10.html#one-way-anova",
+    "href": "chap10.html#one-way-anova",
     "title": "第10章",
-    "section": "",
-    "text": "Excel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析"
+    "section": "One-Way ANOVA",
+    "text": "One-Way ANOVA\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n\nCompute the values of items (a) through (g) in the ANOVA summary table.\nWhat is the meaning of the p-value of F test?\nAt the 0.05 level of significance, is there evidence of a difference among the Capital, Great Lakes, Mid-Atlantic, and New england region accounting firms with respect to the mean number of partners?"
+  },
+  {
+    "objectID": "chap10.html#excel教学视频",
+    "href": "chap10.html#excel教学视频",
+    "title": "第10章",
+    "section": "Excel教学视频",
+    "text": "Excel教学视频\nExcel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析"
   },
   {
     "objectID": "chap10.html#spss操作",
@@ -854,6 +931,13 @@
     "text": "课程简介讲义\nGetting Started 讲义\nchap1 讲义"
   },
   {
+    "objectID": "chap1.html#gs-dcova",
+    "href": "chap1.html#gs-dcova",
+    "title": "第1章",
+    "section": "GS: DCOVA",
+    "text": "GS: DCOVA\n\n\nClick to view image"
+  },
+  {
     "objectID": "chap1.html#gs-descriptive-statistics-inferential-statistics",
     "href": "chap1.html#gs-descriptive-statistics-inferential-statistics",
     "title": "第1章",
@@ -917,41 +1001,6 @@
     "text": "chap7 讲义"
   },
   {
-    "objectID": "chap7.html#拓展资源",
-    "href": "chap7.html#拓展资源",
-    "title": "第7章",
-    "section": "拓展资源",
-    "text": "拓展资源\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
-  },
-  {
-    "objectID": "chap10.html#excel教学视频",
-    "href": "chap10.html#excel教学视频",
-    "title": "第10章",
-    "section": "Excel教学视频",
-    "text": "Excel教学视频\nExcel 两个总体方差比的F检验\nExcel 两个总体均值是否相等的T检验\nEXCEL 配对样本的T检验\nEXCEL 单因素方差分析"
-  },
-  {
-    "objectID": "chap10.html#pooled-variance-t-test",
-    "href": "chap10.html#pooled-variance-t-test",
-    "title": "第10章",
-    "section": "Pooled Variance t-test",
-    "text": "Pooled Variance t-test\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n2.Report the test statistic and p-value for this test.\n\nWhat is the formula to compute the pooled variance for this test?\nIs it appropriate to use the pooled variance t-test for this problem? Why or why not? F_0.025(9, 9) = 4.026, F_0.975(9, 9) = 0.248\nBased on the results of this test, is there sufficient evidence to conclude that the mean delivery time for the local pizza restaurant is less than the mean delivery time for the national pizza chain?"
-  },
-  {
-    "objectID": "chap10.html#one-way-anova",
-    "href": "chap10.html#one-way-anova",
-    "title": "第10章",
-    "section": "One-Way ANOVA",
-    "text": "One-Way ANOVA\n\n\nClick to view image\n\nP349，Example 10.1\n\n\n1.Write the null and alternative hypotheses for this test.\n\nCompute the values of items (a) through (g) in the ANOVA summary table.\nWhat is the meaning of the p-value of F test?\nAt the 0.05 level of significance, is there evidence of a difference among the Capital, Great Lakes, Mid-Atlantic, and New england region accounting firms with respect to the mean number of partners?"
-  },
-  {
-    "objectID": "chap1.html#gs-dcova",
-    "href": "chap1.html#gs-dcova",
-    "title": "第1章",
-    "section": "GS: DCOVA",
-    "text": "GS: DCOVA\n\n\nClick to view image"
-  },
-  {
     "objectID": "chap7.html#the-central-limit-theorem",
     "href": "chap7.html#the-central-limit-theorem",
     "title": "第7章",
@@ -973,80 +1022,10 @@
     "text": "Sampling Distribution of the proportion"
   },
   {
-    "objectID": "chap3.html#boxplot",
-    "href": "chap3.html#boxplot",
-    "title": "第3章",
-    "section": "boxplot",
-    "text": "boxplot\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap3.html#coefficient-of-variation",
-    "href": "chap3.html#coefficient-of-variation",
-    "title": "第3章",
-    "section": "Coefficient of Variation",
-    "text": "Coefficient of Variation\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap3.html#sampling-distribution-of-the-proportion",
-    "href": "chap3.html#sampling-distribution-of-the-proportion",
-    "title": "第3章",
-    "section": "Sampling Distribution of the proportion",
-    "text": "Sampling Distribution of the proportion"
-  },
-  {
-    "objectID": "chap8.html#confidence-level",
-    "href": "chap8.html#confidence-level",
-    "title": "第8章",
-    "section": "confidence level",
-    "text": "confidence level"
-  },
-  {
-    "objectID": "chap8.html#confidence-interval-estimate-for-the-mean",
-    "href": "chap8.html#confidence-interval-estimate-for-the-mean",
-    "title": "第8章",
-    "section": "Confidence Interval Estimate for the Mean",
-    "text": "Confidence Interval Estimate for the Mean"
-  },
-  {
-    "objectID": "chap8.html#confidence-interval-estimate-for-the-proportion",
-    "href": "chap8.html#confidence-interval-estimate-for-the-proportion",
-    "title": "第8章",
-    "section": "Confidence Interval Estimate for the Proportion",
-    "text": "Confidence Interval Estimate for the Proportion"
-  },
-  {
-    "objectID": "chap8.html#determining-sample-size",
-    "href": "chap8.html#determining-sample-size",
-    "title": "第8章",
-    "section": "Determining Sample Size",
-    "text": "Determining Sample Size"
-  },
-  {
-    "objectID": "chap9.html#type-i-error-and-type-ii-error",
-    "href": "chap9.html#type-i-error-and-type-ii-error",
-    "title": "第9章",
-    "section": "Type I error and Type II error",
-    "text": "Type I error and Type II error\n\n\nClick to view image"
-  },
-  {
-    "objectID": "chap9.html#sampling-distribution-for-the-mean",
-    "href": "chap9.html#sampling-distribution-for-the-mean",
-    "title": "第9章",
-    "section": "Sampling distribution for the mean",
-    "text": "Sampling distribution for the mean"
-  },
-  {
-    "objectID": "chap9.html#sampling-distribution-of-the-proportion",
-    "href": "chap9.html#sampling-distribution-of-the-proportion",
-    "title": "第9章",
-    "section": "Sampling Distribution of the proportion",
-    "text": "Sampling Distribution of the proportion"
-  },
-  {
-    "objectID": "chap3.html#exploratory-data-analysis-and-descriptive-statistics",
-    "href": "chap3.html#exploratory-data-analysis-and-descriptive-statistics",
-    "title": "第3章",
-    "section": "Exploratory Data Analysis and Descriptive Statistics",
-    "text": "Exploratory Data Analysis and Descriptive Statistics\n\nVariable Classification: Identifying variable types (e.g., categorical/qualitative vs. numerical/quantitative).\nFrequency Distributions (Categorical Data): Calculating relative frequencies and percentages for categorical groups.\nFrequency Distributions (Grouped Numerical Data): Calculating relative frequencies, percentages, and cumulative percentages for grouped data intervals.\nMeasures of Central Tendency: Calculating and interpreting the mean, median, and mode of a raw dataset.\nMeasures of Dispersion (Spread): Calculating the range of a raw dataset.\nDistribution Shape: Assessing skewness (symmetric, left-skewed, right-skewed) based on the relationship between central tendency measures or raw data.\nQuartiles and IQR: Utilizing the five-number summary to calculate the Interquartile Range (IQR) and interpreting its meaning.\nOutlier Detection: Applying the \\(1.5 \\times IQR\\) rule to identify potential outliers in a dataset.\nNormal Distribution Applications: Using the Empirical Rule (68-95-99.7 rule) or Z-scores to estimate percentages/probabilities for normally distributed data.\nRelative Variability: Calculating and interpreting the Coefficient of Variation (\\(CV = \\frac{s}{\\bar{x}}\\)) to compare the dispersion of variables with different scales or units."
+    "objectID": "chap7.html#拓展资源",
+    "href": "chap7.html#拓展资源",
+    "title": "第7章",
+    "section": "拓展资源",
+    "text": "拓展资源\n正态分布概率密度曲线动画演示 https://www.geogebra.org/m/nrgtzj5a\n分位数计算器 https://gallery.shinyapps.io/dist_calc/\nCentral Limit Theorem for Means https://gallery.shinyapps.io/CLT_mean/\n中心极限定理 n=2-31 https://astools.datadesk.com/clt.html\nGalton Board https://www.mathsisfun.com/data/quincunx.html\n3Blue1Brown: 为什么正态分布里会有一个π？\n3Blue1Brown: 到底为什么“中心极限”是正态分布啊"
   }
 ]
